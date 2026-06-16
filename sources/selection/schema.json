@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LexicographerReviewRecord",
+  "description": "One record per ALL_NEW instance for lexicographer adjudication.",
+  "type": "object",
+  "required": [
+    "instance_id",
+    "lemma",
+    "pos",
+    "dataset",
+    "context",
+    "candidates_in_maru_prompt",
+    "all_wordnet_senses",
+    "gold_sense_keys",
+    "gold_sense_id",
+    "modal_predicted_sense_id",
+    "modal_count",
+    "model_predictions",
+    "n_models_total",
+    "n_correct",
+    "n_distinct_predictions",
+    "top_prediction_share",
+    "suspicion_set",
+    "suspicion_rationale"
+  ],
+  "properties": {
+    "instance_id": {
+      "type": "string"
+    },
+    "lemma": {
+      "type": "string"
+    },
+    "pos": {
+      "type": "string",
+      "enum": [
+        "NOUN",
+        "VERB",
+        "ADJ",
+        "ADV"
+      ]
+    },
+    "dataset": {
+      "type": "string"
+    },
+    "context": {
+      "type": "object",
+      "required": [
+        "preceding_sentences",
+        "target_sentence",
+        "following_sentences",
+        "target_token_index"
+      ],
+      "properties": {
+        "preceding_sentences": {
+          "type": "array"
+        },
+        "target_sentence": {
+          "type": "object"
+        },
+        "following_sentences": {
+          "type": "array"
+        },
+        "target_token_index": {
+          "type": "integer"
+        }
+      }
+    },
+    "candidates_in_maru_prompt": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "all_wordnet_senses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sense_key",
+          "synset_name",
+          "lemma",
+          "pos",
+          "definition",
+          "examples",
+          "synonyms",
+          "in_maru_prompt"
+        ]
+      }
+    },
+    "gold_sense_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "gold_sense_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "modal_predicted_sense_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "modal_count": {
+      "type": "integer"
+    },
+    "model_predictions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "predicted_sense_key",
+          "is_correct",
+          "agrees_with_modal",
+          "agrees_with_gold",
+          "justifications"
+        ]
+      }
+    },
+    "n_models_total": {
+      "type": "integer"
+    },
+    "n_correct": {
+      "type": "integer"
+    },
+    "n_distinct_predictions": {
+      "type": "integer"
+    },
+    "top_prediction_share": {
+      "type": "number"
+    },
+    "suspicion_set": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "suspicion_rationale": {
+      "type": "string"
+    }
+  }
+}

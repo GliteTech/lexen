@@ -1,0 +1,327 @@
+{
+  "description": "Traceable source manifest for lexEN. Code is Apache-2.0; data packages keep their own source licenses and access restrictions.",
+  "manifest_schema_version": "lexen.source_manifest.v1",
+  "packages": [
+    {
+      "access": "public",
+      "citation": "Raganato, Camacho-Collados, and Navigli (EACL 2017)",
+      "files": [
+        {
+          "bytes": 1505,
+          "path": "sources/raganato/original/description.md",
+          "sha256": "sha256:02a24d6cb7cb8bb0779879b88d661fac8e76a92ebb9c5e18dabca8043163ab33"
+        },
+        {
+          "bytes": 1814,
+          "path": "sources/raganato/original/details.json",
+          "sha256": "sha256:64aca9c9f3b65d2ce619ccd62f3b0707988531d8ff5073e12677069f93961567"
+        },
+        {
+          "bytes": 1340442,
+          "path": "sources/raganato/original/files/ALL.data.xml",
+          "sha256": "sha256:27a9da01b6d4a1e4dc7c76d15148a38eaa56cc0df371cae4416d04e541b6fe36"
+        },
+        {
+          "bytes": 324159,
+          "path": "sources/raganato/original/files/ALL.gold.key.txt",
+          "sha256": "sha256:0bf2ffc38f572587c72b59ea928da676423b99b5a54bd1a83eb4848b517d3170"
+        }
+      ],
+      "generated_by": null,
+      "kind": "upstream_original",
+      "license": "research-benchmark",
+      "local_path": "sources/raganato/original",
+      "name": "Raganato et al. 2017 ALL evaluation benchmark",
+      "package_id": "raganato-original-all",
+      "source_url": "http://lcl.uniroma1.it/wsdeval/data/WSD_Evaluation_Framework.zip"
+    },
+    {
+      "access": "public",
+      "citation": "Maru, Conia, Bevilacqua, and Navigli (ACL 2022)",
+      "files": [
+        {
+          "bytes": 4362,
+          "path": "sources/maru2022/original/description.md",
+          "sha256": "sha256:3433484186f7e05dea07b0fcc01fadac22f3157e24c71f33282d2fdf04625a79"
+        },
+        {
+          "bytes": 2174,
+          "path": "sources/maru2022/original/details.json",
+          "sha256": "sha256:a1c5f7eecd372db8c4ccca55630436cbcb599f28d0210e821736634eb3de0472"
+        },
+        {
+          "bytes": 1273454,
+          "path": "sources/maru2022/original/files/ALLamended.data.xml",
+          "sha256": "sha256:167015565f6fc624e6c688d6def721c29d8c90eaf6c37d653a244b87965c3d87"
+        },
+        {
+          "bytes": 231738,
+          "path": "sources/maru2022/original/files/ALLamended.gold.key.txt",
+          "sha256": "sha256:c33cbc824dad5b5d5f0e2666ed308fe1a2ea05f5de7199d2f3c13f62f4a698ee"
+        }
+      ],
+      "generated_by": null,
+      "kind": "upstream_original",
+      "license": "CC-BY-NC-4.0",
+      "local_path": "sources/maru2022/original",
+      "name": "Maru et al. 2022 ALLamended",
+      "package_id": "maru2022-allamended",
+      "source_url": "https://github.com/SapienzaNLP/wsd-hard-benchmark"
+    },
+    {
+      "access": "public",
+      "citation": "Maru, Conia, Bevilacqua, and Navigli (ACL 2022)",
+      "files": [
+        {
+          "bytes": 1093,
+          "path": "sources/maru2022/papers/description.md",
+          "sha256": "sha256:fdd126b25a6b26ee05facdb992739ccc20af005e4ddcfbf99464dcf5a05aad16"
+        },
+        {
+          "bytes": 1457,
+          "path": "sources/maru2022/papers/details.json",
+          "sha256": "sha256:14e253cd4a8b70104569210740cb655eaa2a827f2aff935d243bb168d4c9757c"
+        },
+        {
+          "bytes": 711,
+          "path": "sources/maru2022/papers/maru-etal-2022-nibbling-hard-core-wsd.bib",
+          "sha256": "sha256:f42faf77d8d0328ed13e752114fb0bacd5046c995e69c72fc14fc4e3ed4cd0ef"
+        },
+        {
+          "bytes": 367061,
+          "path": "sources/maru2022/papers/maru-etal-2022-nibbling-hard-core-wsd.pdf",
+          "sha256": "sha256:bd4275d1ed84294ea15398f25a16174cd6a5869e9409dfb80fa475c0151a5d76"
+        }
+      ],
+      "generated_by": null,
+      "kind": "paper",
+      "license": "CC-BY-4.0",
+      "local_path": "sources/maru2022/papers",
+      "name": "Maru et al. 2022 paper",
+      "package_id": "maru2022-paper",
+      "source_url": "https://aclanthology.org/2022.acl-long.324/"
+    },
+    {
+      "access": "included-research-use",
+      "citation": null,
+      "files": [
+        {
+          "bytes": 2557,
+          "path": "sources/model-panel/description.md",
+          "sha256": "sha256:74c6e0f752c7a465bb2d4cc3e5a6bba03881fccb9ce82e69bbcdb7853c90c41d"
+        },
+        {
+          "bytes": 3899,
+          "path": "sources/model-panel/details.json",
+          "sha256": "sha256:3b1ab9e9952a41a1c46133795bc69f0c5428689e71a234ce8cb1f6ff41baecc6"
+        },
+        {
+          "bytes": 3436873,
+          "path": "sources/model-panel/predictions/catboost/predictions-raganato-all.jsonl",
+          "sha256": "sha256:6c401bc0ba297999fcfbfe634df081971f2cfcf14d918616966007e421efcb2c"
+        },
+        {
+          "bytes": 3026249,
+          "path": "sources/model-panel/predictions/gpt55_t0152_p01/predictions.jsonl.gz",
+          "sha256": "sha256:bfaed4423eaef2bf68c89c9d8dd6a0172dd13896aade7abbc3e4915003c83e8d"
+        },
+        {
+          "bytes": 2022727,
+          "path": "sources/model-panel/predictions/gpt55_t0152_p02/predictions.jsonl.gz",
+          "sha256": "sha256:0506c70b1d5a7ec4c16bc06ddb28159bc6e5f2efcfc00d83141e9e2e9770f071"
+        },
+        {
+          "bytes": 1991773,
+          "path": "sources/model-panel/predictions/gpt55_t0152_p03/predictions.jsonl.gz",
+          "sha256": "sha256:85b8c5a543c473759cac8b310188ca14c6230bc8295af8cd32e49216b6494061"
+        },
+        {
+          "bytes": 3300155,
+          "path": "sources/model-panel/predictions/gpt55_t0156_e69/predictions.jsonl.gz",
+          "sha256": "sha256:5163fd7c4459c77eea52214c9f908877e837032c54918782a15a3a23079aa3c6"
+        },
+        {
+          "bytes": 4600535,
+          "path": "sources/model-panel/predictions/gpt55_t0158_headerfooter/predictions.jsonl.gz",
+          "sha256": "sha256:b285deacb58da482091889e6f5328d898d36295d1ce3f11d54fe8aa821181a8b"
+        },
+        {
+          "bytes": 2022908,
+          "path": "sources/model-panel/predictions/gpt55_t0173_v01/predictions.jsonl.gz",
+          "sha256": "sha256:382897c3e5dae618c6601956219db5b3fb3d0830ab8571397845280954bb0962"
+        },
+        {
+          "bytes": 2475304,
+          "path": "sources/model-panel/predictions/gpt55_t0173_v03/predictions.jsonl.gz",
+          "sha256": "sha256:d0d42d0baf1f03b55f7c51e15920b00414d4e6f99403323198ee3d7e6f111d89"
+        },
+        {
+          "bytes": 6797525,
+          "path": "sources/model-panel/predictions/gpt55_t0173_v06/predictions.jsonl.gz",
+          "sha256": "sha256:2e82fc251aebf32d84798aeb3905a130e49f9b6bbd532661af803377451fd9a8"
+        },
+        {
+          "bytes": 311644,
+          "path": "sources/model-panel/predictions/sandwich/ALL.key.txt",
+          "sha256": "sha256:52ebf93cd871a44ce3da31f00d17aa0f4d2bb03cc16064509bacc4baf09193ff"
+        }
+      ],
+      "generated_by": null,
+      "kind": "model_predictions",
+      "license": "research-only",
+      "local_path": "sources/model-panel",
+      "name": "Model-panel predictions used for suspicious-item selection",
+      "package_id": "lexen-model-panel",
+      "source_url": null
+    },
+    {
+      "access": "included-research-use",
+      "citation": null,
+      "files": [
+        {
+          "bytes": 9023,
+          "path": "sources/selection/description.md",
+          "sha256": "sha256:94f6b696c949b556eac433c31058b5eef0f106801edfbecfd645cf20faba1746"
+        },
+        {
+          "bytes": 1632,
+          "path": "sources/selection/details.json",
+          "sha256": "sha256:cd7343ddbbae65b85c797c4aae410ffe0216b94ab646c87def32ec4e2ff34f79"
+        },
+        {
+          "bytes": 6402695,
+          "path": "sources/selection/lexicographer_review.jsonl.gz",
+          "sha256": "sha256:15d58ab9addf0214485f390fa91dd92327ef94ccdd1ac61c7ff94f345494f0a6"
+        },
+        {
+          "bytes": 2867,
+          "path": "sources/selection/schema.json",
+          "sha256": "sha256:1ad7b975141a8a0b155ad25116bf3b92d0ae4b2a148ac08b70b2d380983e9967"
+        },
+        {
+          "bytes": 2580,
+          "path": "sources/selection/waterfall_summary.json",
+          "sha256": "sha256:66746cda1c48ad3fcc5ddd385f09a2ae96c160960f06b483cacf8915bae1cdcd"
+        }
+      ],
+      "generated_by": "scripts/build_selection_source.py",
+      "kind": "generated_intermediate",
+      "license": "research-only",
+      "local_path": "sources/selection",
+      "name": "Generated 4,917-row suspicious-item selection package",
+      "package_id": "lexen-selection",
+      "source_url": null
+    },
+    {
+      "access": "included-research-use",
+      "citation": null,
+      "files": [
+        {
+          "bytes": 3481,
+          "path": "sources/reviews/ph-2026-06-13/description.md",
+          "sha256": "sha256:157208cbc2942b6ba7960be8b4357d80fb1644c05f4959834e3b1de5a6075d77"
+        },
+        {
+          "bytes": 1824,
+          "path": "sources/reviews/ph-2026-06-13/details.json",
+          "sha256": "sha256:623068433fadbb427e6a4b43bc3a89692e692115002313b992f679f46c7c5369"
+        },
+        {
+          "bytes": 117481,
+          "path": "sources/reviews/ph-2026-06-13/maru2022-wsd-verdicts-2026-06-13.json",
+          "sha256": "sha256:d8324c08d203233678ca8f918c3d4927b28461c9154cd5637233dc15954ecc71"
+        },
+        {
+          "bytes": 8142,
+          "path": "sources/reviews/protocols/marureview-brief-2026-05-26.md",
+          "sha256": "sha256:fb115149a3518b017f83ee04c3a72710b668fd69c215b1bc021598f6d8d82d80"
+        },
+        {
+          "bytes": 3485,
+          "path": "sources/reviews/pw-2026-05-29/description.md",
+          "sha256": "sha256:f8e474492decc1f108af319f63a8613ba0d83dad7be64d7929a6ad06cb3fe04c"
+        },
+        {
+          "bytes": 2021,
+          "path": "sources/reviews/pw-2026-05-29/details.json",
+          "sha256": "sha256:64770eaabf04108c67050909882082a1cd0c509e397a489126b3affc381df7b6"
+        },
+        {
+          "bytes": 82459,
+          "path": "sources/reviews/pw-2026-05-29/maru2022-wsd-verdicts-2026-05-29.json",
+          "sha256": "sha256:215041993e9567c77b6d56eb7f740d0a52948604c2d5b296ce9d1034f16fb0ab"
+        },
+        {
+          "bytes": 8142,
+          "path": "sources/reviews/pw-2026-05-29/reviewer_brief.md",
+          "sha256": "sha256:fb115149a3518b017f83ee04c3a72710b668fd69c215b1bc021598f6d8d82d80"
+        },
+        {
+          "bytes": 3741,
+          "path": "sources/reviews/rf-2026-05-26/description.md",
+          "sha256": "sha256:d0eadffc36481e27942d55ae907e8e517575055ad6d6406a564beb4aef0902f5"
+        },
+        {
+          "bytes": 1928,
+          "path": "sources/reviews/rf-2026-05-26/details.json",
+          "sha256": "sha256:0da0e9b3fd75b677041a2900841227e079477436dfdd838b96085481d2439bd8"
+        },
+        {
+          "bytes": 96662,
+          "path": "sources/reviews/rf-2026-05-26/maru2022-wsd-verdicts-2026-05-26.json",
+          "sha256": "sha256:1ef0252465cdca8b9c2a953eca43edbfeaedb253624b087290e8c171598503f6"
+        },
+        {
+          "bytes": 8142,
+          "path": "sources/reviews/rf-2026-05-26/reviewer_brief.md",
+          "sha256": "sha256:fb115149a3518b017f83ee04c3a72710b668fd69c215b1bc021598f6d8d82d80"
+        }
+      ],
+      "generated_by": null,
+      "kind": "human_review",
+      "license": "research-only",
+      "local_path": "sources/reviews",
+      "name": "Raw lexicographer review exports and reviewer-facing brief",
+      "package_id": "lexen-reviews",
+      "source_url": "https://marureview.com/brief"
+    },
+    {
+      "access": "included-research-use",
+      "citation": null,
+      "files": [
+        {
+          "bytes": 2585,
+          "path": "sources/glite-coarsening/description.md",
+          "sha256": "sha256:84447c2e7e8aebb5c331ad7d8fb3d4756b8edff7f94f67013e4df23974fa7201"
+        },
+        {
+          "bytes": 2026,
+          "path": "sources/glite-coarsening/details.json",
+          "sha256": "sha256:cbaf4b2471f39cd754852a13787ea5146aa2ac919f4c5e3f67dc47c9ac6f708b"
+        },
+        {
+          "bytes": 1610,
+          "path": "sources/glite-coarsening/files/lexen_report_aliases.json",
+          "sha256": "sha256:5ce96f30a772cb4753607e81700f45474ed3e3a1f9b24e363083b68c9c259428"
+        },
+        {
+          "bytes": 13237,
+          "path": "sources/glite-coarsening/files/mapping_coverage.json",
+          "sha256": "sha256:ce588bd842de7952e13242b575fb8789dc43294325efaa66fb0cfd3540790c03"
+        },
+        {
+          "bytes": 1269552,
+          "path": "sources/glite-coarsening/files/wordnet_sense_key_to_glite_concept.jsonl",
+          "sha256": "sha256:4fd14626838520eaa1a3168ab30166a708ab181b073a92df8d8bcb4cda2e4ba6"
+        }
+      ],
+      "generated_by": "scripts/build_public_glite_subset.py",
+      "kind": "sense_mapping",
+      "license": "research-only",
+      "local_path": "sources/glite-coarsening",
+      "name": "Glite WordNet-to-concept coarsening subset for Maru2022",
+      "package_id": "glite-coarsening",
+      "source_url": null
+    }
+  ]
+}

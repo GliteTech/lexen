@@ -1,0 +1,76 @@
+# lexEN Notices
+
+lexEN includes software, benchmark data, construction artifacts, and documentation with different
+source notices. The repository license summary is in `LICENSE`.
+
+## Software
+
+The build, verification, report-generation, and test software in this repository is:
+
+Copyright 2026 Glite Tech Ltd
+
+Licensed under the Apache License, Version 2.0. See `LICENSE-CODE`.
+
+## WordNet
+
+lexEN uses WordNet 3.0 sense keys, sense inventories, definitions, examples, and related lexical
+metadata in dataset artifacts, reviewer materials, and agreement reports.
+
+WordNet 3.0 is Copyright 2006 by Princeton University. All rights reserved. WordNet is distributed
+under the Princeton WordNet license.
+
+The WordNet 3.0 license text published by Princeton University is reproduced below. Source:
+https://wordnet.princeton.edu/license-and-commercial-use
+
+WordNet Release 3.0
+
+This software and database is being provided to you, the LICENSEE, by Princeton University under the
+following license. By obtaining, using and/or copying this software and database, you agree that you
+have read, understood, and will comply with these terms and conditions. Permission to use, copy,
+modify and distribute this software and database and its documentation for any purpose and without
+fee or royalty is hereby granted, provided that you agree to comply with the following copyright
+notice and statements, including the disclaimer, and that the same appear on ALL copies of the
+software, database and documentation, including modifications that you make for internal use or for
+distribution.
+
+WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.
+
+THIS SOFTWARE AND DATABASE IS PROVIDED "AS IS" AND PRINCETON UNIVERSITY MAKES NO REPRESENTATIONS OR
+WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, PRINCETON UNIVERSITY MAKES NO
+REPRESENTATIONS OR WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE
+USE OF THE LICENSED SOFTWARE, DATABASE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS,
+COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.
+
+The name of Princeton University or Princeton may not be used in advertising or publicity pertaining
+to distribution of the software and/or database. Title to copyright in this software, database and
+any associated documentation shall at all times remain with Princeton University and LICENSEE agrees
+to preserve same.
+
+## Raganato WSD Evaluation Framework
+
+The original English WSD evaluation files come from:
+
+Raganato, A., Camacho-Collados, J., and Navigli, R. 2017. Word Sense Disambiguation: A Unified
+Evaluation Framework and Empirical Comparison. EACL 2017.
+
+## Maru et al. 2022
+
+The Maru2022 ALL_NEW / ALLamended source benchmark comes from:
+
+Maru, M., Conia, S., Bevilacqua, M., and Navigli, R. 2022. Nibbling at the Hard Core of Word Sense
+Disambiguation. ACL 2022.
+
+The upstream Maru2022 benchmark is distributed under Creative Commons Attribution-NonCommercial 4.0
+International (CC BY-NC 4.0).
+
+## Glite Coarsening Subset
+
+The Glite coarsening layer included in `sources/glite-coarsening/` is a public subset containing
+only the WordNet sense-key to Glite concept-id rows required by Maru2022/lexEN candidate
+inventories, source labels, and reviewer labels. It omits Glite dictionary definitions, internal
+clusters, fine-sense records, offsets, and full-dictionary coverage metadata.
+
+## Lexicographer Reviews
+
+The RF, PW, and PH review exports and verbatim reviewer comments are included with reviewer consent
+as research-only audit evidence for the lexEN benchmark.

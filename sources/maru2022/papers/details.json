@@ -1,0 +1,41 @@
+{
+  "artifacts": [
+    {
+      "bytes": 367061,
+      "filename": "maru-etal-2022-nibbling-hard-core-wsd.pdf",
+      "media_type": "application/pdf",
+      "sha256": "sha256:bd4275d1ed84294ea15398f25a16174cd6a5869e9409dfb80fa475c0151a5d76",
+      "url": "https://aclanthology.org/2022.acl-long.324.pdf"
+    },
+    {
+      "bytes": 711,
+      "filename": "maru-etal-2022-nibbling-hard-core-wsd.bib",
+      "media_type": "text/x-bibtex",
+      "sha256": "sha256:f42faf77d8d0328ed13e752114fb0bacd5046c995e69c72fc14fc4e3ed4cd0ef",
+      "url": "https://aclanthology.org/2022.acl-long.324.bib"
+    }
+  ],
+  "downloaded_at": "2026-06-13",
+  "license": {
+    "id": "CC-BY-4.0",
+    "name": "Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "note": "The requested name was maru2020, but the benchmark source used by lexEN is Maru et al. 2022.",
+  "paper": {
+    "acl_anthology_id": "2022.acl-long.324",
+    "authors": [
+      "Marco Maru",
+      "Simone Conia",
+      "Michele Bevilacqua",
+      "Roberto Navigli"
+    ],
+    "doi": "10.18653/v1/2022.acl-long.324",
+    "pages": "4724-4737",
+    "title": "Nibbling at the Hard Core of Word Sense Disambiguation",
+    "url": "https://aclanthology.org/2022.acl-long.324/",
+    "venue": "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "year": 2022
+  },
+  "source": "ACL Anthology"
+}

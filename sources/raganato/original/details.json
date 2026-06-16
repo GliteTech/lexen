@@ -1,0 +1,63 @@
+{
+  "access_kind": "public",
+  "authors": [
+    {
+      "country": null,
+      "institution": null,
+      "name": "Alessandro Raganato",
+      "orcid": null
+    },
+    {
+      "country": null,
+      "institution": null,
+      "name": "Jose Camacho-Collados",
+      "orcid": null
+    },
+    {
+      "country": "IT",
+      "institution": "Sapienza University of Rome",
+      "name": "Roberto Navigli",
+      "orcid": "0000-0002-1855-8615"
+    }
+  ],
+  "categories": [
+    "dataset",
+    "evaluation",
+    "wsd"
+  ],
+  "checksums": {
+    "ALL.data.xml": "sha256:27a9da01b6d4a1e4dc7c76d15148a38eaa56cc0df371cae4416d04e541b6fe36",
+    "ALL.gold.key.txt": "sha256:0bf2ffc38f572587c72b59ea928da676423b99b5a54bd1a83eb4848b517d3170"
+  },
+  "date_added_to_lexen": "2026-06-14",
+  "date_published": "2017",
+  "description_path": "description.md",
+  "download_url": "http://lcl.uniroma1.it/wsdeval/data/WSD_Evaluation_Framework.zip",
+  "files": [
+    {
+      "description": "Original Raganato ALL XML corpus in standard WSD format.",
+      "format": "xml",
+      "path": "files/ALL.data.xml"
+    },
+    {
+      "description": "Original Raganato ALL WordNet 3.0 gold key.",
+      "format": "txt",
+      "path": "files/ALL.gold.key.txt"
+    }
+  ],
+  "institutions": [
+    {
+      "country": "IT",
+      "name": "Sapienza University of Rome"
+    }
+  ],
+  "license": "research-benchmark",
+  "name": "Raganato 2017 Original ALL",
+  "short_description": "Original Raganato et al. ALL WSD evaluation corpus and gold key used as the pre-Maru label lineage layer.",
+  "size_description": "7,253 original ALL gold-key rows; lexEN extracts the 4,917 IDs retained by Maru2022 ALLamended.",
+  "source_paper_id": "10.18653_v1_E17-1010",
+  "spec_version": "1",
+  "url": "http://lcl.uniroma1.it/wsdeval/",
+  "version": null,
+  "year": 2017
+}

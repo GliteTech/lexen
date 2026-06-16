@@ -1,0 +1,1906 @@
+{
+  "metrics": {
+    "appendix_groups": [
+      {
+        "count": 40,
+        "description": "Every reviewer independently chose exactly the same fine-grained WordNet label as the Maru2022 source label.",
+        "group_id": "A",
+        "item_ids": [
+          "senseval2.d000.s008.t000",
+          "senseval2.d000.s044.t004",
+          "senseval2.d001.s007.t005",
+          "senseval2.d001.s020.t001",
+          "senseval2.d001.s033.t005",
+          "senseval2.d001.s057.t009",
+          "senseval2.d001.s067.t002",
+          "senseval2.d001.s083.t003",
+          "senseval2.d002.s011.t016",
+          "senseval2.d002.s040.t006",
+          "senseval3.d000.s064.t001",
+          "senseval3.d000.s069.t004",
+          "senseval3.d000.s086.t005",
+          "senseval3.d000.s114.t005",
+          "senseval3.d001.s004.t011",
+          "senseval3.d001.s004.t016",
+          "senseval3.d001.s020.t017",
+          "senseval3.d001.s026.t001",
+          "senseval3.d001.s039.t004",
+          "senseval3.d001.s041.t009",
+          "senseval3.d001.s045.t011",
+          "senseval3.d002.s106.t005",
+          "semeval2013.d000.s017.t004",
+          "semeval2013.d001.s008.t003",
+          "semeval2013.d003.s008.t004",
+          "semeval2013.d003.s011.t000",
+          "semeval2013.d003.s013.t000",
+          "semeval2013.d009.s023.t001",
+          "semeval2013.d011.s020.t006",
+          "semeval2015.d000.s026.t000",
+          "semeval2015.d001.s001.t006",
+          "semeval2015.d001.s007.t005",
+          "semeval2015.d001.s032.t001",
+          "semeval2015.d001.s035.t000",
+          "semeval2015.d001.s047.t001",
+          "semeval2015.d001.s047.t008",
+          "semeval2015.d001.s049.t005",
+          "semeval2015.d002.s010.t000",
+          "semeval2015.d003.s019.t012",
+          "semeval2015.d003.s021.t005"
+        ],
+        "title": "Appendix A. All three reviewers selected the Maru2022 sense"
+      },
+      {
+        "count": 84,
+        "description": "Every reviewer independently chose the same fine-grained WordNet label, and that label differs from the Maru2022 source label.",
+        "group_id": "B",
+        "item_ids": [
+          "senseval2.d000.s003.t014",
+          "senseval2.d000.s008.t004",
+          "senseval2.d000.s025.t001",
+          "senseval2.d000.s026.t006",
+          "senseval2.d000.s031.t003",
+          "senseval2.d000.s038.t004",
+          "senseval2.d000.s048.t003",
+          "senseval2.d000.s051.t005",
+          "senseval2.d000.s054.t002",
+          "senseval2.d000.s063.t005",
+          "senseval2.d001.s019.t015",
+          "senseval2.d001.s041.t009",
+          "senseval2.d001.s045.t003",
+          "senseval2.d001.s060.t002",
+          "senseval2.d001.s062.t004",
+          "senseval2.d001.s067.t006",
+          "senseval2.d001.s082.t011",
+          "senseval2.d002.s003.t005",
+          "senseval2.d002.s004.t001",
+          "senseval2.d002.s011.t009",
+          "senseval2.d002.s011.t019",
+          "senseval2.d002.s042.t000",
+          "senseval2.d002.s042.t002",
+          "senseval2.d002.s058.t002",
+          "senseval2.d002.s070.t001",
+          "senseval2.d002.s080.t000",
+          "senseval2.d002.s080.t002",
+          "senseval3.d000.s006.t005",
+          "senseval3.d000.s030.t004",
+          "senseval3.d000.s135.t000",
+          "senseval3.d000.s138.t000",
+          "senseval3.d001.s013.t004",
+          "senseval3.d001.s016.t003",
+          "senseval3.d001.s016.t017",
+          "senseval3.d001.s018.t002",
+          "senseval3.d001.s020.t013",
+          "senseval3.d001.s029.t011",
+          "senseval3.d001.s036.t007",
+          "senseval3.d001.s036.t023",
+          "senseval3.d001.s038.t002",
+          "senseval3.d001.s038.t006",
+          "senseval3.d001.s041.t011",
+          "senseval3.d001.s041.t028",
+          "senseval3.d001.s041.t034",
+          "senseval3.d001.s045.t007",
+          "senseval3.d001.s045.t008",
+          "senseval3.d001.s045.t022",
+          "senseval3.d002.s091.t004",
+          "semeval2013.d000.s007.t001",
+          "semeval2013.d000.s011.t003",
+          "semeval2013.d000.s024.t007",
+          "semeval2013.d000.s025.t004",
+          "semeval2013.d000.s027.t002",
+          "semeval2013.d003.s003.t002",
+          "semeval2013.d003.s006.t002",
+          "semeval2013.d003.s015.t005",
+          "semeval2013.d003.s018.t008",
+          "semeval2013.d004.s004.t002",
+          "semeval2013.d005.s010.t001",
+          "semeval2013.d005.s011.t004",
+          "semeval2013.d005.s027.t007",
+          "semeval2013.d006.s021.t005",
+          "semeval2013.d007.s010.t000",
+          "semeval2013.d007.s011.t007",
+          "semeval2013.d011.s001.t002",
+          "semeval2013.d011.s015.t006",
+          "semeval2013.d011.s018.t003",
+          "semeval2013.d011.s020.t003",
+          "semeval2013.d011.s022.t006",
+          "semeval2013.d012.s002.t002",
+          "semeval2013.d012.s003.t001",
+          "semeval2015.d000.s000.t004",
+          "semeval2015.d000.s018.t002",
+          "semeval2015.d000.s018.t007",
+          "semeval2015.d000.s036.t000",
+          "semeval2015.d001.s026.t001",
+          "semeval2015.d001.s027.t000",
+          "semeval2015.d002.s006.t000",
+          "semeval2015.d002.s007.t004",
+          "semeval2015.d003.s000.t004",
+          "semeval2015.d003.s001.t003",
+          "semeval2015.d003.s007.t002",
+          "semeval2015.d003.s010.t000",
+          "semeval2015.d003.s016.t008"
+        ],
+        "title": "Appendix B. All three reviewers selected the same correction"
+      },
+      {
+        "count": 5,
+        "description": "All reviewers used a cannot-answer judgement rather than choosing a WordNet sense. These items are removed from the lexEN benchmark.",
+        "group_id": "C",
+        "item_ids": [
+          "senseval2.d002.s043.t004",
+          "senseval2.d002.s058.t005",
+          "senseval3.d000.s106.t007",
+          "semeval2013.d006.s021.t001",
+          "semeval2013.d011.s022.t008"
+        ],
+        "title": "Appendix C. All three reviewers judged the item unanswerable"
+      },
+      {
+        "count": 183,
+        "description": "Exactly two reviewers agreed on a fine-grained WordNet label and the third reviewer gave a different answer.",
+        "group_id": "D",
+        "item_ids": [
+          "senseval2.d000.s003.t009",
+          "senseval2.d000.s006.t007",
+          "senseval2.d000.s011.t004",
+          "senseval2.d000.s014.t000",
+          "senseval2.d000.s021.t000",
+          "senseval2.d000.s027.t004",
+          "senseval2.d000.s027.t008",
+          "senseval2.d000.s027.t012",
+          "senseval2.d000.s028.t009",
+          "senseval2.d000.s029.t006",
+          "senseval2.d000.s029.t008",
+          "senseval2.d000.s030.t011",
+          "senseval2.d000.s031.t004",
+          "senseval2.d000.s035.t009",
+          "senseval2.d000.s035.t011",
+          "senseval2.d000.s039.t006",
+          "senseval2.d000.s043.t003",
+          "senseval2.d000.s045.t000",
+          "senseval2.d000.s045.t017",
+          "senseval2.d000.s047.t001",
+          "senseval2.d000.s047.t005",
+          "senseval2.d000.s048.t004",
+          "senseval2.d000.s048.t005",
+          "senseval2.d000.s050.t001",
+          "senseval2.d000.s051.t000",
+          "senseval2.d000.s054.t007",
+          "senseval2.d000.s055.t001",
+          "senseval2.d000.s063.t002",
+          "senseval2.d001.s000.t008",
+          "senseval2.d001.s005.t002",
+          "senseval2.d001.s008.t001",
+          "senseval2.d001.s008.t005",
+          "senseval2.d001.s009.t004",
+          "senseval2.d001.s009.t006",
+          "senseval2.d001.s015.t006",
+          "senseval2.d001.s017.t001",
+          "senseval2.d001.s023.t002",
+          "senseval2.d001.s025.t008",
+          "senseval2.d001.s026.t011",
+          "senseval2.d001.s031.t006",
+          "senseval2.d001.s035.t007",
+          "senseval2.d001.s049.t012",
+          "senseval2.d001.s051.t003",
+          "senseval2.d001.s052.t002",
+          "senseval2.d001.s055.t003",
+          "senseval2.d001.s056.t005",
+          "senseval2.d001.s060.t010",
+          "senseval2.d001.s062.t002",
+          "senseval2.d001.s067.t004",
+          "senseval2.d001.s067.t009",
+          "senseval2.d001.s072.t000",
+          "senseval2.d001.s073.t000",
+          "senseval2.d001.s074.t002",
+          "senseval2.d001.s075.t005",
+          "senseval2.d001.s075.t010",
+          "senseval2.d001.s076.t014",
+          "senseval2.d001.s077.t008",
+          "senseval2.d001.s081.t002",
+          "senseval2.d001.s087.t000",
+          "senseval2.d001.s090.t010",
+          "senseval2.d001.s094.t001",
+          "senseval2.d002.s000.t001",
+          "senseval2.d002.s003.t004",
+          "senseval2.d002.s003.t016",
+          "senseval2.d002.s011.t021",
+          "senseval2.d002.s013.t007",
+          "senseval2.d002.s018.t003",
+          "senseval2.d002.s019.t002",
+          "senseval2.d002.s033.t000",
+          "senseval2.d002.s034.t005",
+          "senseval2.d002.s037.t003",
+          "senseval2.d002.s041.t007",
+          "senseval2.d002.s050.t004",
+          "senseval2.d002.s050.t008",
+          "senseval2.d002.s058.t007",
+          "senseval2.d002.s059.t008",
+          "senseval2.d002.s063.t002",
+          "senseval2.d002.s077.t000",
+          "senseval2.d002.s077.t001",
+          "senseval3.d000.s006.t002",
+          "senseval3.d000.s006.t006",
+          "senseval3.d000.s031.t010",
+          "senseval3.d000.s055.t001",
+          "senseval3.d000.s071.t002",
+          "senseval3.d000.s076.t000",
+          "senseval3.d000.s084.t003",
+          "senseval3.d000.s092.t000",
+          "senseval3.d000.s101.t001",
+          "senseval3.d000.s105.t000",
+          "senseval3.d000.s120.t012",
+          "senseval3.d000.s135.t002",
+          "senseval3.d001.s000.t010",
+          "senseval3.d001.s009.t015",
+          "senseval3.d001.s009.t022",
+          "senseval3.d001.s010.t016",
+          "senseval3.d001.s010.t018",
+          "senseval3.d001.s018.t005",
+          "senseval3.d001.s020.t021",
+          "senseval3.d001.s025.t010",
+          "senseval3.d001.s026.t002",
+          "senseval3.d001.s029.t010",
+          "senseval3.d001.s031.t000",
+          "senseval3.d001.s036.t006",
+          "senseval3.d001.s038.t001",
+          "senseval3.d001.s038.t005",
+          "senseval3.d001.s039.t008",
+          "senseval3.d001.s039.t019",
+          "senseval3.d001.s041.t005",
+          "senseval3.d001.s041.t008",
+          "senseval3.d001.s041.t010",
+          "senseval3.d001.s041.t022",
+          "senseval3.d001.s041.t023",
+          "senseval3.d001.s042.t009",
+          "senseval3.d001.s043.t007",
+          "senseval3.d001.s043.t009",
+          "senseval3.d001.s045.t005",
+          "senseval3.d001.s045.t017",
+          "senseval3.d001.s045.t020",
+          "senseval3.d001.s045.t021",
+          "senseval3.d001.s046.t004",
+          "senseval3.d002.s000.t007",
+          "senseval3.d002.s018.t008",
+          "senseval3.d002.s024.t002",
+          "senseval3.d002.s029.t001",
+          "senseval3.d002.s029.t004",
+          "senseval3.d002.s082.t005",
+          "senseval3.d002.s082.t011",
+          "senseval3.d002.s086.t002",
+          "senseval3.d002.s093.t005",
+          "senseval3.d002.s101.t000",
+          "senseval3.d002.s120.t007",
+          "senseval3.d002.s124.t000",
+          "senseval3.d002.s137.t003",
+          "semeval2013.d000.s006.t003",
+          "semeval2013.d001.s001.t003",
+          "semeval2013.d003.s010.t005",
+          "semeval2013.d004.s010.t003",
+          "semeval2013.d005.s004.t003",
+          "semeval2013.d005.s005.t004",
+          "semeval2013.d005.s009.t007",
+          "semeval2013.d006.s000.t002",
+          "semeval2013.d006.s006.t004",
+          "semeval2013.d006.s007.t001",
+          "semeval2013.d006.s009.t003",
+          "semeval2013.d006.s013.t005",
+          "semeval2013.d006.s021.t003",
+          "semeval2013.d007.s001.t003",
+          "semeval2013.d007.s002.t004",
+          "semeval2013.d007.s003.t001",
+          "semeval2013.d007.s005.t001",
+          "semeval2013.d007.s013.t001",
+          "semeval2013.d008.s006.t000",
+          "semeval2013.d008.s008.t004",
+          "semeval2013.d008.s019.t001",
+          "semeval2013.d008.s019.t002",
+          "semeval2013.d008.s028.t006",
+          "semeval2013.d009.s003.t003",
+          "semeval2013.d009.s023.t005",
+          "semeval2013.d010.s008.t002",
+          "semeval2013.d010.s013.t000",
+          "semeval2013.d011.s005.t001",
+          "semeval2015.d000.s001.t003",
+          "semeval2015.d000.s002.t002",
+          "semeval2015.d000.s011.t001",
+          "semeval2015.d000.s020.t001",
+          "semeval2015.d000.s020.t004",
+          "semeval2015.d001.s002.t003",
+          "semeval2015.d001.s009.t003",
+          "semeval2015.d001.s009.t011",
+          "semeval2015.d001.s018.t002",
+          "semeval2015.d001.s019.t005",
+          "semeval2015.d001.s031.t000",
+          "semeval2015.d002.s000.t005",
+          "semeval2015.d002.s001.t004",
+          "semeval2015.d002.s002.t009",
+          "semeval2015.d002.s003.t006",
+          "semeval2015.d002.s004.t006",
+          "semeval2015.d002.s004.t015",
+          "semeval2015.d002.s006.t009",
+          "semeval2015.d002.s013.t001",
+          "semeval2015.d002.s013.t003",
+          "semeval2015.d002.s013.t007",
+          "semeval2015.d002.s020.t002"
+        ],
+        "title": "Appendix D. Two reviewers selected the same sense"
+      },
+      {
+        "count": 22,
+        "description": "Exactly two reviewers used cannot-answer and the third reviewer selected a sense. These items are removed from the lexEN benchmark.",
+        "group_id": "E",
+        "item_ids": [
+          "senseval2.d000.s017.t007",
+          "senseval2.d002.s003.t018",
+          "senseval2.d002.s006.t004",
+          "senseval3.d000.s001.t002",
+          "senseval3.d000.s027.t007",
+          "senseval3.d000.s029.t001",
+          "senseval3.d000.s033.t000",
+          "senseval3.d000.s042.t000",
+          "senseval3.d001.s019.t014",
+          "senseval3.d001.s027.t011",
+          "senseval3.d002.s016.t006",
+          "senseval3.d002.s086.t016",
+          "senseval3.d002.s116.t002",
+          "senseval3.d002.s140.t003",
+          "semeval2013.d006.s010.t003",
+          "semeval2013.d006.s011.t002",
+          "semeval2013.d006.s019.t011",
+          "semeval2013.d006.s019.t017",
+          "semeval2013.d009.s004.t008",
+          "semeval2013.d011.s023.t002",
+          "semeval2015.d001.s008.t002",
+          "semeval2015.d001.s048.t002"
+        ],
+        "title": "Appendix E. Two reviewers judged the item unanswerable"
+      },
+      {
+        "count": 29,
+        "description": "The three reviewers produced three different fine-grained answers. These items are removed from the lexEN benchmark.",
+        "group_id": "F",
+        "item_ids": [
+          "senseval2.d001.s009.t002",
+          "senseval2.d001.s013.t004",
+          "senseval2.d001.s015.t001",
+          "senseval2.d001.s026.t007",
+          "senseval2.d001.s041.t005",
+          "senseval2.d001.s057.t002",
+          "senseval2.d001.s086.t008",
+          "senseval2.d002.s003.t007",
+          "senseval2.d002.s004.t002",
+          "senseval2.d002.s055.t001",
+          "senseval2.d002.s076.t004",
+          "senseval3.d000.s002.t001",
+          "senseval3.d000.s011.t004",
+          "senseval3.d000.s021.t003",
+          "senseval3.d000.s031.t002",
+          "senseval3.d000.s116.t001",
+          "senseval3.d000.s119.t004",
+          "senseval3.d001.s045.t002",
+          "senseval3.d002.s086.t000",
+          "senseval3.d002.s093.t000",
+          "senseval3.d002.s138.t000",
+          "semeval2013.d000.s019.t000",
+          "semeval2013.d002.s012.t000",
+          "semeval2013.d005.s005.t001",
+          "semeval2013.d009.s022.t000",
+          "semeval2015.d001.s009.t007",
+          "semeval2015.d002.s011.t008",
+          "semeval2015.d003.s009.t014",
+          "semeval2015.d003.s012.t002"
+        ],
+        "title": "Appendix F. All three reviewers disagreed"
+      }
+    ],
+    "cannot_answer": {
+      "all_three_unanswerable": 5,
+      "at_least_one_unanswerable": 77,
+      "at_least_two_reason_item_counts": {
+        "__input_defective__": 6,
+        "__inventory_inadequate__": 18,
+        "__no_sense_applies__": 24
+      },
+      "at_least_two_unanswerable": 27,
+      "cannot_answer_by_document_support": {
+        "1": {
+          "semeval2013.d000": 1,
+          "semeval2013.d001": 1,
+          "semeval2013.d005": 1,
+          "semeval2013.d006": 3,
+          "semeval2013.d007": 1,
+          "semeval2013.d009": 1,
+          "semeval2015.d001": 2,
+          "semeval2015.d002": 3,
+          "semeval2015.d003": 1,
+          "senseval2.d000": 5,
+          "senseval2.d001": 9,
+          "senseval2.d002": 5,
+          "senseval3.d000": 8,
+          "senseval3.d001": 6,
+          "senseval3.d002": 3
+        },
+        "2": {
+          "semeval2013.d006": 4,
+          "semeval2013.d009": 1,
+          "semeval2013.d011": 1,
+          "semeval2015.d001": 2,
+          "senseval2.d000": 1,
+          "senseval2.d002": 2,
+          "senseval3.d000": 5,
+          "senseval3.d001": 2,
+          "senseval3.d002": 4
+        },
+        "3": {
+          "semeval2013.d006": 1,
+          "semeval2013.d011": 1,
+          "senseval2.d002": 2,
+          "senseval3.d000": 1
+        }
+      },
+      "exactly_one_unanswerable": 50,
+      "exactly_two_unanswerable": 22,
+      "input_defective_by_document": {
+        "semeval2013.d006": 6,
+        "semeval2013.d011": 1,
+        "semeval2015.d001": 1
+      },
+      "input_defective_by_document_support": {
+        "1": {
+          "semeval2013.d006": 5,
+          "semeval2015.d001": 1
+        },
+        "2": {
+          "semeval2013.d006": 1,
+          "semeval2013.d011": 1
+        }
+      },
+      "reason_counts_by_reviewer": {
+        "PH": {
+          "__input_defective__": 2,
+          "__inventory_inadequate__": 20,
+          "__no_sense_applies__": 10
+        },
+        "PW": {
+          "__input_defective__": 6,
+          "__inventory_inadequate__": 12,
+          "__no_sense_applies__": 11
+        },
+        "RF": {
+          "__input_defective__": 2,
+          "__inventory_inadequate__": 6,
+          "__no_sense_applies__": 45
+        }
+      }
+    },
+    "fine": {
+      "all_three_agree_and_maru2022_gold": {
+        "count": 40,
+        "percent": 11.019
+      },
+      "exactly_two_agree_and_maru2022_gold": {
+        "count": 56,
+        "percent": 15.427
+      },
+      "fleiss_kappa": 0.537,
+      "gold_support_counts": {
+        "0": {
+          "count": 171,
+          "percent": 47.107
+        },
+        "1": {
+          "count": 96,
+          "percent": 26.446
+        },
+        "2": {
+          "count": 56,
+          "percent": 15.427
+        },
+        "3": {
+          "count": 40,
+          "percent": 11.019
+        }
+      },
+      "granularity": "fine",
+      "level_counts": {
+        "all_three_agree": {
+          "count": 129,
+          "percent": 35.537
+        },
+        "all_three_disagree": {
+          "count": 29,
+          "percent": 7.989
+        },
+        "exactly_two_agree": {
+          "count": 205,
+          "percent": 56.474
+        }
+      },
+      "pairwise": [
+        {
+          "cohen_kappa": 0.567,
+          "granularity": "fine",
+          "matching_items": 208,
+          "pair": "RF+PW",
+          "raw_agreement_percent": 57.3,
+          "total_items": 363
+        },
+        {
+          "cohen_kappa": 0.461,
+          "granularity": "fine",
+          "matching_items": 170,
+          "pair": "RF+PH",
+          "raw_agreement_percent": 46.832,
+          "total_items": 363
+        },
+        {
+          "cohen_kappa": 0.585,
+          "granularity": "fine",
+          "matching_items": 214,
+          "pair": "PW+PH",
+          "raw_agreement_percent": 58.953,
+          "total_items": 363
+        }
+      ],
+      "relationship_counts": {
+        "all_three_agree_and_gold": {
+          "count": 40,
+          "percent": 11.019
+        },
+        "all_three_agree_but_different": {
+          "count": 89,
+          "percent": 24.518
+        },
+        "all_three_disagree": {
+          "count": 29,
+          "percent": 7.989
+        },
+        "exactly_two_agree_and_gold": {
+          "count": 56,
+          "percent": 15.427
+        },
+        "exactly_two_agree_but_different": {
+          "count": 149,
+          "percent": 41.047
+        }
+      },
+      "total_items": 363
+    },
+    "fine_non_unanimous_resolved_by_glite": {
+      "count": 100,
+      "percent": 42.735
+    },
+    "glite": {
+      "all_three_agree_and_maru2022_gold": {
+        "count": 196,
+        "percent": 53.994
+      },
+      "exactly_two_agree_and_maru2022_gold": {
+        "count": 54,
+        "percent": 14.876
+      },
+      "fleiss_kappa": 0.74,
+      "gold_support_counts": {
+        "0": {
+          "count": 66,
+          "percent": 18.182
+        },
+        "1": {
+          "count": 47,
+          "percent": 12.948
+        },
+        "2": {
+          "count": 54,
+          "percent": 14.876
+        },
+        "3": {
+          "count": 196,
+          "percent": 53.994
+        }
+      },
+      "granularity": "glite",
+      "level_counts": {
+        "all_three_agree": {
+          "count": 229,
+          "percent": 63.085
+        },
+        "all_three_disagree": {
+          "count": 10,
+          "percent": 2.755
+        },
+        "exactly_two_agree": {
+          "count": 124,
+          "percent": 34.16
+        }
+      },
+      "pairwise": [
+        {
+          "cohen_kappa": 0.751,
+          "granularity": "glite",
+          "matching_items": 274,
+          "pair": "RF+PW",
+          "raw_agreement_percent": 75.482,
+          "total_items": 363
+        },
+        {
+          "cohen_kappa": 0.683,
+          "granularity": "glite",
+          "matching_items": 250,
+          "pair": "RF+PH",
+          "raw_agreement_percent": 68.871,
+          "total_items": 363
+        },
+        {
+          "cohen_kappa": 0.788,
+          "granularity": "glite",
+          "matching_items": 287,
+          "pair": "PW+PH",
+          "raw_agreement_percent": 79.063,
+          "total_items": 363
+        }
+      ],
+      "relationship_counts": {
+        "all_three_agree_and_gold": {
+          "count": 196,
+          "percent": 53.994
+        },
+        "all_three_agree_but_different": {
+          "count": 33,
+          "percent": 9.091
+        },
+        "all_three_disagree": {
+          "count": 10,
+          "percent": 2.755
+        },
+        "exactly_two_agree_and_gold": {
+          "count": 54,
+          "percent": 14.876
+        },
+        "exactly_two_agree_but_different": {
+          "count": 70,
+          "percent": 19.284
+        }
+      },
+      "total_items": 363
+    },
+    "glite_coverage": {
+      "mapped_sense_keys": 454,
+      "required_sense_keys": 465,
+      "unmapped_sense_keys": [
+        "discontinue%2:30:00::",
+        "distinction%1:07:01::",
+        "find%2:31:09::",
+        "first%5:00:00:ordinal:00",
+        "occasion%1:16:00::",
+        "office%1:14:01::",
+        "only%4:02:03::",
+        "thing%1:07:00::",
+        "thing%1:26:00::",
+        "united_states%1:14:00::",
+        "useful%5:00:00:functional:00"
+      ]
+    },
+    "headword_groups": [
+      {
+        "fine_all_differ": {
+          "count": 1,
+          "percent": 5.882
+        },
+        "fine_all_three": {
+          "count": 1,
+          "percent": 5.882
+        },
+        "fine_exactly_two": {
+          "count": 15,
+          "percent": 88.235
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 16,
+          "percent": 94.118
+        },
+        "glite_exactly_two": {
+          "count": 1,
+          "percent": 5.882
+        },
+        "group_kind": "headword",
+        "group_name": "say",
+        "total_items": 17
+      },
+      {
+        "fine_all_differ": {
+          "count": 1,
+          "percent": 14.286
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 6,
+          "percent": 85.714
+        },
+        "glite_all_differ": {
+          "count": 1,
+          "percent": 14.286
+        },
+        "glite_all_three": {
+          "count": 1,
+          "percent": 14.286
+        },
+        "glite_exactly_two": {
+          "count": 5,
+          "percent": 71.429
+        },
+        "group_kind": "headword",
+        "group_name": "thing",
+        "total_items": 7
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 5,
+          "percent": 83.333
+        },
+        "fine_exactly_two": {
+          "count": 1,
+          "percent": 16.667
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 5,
+          "percent": 83.333
+        },
+        "glite_exactly_two": {
+          "count": 1,
+          "percent": 16.667
+        },
+        "group_kind": "headword",
+        "group_name": "benefit",
+        "total_items": 6
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 6,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_exactly_two": {
+          "count": 6,
+          "percent": 100.0
+        },
+        "group_kind": "headword",
+        "group_name": "growth",
+        "total_items": 6
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 6,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 6,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "level",
+        "total_items": 6
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 5,
+          "percent": 83.333
+        },
+        "fine_exactly_two": {
+          "count": 1,
+          "percent": 16.667
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 5,
+          "percent": 83.333
+        },
+        "glite_exactly_two": {
+          "count": 1,
+          "percent": 16.667
+        },
+        "group_kind": "headword",
+        "group_name": "u.s.",
+        "total_items": 6
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 4,
+          "percent": 80.0
+        },
+        "fine_exactly_two": {
+          "count": 1,
+          "percent": 20.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 5,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "field",
+        "total_items": 5
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 4,
+          "percent": 80.0
+        },
+        "fine_exactly_two": {
+          "count": 1,
+          "percent": 20.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 4,
+          "percent": 80.0
+        },
+        "glite_exactly_two": {
+          "count": 1,
+          "percent": 20.0
+        },
+        "group_kind": "headword",
+        "group_name": "state",
+        "total_items": 5
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 2,
+          "percent": 40.0
+        },
+        "fine_exactly_two": {
+          "count": 3,
+          "percent": 60.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 2,
+          "percent": 40.0
+        },
+        "glite_exactly_two": {
+          "count": 3,
+          "percent": 60.0
+        },
+        "group_kind": "headword",
+        "group_name": "study",
+        "total_items": 5
+      },
+      {
+        "fine_all_differ": {
+          "count": 1,
+          "percent": 25.0
+        },
+        "fine_all_three": {
+          "count": 1,
+          "percent": 25.0
+        },
+        "fine_exactly_two": {
+          "count": 2,
+          "percent": 50.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 2,
+          "percent": 50.0
+        },
+        "glite_exactly_two": {
+          "count": 2,
+          "percent": 50.0
+        },
+        "group_kind": "headword",
+        "group_name": "believe",
+        "total_items": 4
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 1,
+          "percent": 25.0
+        },
+        "fine_exactly_two": {
+          "count": 3,
+          "percent": 75.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 4,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "call",
+        "total_items": 4
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 4,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 4,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "function",
+        "total_items": 4
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 4,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_exactly_two": {
+          "count": 4,
+          "percent": 100.0
+        },
+        "group_kind": "headword",
+        "group_name": "loss",
+        "total_items": 4
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 4,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 2,
+          "percent": 50.0
+        },
+        "glite_exactly_two": {
+          "count": 2,
+          "percent": 50.0
+        },
+        "group_kind": "headword",
+        "group_name": "public",
+        "total_items": 4
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "attendance",
+        "total_items": 3
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_exactly_two": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "group_kind": "headword",
+        "group_name": "bell",
+        "total_items": 3
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_exactly_two": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "child",
+        "total_items": 3
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 1,
+          "percent": 33.333
+        },
+        "fine_exactly_two": {
+          "count": 2,
+          "percent": 66.667
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 1,
+          "percent": 33.333
+        },
+        "glite_exactly_two": {
+          "count": 2,
+          "percent": 66.667
+        },
+        "group_kind": "headword",
+        "group_name": "cost",
+        "total_items": 3
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 1,
+          "percent": 33.333
+        },
+        "fine_exactly_two": {
+          "count": 2,
+          "percent": 66.667
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 3,
+          "percent": 100.0
+        },
+        "glite_exactly_two": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "group_kind": "headword",
+        "group_name": "country",
+        "total_items": 3
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 2,
+          "percent": 66.667
+        },
+        "fine_exactly_two": {
+          "count": 1,
+          "percent": 33.333
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 2,
+          "percent": 66.667
+        },
+        "glite_exactly_two": {
+          "count": 1,
+          "percent": 33.333
+        },
+        "group_kind": "headword",
+        "group_name": "development",
+        "total_items": 3
+      }
+    ],
+    "maru_relations": [
+      {
+        "accept_exact": {
+          "count": 119,
+          "percent": 32.782
+        },
+        "accept_plus_extra": {
+          "count": 4,
+          "percent": 1.102
+        },
+        "granularity": "fine",
+        "partial_overlap": {
+          "count": 17,
+          "percent": 4.683
+        },
+        "replace": {
+          "count": 174,
+          "percent": 47.934
+        },
+        "reviewer": "RF",
+        "unanswerable": {
+          "count": 49,
+          "percent": 13.499
+        }
+      },
+      {
+        "accept_exact": {
+          "count": 114,
+          "percent": 31.405
+        },
+        "accept_plus_extra": {
+          "count": 18,
+          "percent": 4.959
+        },
+        "granularity": "fine",
+        "partial_overlap": {
+          "count": 12,
+          "percent": 3.306
+        },
+        "replace": {
+          "count": 190,
+          "percent": 52.342
+        },
+        "reviewer": "PW",
+        "unanswerable": {
+          "count": 29,
+          "percent": 7.989
+        }
+      },
+      {
+        "accept_exact": {
+          "count": 95,
+          "percent": 26.171
+        },
+        "accept_plus_extra": {
+          "count": 19,
+          "percent": 5.234
+        },
+        "granularity": "fine",
+        "partial_overlap": {
+          "count": 13,
+          "percent": 3.581
+        },
+        "replace": {
+          "count": 205,
+          "percent": 56.474
+        },
+        "reviewer": "PH",
+        "unanswerable": {
+          "count": 31,
+          "percent": 8.54
+        }
+      },
+      {
+        "accept_exact": {
+          "count": 246,
+          "percent": 67.769
+        },
+        "accept_plus_extra": {
+          "count": 2,
+          "percent": 0.551
+        },
+        "granularity": "glite",
+        "partial_overlap": {
+          "count": 13,
+          "percent": 3.581
+        },
+        "replace": {
+          "count": 53,
+          "percent": 14.601
+        },
+        "reviewer": "RF",
+        "unanswerable": {
+          "count": 49,
+          "percent": 13.499
+        }
+      },
+      {
+        "accept_exact": {
+          "count": 252,
+          "percent": 69.421
+        },
+        "accept_plus_extra": {
+          "count": 2,
+          "percent": 0.551
+        },
+        "granularity": "glite",
+        "partial_overlap": {
+          "count": 9,
+          "percent": 2.479
+        },
+        "replace": {
+          "count": 71,
+          "percent": 19.559
+        },
+        "reviewer": "PW",
+        "unanswerable": {
+          "count": 29,
+          "percent": 7.989
+        }
+      },
+      {
+        "accept_exact": {
+          "count": 245,
+          "percent": 67.493
+        },
+        "accept_plus_extra": {
+          "count": 2,
+          "percent": 0.551
+        },
+        "granularity": "glite",
+        "partial_overlap": {
+          "count": 11,
+          "percent": 3.03
+        },
+        "replace": {
+          "count": 74,
+          "percent": 20.386
+        },
+        "reviewer": "PH",
+        "unanswerable": {
+          "count": 31,
+          "percent": 8.54
+        }
+      }
+    ],
+    "no_consensus": {
+      "cannot_answer_vote_counts": {
+        "0": 10,
+        "1": 19
+      },
+      "comment_count_distribution": {
+        "0": 7,
+        "1": 18,
+        "2": 4
+      },
+      "fine_gold_support_counts": {
+        "0": 9,
+        "1": 20
+      },
+      "glite_gold_support_counts": {
+        "0": 2,
+        "1": 8,
+        "2": 13,
+        "3": 6
+      },
+      "glite_level_counts": {
+        "all_three_agree": 6,
+        "all_three_disagree": 10,
+        "exactly_two_agree": 13
+      },
+      "note_count_distribution": {
+        "0": 10,
+        "1": 19
+      },
+      "pos_counts": {
+        "ADJ": 6,
+        "NOUN": 11,
+        "VERB": 12
+      },
+      "sampled_items": [
+        {
+          "item_id": "semeval2013.d000.s019.t000",
+          "lemma": "game",
+          "pos": "NOUN",
+          "rationale": "WordNet lacks the figurative strategic-manoeuvring sense of game in this context.",
+          "recommendation": "Remove",
+          "source_dataset": "semeval2013"
+        },
+        {
+          "item_id": "semeval2013.d009.s022.t000",
+          "lemma": "conservative",
+          "pos": "NOUN",
+          "rationale": "The US ideological conservative reading is not cleanly captured by the party/member senses.",
+          "recommendation": "Remove",
+          "source_dataset": "semeval2013"
+        },
+        {
+          "item_id": "semeval2015.d001.s009.t007",
+          "lemma": "input",
+          "pos": "NOUN",
+          "rationale": "The computer-input sense is missing or underspecified, and Maru2022 support is weak.",
+          "recommendation": "Remove or adjudicate",
+          "source_dataset": "semeval2015"
+        },
+        {
+          "item_id": "semeval2015.d002.s011.t008",
+          "lemma": "organisation",
+          "pos": "NOUN",
+          "rationale": "The context likely means the way work is organised, while the available labels diverge.",
+          "recommendation": "Remove or adjudicate",
+          "source_dataset": "semeval2015"
+        },
+        {
+          "item_id": "semeval2015.d003.s009.t014",
+          "lemma": "follow",
+          "pos": "VERB",
+          "rationale": "The reviewers differ at fine WordNet level even though Glite coarsening makes them agree.",
+          "recommendation": "Remove from fine scoring",
+          "source_dataset": "semeval2015"
+        },
+        {
+          "item_id": "semeval2015.d003.s012.t002",
+          "lemma": "act",
+          "pos": "VERB",
+          "rationale": "The functional/location use of act in the central nervous system does not map cleanly.",
+          "recommendation": "Remove",
+          "source_dataset": "semeval2015"
+        },
+        {
+          "item_id": "senseval2.d001.s015.t001",
+          "lemma": "make",
+          "pos": "VERB",
+          "rationale": "The gene-copy context for make proteins lacks a clean production sense in the inventory.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval2"
+        },
+        {
+          "item_id": "senseval2.d001.s026.t007",
+          "lemma": "fundamental",
+          "pos": "ADJ",
+          "rationale": "The fine-grained distinction is underdetermined even though coarse meaning is closer.",
+          "recommendation": "Remove from fine scoring",
+          "source_dataset": "senseval2"
+        },
+        {
+          "item_id": "senseval2.d001.s041.t005",
+          "lemma": "specific",
+          "pos": "ADJ",
+          "rationale": "Specific genes means particular or individual genes, and reviewers did not converge.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval2"
+        },
+        {
+          "item_id": "senseval2.d001.s057.t002",
+          "lemma": "attention",
+          "pos": "NOUN",
+          "rationale": "Turned his attention to is a fixed research-focus use, not a reliable fine sense.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval2"
+        },
+        {
+          "item_id": "senseval2.d002.s004.t002",
+          "lemma": "dominate",
+          "pos": "VERB",
+          "rationale": "Dominate means strongly influence or prevail over, but the inventory split is unstable.",
+          "recommendation": "Remove or adjudicate",
+          "source_dataset": "senseval2"
+        },
+        {
+          "item_id": "senseval2.d002.s055.t001",
+          "lemma": "involvement",
+          "pos": "NOUN",
+          "rationale": "The intended involvement reading mixes participation and control, producing ambiguity.",
+          "recommendation": "Remove or adjudicate",
+          "source_dataset": "senseval2"
+        },
+        {
+          "item_id": "senseval3.d000.s002.t001",
+          "lemma": "ready",
+          "pos": "ADJ",
+          "rationale": "Ready answer means prompt or available answer; the inventory does not fit cleanly.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d000.s011.t004",
+          "lemma": "occasion",
+          "pos": "NOUN",
+          "rationale": "All three choices are plausible but different, and Maru2022 has no support.",
+          "recommendation": "Remove or adjudicate",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d000.s021.t003",
+          "lemma": "time",
+          "pos": "NOUN",
+          "rationale": "At the time is a fixed expression and does not support reliable fine-grained tagging.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d000.s031.t002",
+          "lemma": "realize",
+          "pos": "VERB",
+          "rationale": "The become-aware nuance exposes a WordNet definition boundary problem.",
+          "recommendation": "Remove or adjudicate",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d000.s116.t001",
+          "lemma": "encourage",
+          "pos": "VERB",
+          "rationale": "Encourage his company means make more likely or promote, not a clean available sense.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d001.s045.t002",
+          "lemma": "reveal",
+          "pos": "VERB",
+          "rationale": "Investigation reveals mixes make-known and show evidence; WordNet is too narrow here.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d002.s086.t000",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "rationale": "Things got rougher uses thing as a general situation marker, not a clean WordNet sense.",
+          "recommendation": "Remove",
+          "source_dataset": "senseval3"
+        },
+        {
+          "item_id": "senseval3.d002.s138.t000",
+          "lemma": "quiet",
+          "pos": "ADJ",
+          "rationale": "Quiet has noise versus activity ambiguity; reviewers agree only after Glite coarsening.",
+          "recommendation": "Remove from fine scoring",
+          "source_dataset": "senseval3"
+        }
+      ],
+      "source_counts": {
+        "semeval2013": 4,
+        "semeval2015": 4,
+        "senseval2": 11,
+        "senseval3": 10
+      },
+      "total_items": 29
+    },
+    "pos_groups": [
+      {
+        "fine_all_differ": {
+          "count": 11,
+          "percent": 5.34
+        },
+        "fine_all_three": {
+          "count": 76,
+          "percent": 36.893
+        },
+        "fine_exactly_two": {
+          "count": 119,
+          "percent": 57.767
+        },
+        "glite_all_differ": {
+          "count": 5,
+          "percent": 2.427
+        },
+        "glite_all_three": {
+          "count": 129,
+          "percent": 62.621
+        },
+        "glite_exactly_two": {
+          "count": 72,
+          "percent": 34.951
+        },
+        "group_kind": "pos",
+        "group_name": "NOUN",
+        "total_items": 206
+      },
+      {
+        "fine_all_differ": {
+          "count": 12,
+          "percent": 13.187
+        },
+        "fine_all_three": {
+          "count": 27,
+          "percent": 29.67
+        },
+        "fine_exactly_two": {
+          "count": 52,
+          "percent": 57.143
+        },
+        "glite_all_differ": {
+          "count": 4,
+          "percent": 4.396
+        },
+        "glite_all_three": {
+          "count": 61,
+          "percent": 67.033
+        },
+        "glite_exactly_two": {
+          "count": 26,
+          "percent": 28.571
+        },
+        "group_kind": "pos",
+        "group_name": "VERB",
+        "total_items": 91
+      },
+      {
+        "fine_all_differ": {
+          "count": 6,
+          "percent": 12.245
+        },
+        "fine_all_three": {
+          "count": 16,
+          "percent": 32.653
+        },
+        "fine_exactly_two": {
+          "count": 27,
+          "percent": 55.102
+        },
+        "glite_all_differ": {
+          "count": 1,
+          "percent": 2.041
+        },
+        "glite_all_three": {
+          "count": 27,
+          "percent": 55.102
+        },
+        "glite_exactly_two": {
+          "count": 21,
+          "percent": 42.857
+        },
+        "group_kind": "pos",
+        "group_name": "ADJ",
+        "total_items": 49
+      },
+      {
+        "fine_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "fine_all_three": {
+          "count": 10,
+          "percent": 58.824
+        },
+        "fine_exactly_two": {
+          "count": 7,
+          "percent": 41.176
+        },
+        "glite_all_differ": {
+          "count": 0,
+          "percent": 0.0
+        },
+        "glite_all_three": {
+          "count": 12,
+          "percent": 70.588
+        },
+        "glite_exactly_two": {
+          "count": 5,
+          "percent": 29.412
+        },
+        "group_kind": "pos",
+        "group_name": "ADV",
+        "total_items": 17
+      }
+    ],
+    "relationship_order": [
+      "all_three_agree_and_gold",
+      "all_three_agree_but_different",
+      "exactly_two_agree_and_gold",
+      "exactly_two_agree_but_different",
+      "all_three_disagree"
+    ],
+    "reviewed_items": 363,
+    "source_groups": [
+      {
+        "fine_all_differ": {
+          "count": 11,
+          "percent": 8.333
+        },
+        "fine_all_three": {
+          "count": 39,
+          "percent": 29.545
+        },
+        "fine_exactly_two": {
+          "count": 82,
+          "percent": 62.121
+        },
+        "glite_all_differ": {
+          "count": 3,
+          "percent": 2.273
+        },
+        "glite_all_three": {
+          "count": 78,
+          "percent": 59.091
+        },
+        "glite_exactly_two": {
+          "count": 51,
+          "percent": 38.636
+        },
+        "group_kind": "source",
+        "group_name": "senseval2",
+        "total_items": 132
+      },
+      {
+        "fine_all_differ": {
+          "count": 10,
+          "percent": 9.174
+        },
+        "fine_all_three": {
+          "count": 34,
+          "percent": 31.193
+        },
+        "fine_exactly_two": {
+          "count": 65,
+          "percent": 59.633
+        },
+        "glite_all_differ": {
+          "count": 2,
+          "percent": 1.835
+        },
+        "glite_all_three": {
+          "count": 68,
+          "percent": 62.385
+        },
+        "glite_exactly_two": {
+          "count": 39,
+          "percent": 35.78
+        },
+        "group_kind": "source",
+        "group_name": "senseval3",
+        "total_items": 109
+      },
+      {
+        "fine_all_differ": {
+          "count": 4,
+          "percent": 5.714
+        },
+        "fine_all_three": {
+          "count": 32,
+          "percent": 45.714
+        },
+        "fine_exactly_two": {
+          "count": 34,
+          "percent": 48.571
+        },
+        "glite_all_differ": {
+          "count": 3,
+          "percent": 4.286
+        },
+        "glite_all_three": {
+          "count": 45,
+          "percent": 64.286
+        },
+        "glite_exactly_two": {
+          "count": 22,
+          "percent": 31.429
+        },
+        "group_kind": "source",
+        "group_name": "semeval2013",
+        "total_items": 70
+      },
+      {
+        "fine_all_differ": {
+          "count": 4,
+          "percent": 7.692
+        },
+        "fine_all_three": {
+          "count": 24,
+          "percent": 46.154
+        },
+        "fine_exactly_two": {
+          "count": 24,
+          "percent": 46.154
+        },
+        "glite_all_differ": {
+          "count": 2,
+          "percent": 3.846
+        },
+        "glite_all_three": {
+          "count": 38,
+          "percent": 73.077
+        },
+        "glite_exactly_two": {
+          "count": 12,
+          "percent": 23.077
+        },
+        "group_kind": "source",
+        "group_name": "semeval2015",
+        "total_items": 52
+      }
+    ],
+    "verdict_shapes": [
+      {
+        "cannot_answer_items": 49,
+        "comment_items": 36,
+        "multi_sense_items": 5,
+        "note_items": 49,
+        "reviewer": "RF",
+        "single_sense_items": 309
+      },
+      {
+        "cannot_answer_items": 29,
+        "comment_items": 33,
+        "multi_sense_items": 18,
+        "note_items": 29,
+        "reviewer": "PW",
+        "single_sense_items": 316
+      },
+      {
+        "cannot_answer_items": 31,
+        "comment_items": 171,
+        "multi_sense_items": 20,
+        "note_items": 31,
+        "reviewer": "PH",
+        "single_sense_items": 312
+      }
+    ]
+  }
+}

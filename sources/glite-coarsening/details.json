@@ -1,0 +1,56 @@
+{
+  "access_kind": "included-research-use",
+  "authors": [
+    {
+      "country": null,
+      "institution": null,
+      "name": "Vassili Philippov",
+      "orcid": null
+    }
+  ],
+  "categories": [
+    "dataset",
+    "knowledge-base",
+    "report-source",
+    "wsd"
+  ],
+  "checksums": {
+    "lexen_report_aliases.json": "sha256:5ce96f30a772cb4753607e81700f45474ed3e3a1f9b24e363083b68c9c259428",
+    "mapping_coverage.json": "sha256:ce588bd842de7952e13242b575fb8789dc43294325efaa66fb0cfd3540790c03",
+    "wordnet_sense_key_to_glite_concept.jsonl": "sha256:4fd14626838520eaa1a3168ab30166a708ab181b073a92df8d8bcb4cda2e4ba6"
+  },
+  "dataset_id": "glite-coarsening-maru2022-subset",
+  "date_added": "2026-06-13",
+  "date_added_to_lexen": "2026-06-13",
+  "date_published": "2026-04-03",
+  "download_url": null,
+  "files": [
+    {
+      "description": "Public forward map from Maru2022/lexEN WordNet sense keys to Glite concept IDs.",
+      "format": "jsonl",
+      "path": "files/wordnet_sense_key_to_glite_concept.jsonl"
+    },
+    {
+      "description": "Machine-readable coverage summary for the public coarsening subset.",
+      "format": "json",
+      "path": "files/mapping_coverage.json"
+    },
+    {
+      "description": "Small report-local alias table for legacy/British WordNet sense keys absent from the public forward map.",
+      "format": "json",
+      "path": "files/lexen_report_aliases.json"
+    }
+  ],
+  "institutions": [],
+  "license": null,
+  "name": "Glite Coarsening Subset for Maru2022",
+  "short_description": "Public WordNet sense-key to Glite concept-id subset needed for lexEN coarse-sense label layers and agreement metrics.",
+  "size_description": "3 vendored files totaling about 2.1 MB; the public mapping file contains 10,412 WordNet sense-key mappings and the alias file contains 5 report-local aliases.",
+  "source_dataset_id": "glite-coarsening",
+  "source_package_generated_at": "2026-06-14",
+  "source_paper_id": null,
+  "spec_version": "1",
+  "url": null,
+  "version": null,
+  "year": 2026
+}

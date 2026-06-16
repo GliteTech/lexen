@@ -1,0 +1,99 @@
+{
+  "access_kind": "included-research-use",
+  "authors": [
+    {
+      "country": "US",
+      "institution": "Glite Tech Ltd",
+      "name": "Vassili Philippov",
+      "orcid": null
+    }
+  ],
+  "categories": [
+    "model-predictions",
+    "selection-source",
+    "wsd"
+  ],
+  "checksums": {
+    "catboost/predictions-raganato-all.jsonl": "sha256:6c401bc0ba297999fcfbfe634df081971f2cfcf14d918616966007e421efcb2c",
+    "gpt55_t0152_p01/predictions.jsonl.gz": "sha256:bfaed4423eaef2bf68c89c9d8dd6a0172dd13896aade7abbc3e4915003c83e8d",
+    "gpt55_t0152_p02/predictions.jsonl.gz": "sha256:0506c70b1d5a7ec4c16bc06ddb28159bc6e5f2efcfc00d83141e9e2e9770f071",
+    "gpt55_t0152_p03/predictions.jsonl.gz": "sha256:85b8c5a543c473759cac8b310188ca14c6230bc8295af8cd32e49216b6494061",
+    "gpt55_t0156_e69/predictions.jsonl.gz": "sha256:5163fd7c4459c77eea52214c9f908877e837032c54918782a15a3a23079aa3c6",
+    "gpt55_t0158_headerfooter/predictions.jsonl.gz": "sha256:b285deacb58da482091889e6f5328d898d36295d1ce3f11d54fe8aa821181a8b",
+    "gpt55_t0173_v01/predictions.jsonl.gz": "sha256:382897c3e5dae618c6601956219db5b3fb3d0830ab8571397845280954bb0962",
+    "gpt55_t0173_v03/predictions.jsonl.gz": "sha256:d0d42d0baf1f03b55f7c51e15920b00414d4e6f99403323198ee3d7e6f111d89",
+    "gpt55_t0173_v06/predictions.jsonl.gz": "sha256:2e82fc251aebf32d84798aeb3905a130e49f9b6bbd532661af803377451fd9a8",
+    "sandwich/ALL.key.txt": "sha256:52ebf93cd871a44ce3da31f00d17aa0f4d2bb03cc16064509bacc4baf09193ff"
+  },
+  "date_added_to_lexen": "2026-06-14",
+  "date_published": "2026",
+  "description_path": "description.md",
+  "download_url": null,
+  "files": [
+    {
+      "description": "GPT-5.5 prompt variant P01 predictions.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0152_p01/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 prompt variant P02 predictions.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0152_p02/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 prompt variant P03 predictions.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0152_p03/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 E69 prompt predictions.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0156_e69/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 header/footer prompt predictions with raw justifications and prompts.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0158_headerfooter/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 V01 prompt predictions.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0173_v01/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 V03 prompt predictions; also used to recover candidate sense order.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0173_v03/predictions.jsonl.gz"
+    },
+    {
+      "description": "GPT-5.5 V06 prompt predictions.",
+      "format": "jsonl.gz",
+      "path": "predictions/gpt55_t0173_v06/predictions.jsonl.gz"
+    },
+    {
+      "description": "SANDWiCH prediction key.",
+      "format": "txt",
+      "path": "predictions/sandwich/ALL.key.txt"
+    },
+    {
+      "description": "CatBoost ensemble selector predictions.",
+      "format": "jsonl",
+      "path": "predictions/catboost/predictions-raganato-all.jsonl"
+    }
+  ],
+  "institutions": [
+    {
+      "country": "GB",
+      "name": "Glite Tech Ltd"
+    }
+  ],
+  "license": "research-only",
+  "name": "lexEN model-panel predictions",
+  "short_description": "Model prediction assets from SANDWiCH, GPT-5.5, and a CatBoost WSD ensemble used to flag 363 suspicious Maru2022 items for lexicographer review.",
+  "size_description": "Ten prediction files totaling about 32 MB after transport telemetry removal.",
+  "source_paper_id": null,
+  "spec_version": "1",
+  "url": null,
+  "version": "2026-04-30",
+  "year": 2026
+}

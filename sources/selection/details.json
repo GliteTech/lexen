@@ -1,0 +1,46 @@
+{
+  "spec_version": "2",
+  "dataset_id": "lexicographer-review-all-new",
+  "name": "Lexicographer Review ALL_NEW",
+  "version": null,
+  "short_description": "Generated per-instance selection package with context, WordNet senses, Maru2022 source labels, and model-panel predictions for all 4,917 ALL_NEW (Maru 2022) instances, with S1-S6 waterfall suspicion classification for human re-adjudication.",
+  "description_path": "description.md",
+  "source_paper_id": null,
+  "url": null,
+  "download_url": null,
+  "year": 2026,
+  "date_published": "2026-04-30",
+  "authors": [
+    {
+      "name": "Vassili Philippov",
+      "country": "US",
+      "institution": null,
+      "orcid": null
+    }
+  ],
+  "institutions": [],
+  "license": "research-only",
+  "access_kind": "included-research-use",
+  "size_description": "4,917 instances (SE2 + SE3 + SE13 + SE15 polysemous content words) with 10 model predictions each, structured context windows, and complete WordNet sense inventories",
+  "files": [
+    {
+      "path": "lexicographer_review.jsonl.gz",
+      "description": "Main dataset: 4,917 records in gzip-compressed JSONL format, one JSON object per ALL_NEW instance",
+      "format": "jsonl.gz"
+    },
+    {
+      "path": "schema.json",
+      "description": "JSON Schema (draft-07) describing the structure of each record in lexicographer_review.jsonl.gz",
+      "format": "json"
+    },
+    {
+      "path": "waterfall_summary.json",
+      "description": "Summary statistics: total records, S1-S6 bucket counts, model coverage statistics",
+      "format": "json"
+    }
+  ],
+  "categories": [
+    "wsd-evaluation",
+    "llm-wsd"
+  ]
+}

@@ -1,0 +1,3292 @@
+{
+  "saved_at": "2026-05-29T14:51:39.465Z",
+  "total_items": 363,
+  "reviewed": 363,
+  "verdicts": [
+    {
+      "instance_id": "semeval2013.d002.s012.t000",
+      "chosen_sense_keys": [
+        "treasury%1:21:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d004.s004.t002",
+      "chosen_sense_keys": [
+        "acceptance%1:04:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s010.t001",
+      "chosen_sense_keys": [
+        "issue%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t005",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s011.t007",
+      "chosen_sense_keys": [
+        "discovery%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s013.t001",
+      "chosen_sense_keys": [
+        "environment%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s008.t004",
+      "chosen_sense_keys": [
+        "institution%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s020.t003",
+      "chosen_sense_keys": [
+        "creation%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s020.t006",
+      "chosen_sense_keys": [
+        "proportion%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d012.s002.t002",
+      "chosen_sense_keys": [
+        "industry%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s018.t002",
+      "chosen_sense_keys": [
+        "discontinue%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s018.t007",
+      "chosen_sense_keys": [
+        "abnormal%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s026.t001",
+      "chosen_sense_keys": [
+        "useful%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s031.t000",
+      "chosen_sense_keys": [
+        "useful%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s047.t001",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s047.t008",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s002.t009",
+      "chosen_sense_keys": [
+        "involvement%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s003.t009",
+      "chosen_sense_keys": [
+        "field%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s029.t008",
+      "chosen_sense_keys": [
+        "bell%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s030.t011",
+      "chosen_sense_keys": [
+        "mathematical%5:00:00:exact:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s031.t003",
+      "chosen_sense_keys": [
+        "solemn%5:00:00:serious:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t003",
+      "chosen_sense_keys": [
+        "draw%2:30:14::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s054.t007",
+      "chosen_sense_keys": [
+        "small%5:00:00:limited:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s013.t004",
+      "chosen_sense_keys": [
+        "believe%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s031.t006",
+      "chosen_sense_keys": [
+        "same%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s041.t005",
+      "chosen_sense_keys": [
+        "specific%5:00:00:specified:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s045.t003",
+      "chosen_sense_keys": [
+        "contain%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s057.t002",
+      "chosen_sense_keys": [
+        "attention%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s081.t002",
+      "chosen_sense_keys": [
+        "implicate%2:42:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t007",
+      "chosen_sense_keys": [
+        "metaphysical%3:01:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s043.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "(of a person) choosing to be silent",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s050.t008",
+      "chosen_sense_keys": [
+        "involvement%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s055.t001",
+      "chosen_sense_keys": [
+        "involvement%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s059.t008",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s070.t001",
+      "chosen_sense_keys": [
+        "believe%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t006",
+      "chosen_sense_keys": [
+        "fire%1:12:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s031.t002",
+      "chosen_sense_keys": [
+        "realize%2:31:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s106.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "tautologous usage for stylistic effect. Neither of the WordNet senses allows for the noun \"smile\" as the object of the verb \"smile\"  ",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s010.t018",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s018.t002",
+      "chosen_sense_keys": [
+        "appear%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s026.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is close but here the meaning is to make someone less confident in doing something rather than have less hope or courage.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s027.t011",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is \"as good as or better than others\"",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t004",
+      "chosen_sense_keys": [
+        "proportion%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t028",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t034",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t008",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s029.t004",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s082.t005",
+      "chosen_sense_keys": [
+        "unpredictable%5:00:00:sporadic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t000",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t016",
+      "chosen_sense_keys": [
+        "rhythm%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s101.t000",
+      "chosen_sense_keys": [
+        "realize%2:31:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s106.t005",
+      "chosen_sense_keys": [
+        "drink%2:34:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s137.t003",
+      "chosen_sense_keys": [
+        "symptom%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s138.t000",
+      "chosen_sense_keys": [
+        "quiet%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s140.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense here is \"wrap in something warm\"",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s006.t003",
+      "chosen_sense_keys": [
+        "washington%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s011.t003",
+      "chosen_sense_keys": [
+        "week%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s017.t004",
+      "chosen_sense_keys": [
+        "united_states%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s024.t007",
+      "chosen_sense_keys": [
+        "week%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s025.t004",
+      "chosen_sense_keys": [
+        "show%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s027.t002",
+      "chosen_sense_keys": [
+        "policy%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d001.s001.t003",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This text reads like it was written by a non-native. \"Losses\" here refers to players who were unable to play in the team, as is clear from the following paragraph. It's not natural English."
+    },
+    {
+      "instance_id": "semeval2013.d003.s003.t002",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s006.t002",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s008.t004",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s011.t000",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s013.t000",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s015.t005",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s018.t008",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s005.t001",
+      "chosen_sense_keys": [
+        "court%1:14:00::",
+        "court%1:06:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "These two definitions seem to be defining the same thing. "
+    },
+    {
+      "instance_id": "semeval2013.d005.s011.t004",
+      "chosen_sense_keys": [
+        "question%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s027.t007",
+      "chosen_sense_keys": [
+        "policy%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s000.t002",
+      "chosen_sense_keys": [
+        "law%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "But input text is non-natural English."
+    },
+    {
+      "instance_id": "semeval2013.d006.s007.t001",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s009.t003",
+      "chosen_sense_keys": [
+        "principle%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s010.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Input text is non-natural English.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s011.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Input text is non-natural English.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s013.t005",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s019.t017",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Input text is non-natural English, probably written by a Spanish or French speaker for whom \"ciclo/cycle\" would be the right word in this context.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t003",
+      "chosen_sense_keys": [
+        "decision%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s003.t001",
+      "chosen_sense_keys": [
+        "capability%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s010.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s028.t006",
+      "chosen_sense_keys": [
+        "distinction%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s022.t000",
+      "chosen_sense_keys": [
+        "conservative%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s023.t001",
+      "chosen_sense_keys": [
+        "administration%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s015.t006",
+      "chosen_sense_keys": [
+        "shortage%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s018.t003",
+      "chosen_sense_keys": [
+        "shortage%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s022.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is money received",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s001.t006",
+      "chosen_sense_keys": [
+        "3d%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s007.t005",
+      "chosen_sense_keys": [
+        "3d%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s008.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is entering of information into a computer",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is entering of information into a computer",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t011",
+      "chosen_sense_keys": [
+        "know%2:31:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s019.t005",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s027.t000",
+      "chosen_sense_keys": [
+        "now%4:02:07::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s035.t000",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s048.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is entering of information into a computer",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s000.t005",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense of phrasal verb usage, deal with, is to be about something.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s001.t004",
+      "chosen_sense_keys": [
+        "debate%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s004.t006",
+      "chosen_sense_keys": [
+        "affairs%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s006.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s007.t004",
+      "chosen_sense_keys": [
+        "industry%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t003",
+      "chosen_sense_keys": [
+        "basis%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t007",
+      "chosen_sense_keys": [
+        "overall%5:00:00:general:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s001.t003",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s007.t002",
+      "chosen_sense_keys": [
+        "stop%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s009.t014",
+      "chosen_sense_keys": [
+        "follow%2:42:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s010.t000",
+      "chosen_sense_keys": [
+        "purpose%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s012.t002",
+      "chosen_sense_keys": [
+        "act%2:41:06::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s016.t008",
+      "chosen_sense_keys": [
+        "see%2:39:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s003.t014",
+      "chosen_sense_keys": [
+        "call%2:32:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s008.t004",
+      "chosen_sense_keys": [
+        "remain%2:42:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s017.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "The meaning here is \"relating to Europe\" but explicitly excluding Britain and Ireland",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s025.t001",
+      "chosen_sense_keys": [
+        "stand%2:35:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s026.t006",
+      "chosen_sense_keys": [
+        "sound%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s028.t009",
+      "chosen_sense_keys": [
+        "madly%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s029.t006",
+      "chosen_sense_keys": [
+        "swing%1:04:06::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s035.t009",
+      "chosen_sense_keys": [
+        "leave%2:40:06::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s035.t011",
+      "chosen_sense_keys": [
+        "below%4:02:06::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s038.t004",
+      "chosen_sense_keys": [
+        "so%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t005",
+      "chosen_sense_keys": [
+        "life%1:26:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s050.t001",
+      "chosen_sense_keys": [
+        "speak%2:32:01::",
+        "speak%2:32:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It is unclear whether the Council will give a formal talk to the students or just conduct informal conversations."
+    },
+    {
+      "instance_id": "senseval2.d001.s008.t001",
+      "chosen_sense_keys": [
+        "call%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t004",
+      "chosen_sense_keys": [
+        "hold%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s015.t006",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s019.t015",
+      "chosen_sense_keys": [
+        "birth%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s026.t007",
+      "chosen_sense_keys": [
+        "fundamental%5:00:00:significant:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s033.t005",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s041.t009",
+      "chosen_sense_keys": [
+        "pair%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s052.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d001.s057.t009",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s062.t002",
+      "chosen_sense_keys": [
+        "picture%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s062.t004",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s074.t002",
+      "chosen_sense_keys": [
+        "same%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s075.t005",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s082.t011",
+      "chosen_sense_keys": [
+        "test%2:32:08::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s083.t003",
+      "chosen_sense_keys": [
+        "yet%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Although the fixed phrase \"as yet\" is used here"
+    },
+    {
+      "instance_id": "senseval2.d002.s000.t001",
+      "chosen_sense_keys": [
+        "child%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t004",
+      "chosen_sense_keys": [
+        "require%2:32:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t005",
+      "chosen_sense_keys": [
+        "relinquish%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t009",
+      "chosen_sense_keys": [
+        "authoritarian%5:00:00:domineering:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t016",
+      "chosen_sense_keys": [
+        "yet%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Although the usage here is as part of fixed phrase \"as yet\" "
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t021",
+      "chosen_sense_keys": [
+        "child%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s013.t007",
+      "chosen_sense_keys": [
+        "education%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s034.t005",
+      "chosen_sense_keys": [
+        "child%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s040.t006",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t002",
+      "chosen_sense_keys": [
+        "system%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s077.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s077.t001",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s080.t000",
+      "chosen_sense_keys": [
+        "fact%1:10:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t002",
+      "chosen_sense_keys": [
+        "bright%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t005",
+      "chosen_sense_keys": [
+        "cold%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Poetic/figurative usage makes it hard to be precise in sense attribution"
+    },
+    {
+      "instance_id": "senseval3.d000.s029.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "phrase is \"to have sb for company\"",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s042.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense is to oblige someone to pay a certain amount of money. Related to sense 1 semantically,",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s055.t001",
+      "chosen_sense_keys": [
+        "address%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s064.t001",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s084.t003",
+      "chosen_sense_keys": [
+        "deliberate%5:00:00:unhurried:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s092.t000",
+      "chosen_sense_keys": [
+        "say%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s135.t002",
+      "chosen_sense_keys": [
+        "job%1:04:01::",
+        "job%1:04:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It's unclear from the input text whether this is a crime or a legal piece of work"
+    },
+    {
+      "instance_id": "senseval3.d001.s004.t011",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s004.t016",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s009.t015",
+      "chosen_sense_keys": [
+        "public%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s009.t022",
+      "chosen_sense_keys": [
+        "public%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s010.t016",
+      "chosen_sense_keys": [
+        "cost%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s013.t004",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s016.t003",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s016.t017",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s018.t005",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t013",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s025.t010",
+      "chosen_sense_keys": [
+        "office%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s029.t011",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t006",
+      "chosen_sense_keys": [
+        "attendance%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "in the compound \"attendance rates\", attendance has this meaning. However, this sentence could equally wellbe written withoiut the word \"rates\" and it would then have sense 2."
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t007",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t023",
+      "chosen_sense_keys": [
+        "devote%2:40:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t001",
+      "chosen_sense_keys": [
+        "attendance%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "in the compound \"attendance rates\", attendance has this meaning. However, this sentence could equally wellbe written withoiut the word \"rates\" and it would then have sense 2."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t002",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t005",
+      "chosen_sense_keys": [
+        "attendance%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "in the compound \"attendance rates\", attendance has this meaning. However, this sentence could equally wellbe written withoiut the word \"rates\" and it would then have sense 2."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t006",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t008",
+      "chosen_sense_keys": [
+        "office%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t019",
+      "chosen_sense_keys": [
+        "office%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t011",
+      "chosen_sense_keys": [
+        "difference%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t022",
+      "chosen_sense_keys": [
+        "positive%5:00:00:plus:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t023",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s042.t009",
+      "chosen_sense_keys": [
+        "severe%5:00:00:intense:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t007",
+      "chosen_sense_keys": [
+        "difference%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t011",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t017",
+      "chosen_sense_keys": [
+        "share%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t020",
+      "chosen_sense_keys": [
+        "positive%5:00:00:plus:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t021",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s046.t004",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s029.t001",
+      "chosen_sense_keys": [
+        "explode%2:30:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s091.t004",
+      "chosen_sense_keys": [
+        "do%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s120.t007",
+      "chosen_sense_keys": [
+        "bounce%2:38:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s010.t005",
+      "chosen_sense_keys": [
+        "u.s.%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s019.t011",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Input text is non-natural English, probably written by a Spanish or French speaker for whom \"ciclo/cycle\" would be the right word in this context.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Input text is non-natural English.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s006.t000",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s003.t003",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s023.t005",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s006.t009",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s020.t002",
+      "chosen_sense_keys": [
+        "consider%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s039.t006",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d000.s043.t003",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d000.s045.t017",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d000.s047.t005",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d000.s051.t000",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d000.s063.t005",
+      "chosen_sense_keys": [
+        "know%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s000.t008",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s005.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d001.s023.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d001.s026.t011",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d001.s055.t003",
+      "chosen_sense_keys": [
+        "believe%2:31:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t002",
+      "chosen_sense_keys": [
+        "need%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t004",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t009",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d001.s077.t008",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d001.s087.t000",
+      "chosen_sense_keys": [
+        "believe%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s090.t010",
+      "chosen_sense_keys": [
+        "discovery%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s094.t001",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t018",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "\"vested interest\" is a compound with its own meanings.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s006.t004",
+      "chosen_sense_keys": [
+        "wish%2:37:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s042.t000",
+      "chosen_sense_keys": [
+        "really%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s076.t004",
+      "chosen_sense_keys": [
+        "large%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s080.t002",
+      "chosen_sense_keys": [
+        "fact%1:10:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s002.t001",
+      "chosen_sense_keys": [
+        "ready%5:00:00:prepared:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s011.t004",
+      "chosen_sense_keys": [
+        "occasion%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s030.t004",
+      "chosen_sense_keys": [
+        "uneasy%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s069.t004",
+      "chosen_sense_keys": [
+        "night%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s071.t002",
+      "chosen_sense_keys": [
+        "day%1:28:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s119.t004",
+      "chosen_sense_keys": [
+        "talk%2:32:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s135.t000",
+      "chosen_sense_keys": [
+        "do%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s138.t000",
+      "chosen_sense_keys": [
+        "wild%5:00:00:unrealistic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s082.t011",
+      "chosen_sense_keys": [
+        "refuge%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s124.t000",
+      "chosen_sense_keys": [
+        "thing%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s007.t001",
+      "chosen_sense_keys": [
+        "negotiation%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s019.t000",
+      "chosen_sense_keys": [
+        "game%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s009.t007",
+      "chosen_sense_keys": [
+        "evidence%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s006.t004",
+      "chosen_sense_keys": [
+        "world%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s001.t003",
+      "chosen_sense_keys": [
+        "nutrient%1:03:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s002.t004",
+      "chosen_sense_keys": [
+        "possibility%1:09:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s004.t008",
+      "chosen_sense_keys": [
+        "time%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "although this usage is part of a fixed phrase \"by the time (that)...\""
+    },
+    {
+      "instance_id": "semeval2013.d010.s008.t002",
+      "chosen_sense_keys": [
+        "area%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This text appears to be written by a non-native English speaker but this is the sense that I think is intended."
+    },
+    {
+      "instance_id": "semeval2013.d010.s013.t000",
+      "chosen_sense_keys": [
+        "number%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "NB this text not written by a non-native English speaker: \"centennial number\" is not an English expression."
+    },
+    {
+      "instance_id": "semeval2013.d011.s001.t002",
+      "chosen_sense_keys": [
+        "aspect%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s005.t001",
+      "chosen_sense_keys": [
+        "tone%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s022.t006",
+      "chosen_sense_keys": [
+        "age%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d012.s003.t001",
+      "chosen_sense_keys": [
+        "sale%1:04:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s011.t001",
+      "chosen_sense_keys": [
+        "only%4:02:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s020.t004",
+      "chosen_sense_keys": [
+        "product%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s036.t000",
+      "chosen_sense_keys": [
+        "however%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s002.t003",
+      "chosen_sense_keys": [
+        "know%2:31:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s032.t001",
+      "chosen_sense_keys": [
+        "have%2:42:12::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s049.t005",
+      "chosen_sense_keys": [
+        "specify%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s010.t000",
+      "chosen_sense_keys": [
+        "country%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s011.t008",
+      "chosen_sense_keys": [
+        "organisation%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s006.t007",
+      "chosen_sense_keys": [
+        "bell%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t004",
+      "chosen_sense_keys": [
+        "straight%4:02:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t012",
+      "chosen_sense_keys": [
+        "thus%4:02:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s045.t000",
+      "chosen_sense_keys": [
+        "so%4:02:10::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t004",
+      "chosen_sense_keys": [
+        "full%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s051.t005",
+      "chosen_sense_keys": [
+        "high%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s054.t002",
+      "chosen_sense_keys": [
+        "always%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s007.t005",
+      "chosen_sense_keys": [
+        "initiate%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s008.t005",
+      "chosen_sense_keys": [
+        "simply%4:02:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t002",
+      "chosen_sense_keys": [
+        "make%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Although the thing produced is not man-made, this sense seems the best."
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t006",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s015.t001",
+      "chosen_sense_keys": [
+        "make%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Although the thing produced is not man-made, this sense seems the best."
+    },
+    {
+      "instance_id": "senseval2.d001.s017.t001",
+      "chosen_sense_keys": [
+        "genetic%3:01:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s020.t001",
+      "chosen_sense_keys": [
+        "carry%2:42:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s035.t007",
+      "chosen_sense_keys": [
+        "development%1:22:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s049.t012",
+      "chosen_sense_keys": [
+        "first%5:00:00:ordinal:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s056.t005",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s060.t002",
+      "chosen_sense_keys": [
+        "begin%2:30:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s060.t010",
+      "chosen_sense_keys": [
+        "sign%1:10:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t006",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s072.t000",
+      "chosen_sense_keys": [
+        "find%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s073.t000",
+      "chosen_sense_keys": [
+        "doubt%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s075.t010",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t016",
+      "chosen_sense_keys": [
+        "violate%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "A tentative assignment of sense as this collocation is not a typical one."
+    },
+    {
+      "instance_id": "senseval2.d002.s004.t001",
+      "chosen_sense_keys": [
+        "so%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s004.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense is \"be the most important/noticeable part of something\". Close to sense 1.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t019",
+      "chosen_sense_keys": [
+        "inherent%5:00:00:intrinsic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s018.t003",
+      "chosen_sense_keys": [
+        "call%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s019.t002",
+      "chosen_sense_keys": [
+        "think%2:31:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s041.t007",
+      "chosen_sense_keys": [
+        "reform%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s050.t004",
+      "chosen_sense_keys": [
+        "reform%1:04:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t005",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "\"evan as\" is a fixed phrase meaning \"at the same time as\"",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t007",
+      "chosen_sense_keys": [
+        "city%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s001.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is \"(of the eyes) unable to see clearly\"",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s027.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Here \"good\" means large, a sense that does not seem to be covered, although sense 2 is close",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s076.t000",
+      "chosen_sense_keys": [
+        "come%2:38:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s101.t001",
+      "chosen_sense_keys": [
+        "grievance%1:12:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s114.t005",
+      "chosen_sense_keys": [
+        "realize%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s116.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "This usage does not fit neatly with the WordNet senses. It is close to sense 2 but the object is not a person.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s120.t012",
+      "chosen_sense_keys": [
+        "bright%5:00:00:happy:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Although it's more \"interest\" than \"happiness\""
+    },
+    {
+      "instance_id": "senseval3.d001.s000.t010",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s019.t014",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "In this common usage, it is the problems/situation that are the subject and a person is the object. Sense 2 is closest but describes the reverse situation.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t021",
+      "chosen_sense_keys": [
+        "do%2:29:09::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s026.t001",
+      "chosen_sense_keys": [
+        "candidate%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s029.t010",
+      "chosen_sense_keys": [
+        "local%3:01:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t005",
+      "chosen_sense_keys": [
+        "factor%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t008",
+      "chosen_sense_keys": [
+        "advantage%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t010",
+      "chosen_sense_keys": [
+        "factor%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t005",
+      "chosen_sense_keys": [
+        "factor%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s000.t007",
+      "chosen_sense_keys": [
+        "comfort%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s016.t006",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The usage \"to smile a smile\" means just \"to smile\" ",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s018.t008",
+      "chosen_sense_keys": [
+        "toss%2:35:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t002",
+      "chosen_sense_keys": [
+        "run%2:38:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s093.t005",
+      "chosen_sense_keys": [
+        "slide%2:38:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d004.s010.t003",
+      "chosen_sense_keys": [
+        "capital%1:21:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s004.t003",
+      "chosen_sense_keys": [
+        "family%1:14:02::",
+        "family%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Ambiguous as to whether group living together, or parents/children, or indeed extended family members"
+    },
+    {
+      "instance_id": "semeval2013.d005.s005.t004",
+      "chosen_sense_keys": [
+        "argument%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s005.t001",
+      "chosen_sense_keys": [
+        "life%1:19:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s019.t001",
+      "chosen_sense_keys": [
+        "country%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s019.t002",
+      "chosen_sense_keys": [
+        "country%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s023.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "The intended meaning is ambiguous - could be just area/example of growth, or percentage points of growth ",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s000.t004",
+      "chosen_sense_keys": [
+        "assessment%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s001.t003",
+      "chosen_sense_keys": [
+        "product%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s002.t002",
+      "chosen_sense_keys": [
+        "information%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s020.t001",
+      "chosen_sense_keys": [
+        "information%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s026.t000",
+      "chosen_sense_keys": [
+        "effect%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t003",
+      "chosen_sense_keys": [
+        "best%5:00:00:advisable:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s018.t002",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s003.t006",
+      "chosen_sense_keys": [
+        "public%5:00:00:common:02"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s004.t015",
+      "chosen_sense_keys": [
+        "public%5:00:00:common:02"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t001",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s000.t004",
+      "chosen_sense_keys": [
+        "assessment%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s019.t012",
+      "chosen_sense_keys": [
+        "underlying%5:00:00:implicit:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s021.t005",
+      "chosen_sense_keys": [
+        "dosage%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s008.t000",
+      "chosen_sense_keys": [
+        "now%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s011.t004",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Unclear if reported speech or quote from something written"
+    },
+    {
+      "instance_id": "senseval2.d000.s014.t000",
+      "chosen_sense_keys": [
+        "history%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s021.t000",
+      "chosen_sense_keys": [
+        "variation%1:11:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t008",
+      "chosen_sense_keys": [
+        "call%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s031.t004",
+      "chosen_sense_keys": [
+        "come%2:30:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s044.t004",
+      "chosen_sense_keys": [
+        "fault%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s047.t001",
+      "chosen_sense_keys": [
+        "bell%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s055.t001",
+      "chosen_sense_keys": [
+        "program%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s063.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s025.t008",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s051.t003",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s086.t008",
+      "chosen_sense_keys": [
+        "think%2:31:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s033.t000",
+      "chosen_sense_keys": [
+        "problem%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s037.t003",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s021.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "\"at the time\" is a fixed phrase meaning at that time in the past when something happened",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s031.t010",
+      "chosen_sense_keys": [
+        "stare%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s086.t005",
+      "chosen_sense_keys": [
+        "question%1:10:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s105.t000",
+      "chosen_sense_keys": [
+        "end%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t017",
+      "chosen_sense_keys": [
+        "cost%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s031.t000",
+      "chosen_sense_keys": [
+        "local%3:01:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t009",
+      "chosen_sense_keys": [
+        "regional%5:00:00:territorial:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s043.t007",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s043.t009",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t002",
+      "chosen_sense_keys": [
+        "reveal%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t022",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s024.t002",
+      "chosen_sense_keys": [
+        "shop%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s093.t000",
+      "chosen_sense_keys": [
+        "say%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d001.s008.t003",
+      "chosen_sense_keys": [
+        "night%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s076.t014",
+      "chosen_sense_keys": [
+        "observe%2:39:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s042.t002",
+      "chosen_sense_keys": [
+        "need%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s063.t002",
+      "chosen_sense_keys": [
+        "fact%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s033.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense is \"remember\"",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s116.t002",
+      "chosen_sense_keys": [
+        "family%1:14:02::",
+        "family%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Ambiguous as to whether group living together, or parents/children, or indeed extended family members"
+    }
+  ]
+}

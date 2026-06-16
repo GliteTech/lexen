@@ -1,0 +1,41 @@
+{
+  "spec_version": "2",
+  "dataset_id": "lexicographer-review-pw-2026-05-29",
+  "name": "Lexicographer Review (Patrick White, 2026-05-29)",
+  "version": "2026-05-29",
+  "short_description": "Independent lexicographer review by Patrick White (Wordbox Language and Publishing Services Ltd) of 363 suspicious Maru2022 ALL_NEW items, saved on 2026-05-29 via the marureview.com tool under the shared 'one sense by default' brief with a typed cannot_answer taxonomy.",
+  "description_path": "description.md",
+  "source_paper_id": null,
+  "url": "https://marureview.com/brief",
+  "download_url": null,
+  "year": 2026,
+  "date_published": "2026-05-29",
+  "authors": [
+    {
+      "name": "Patrick White",
+      "country": "GB",
+      "institution": "Wordbox Language and Publishing Services Ltd",
+      "orcid": null
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Wordbox Language and Publishing Services Ltd",
+      "country": "GB"
+    }
+  ],
+  "license": "research-only",
+  "access_kind": "included-research-use",
+  "size_description": "363 verdicts on suspicious Maru2022 ALL_NEW items (one JSON file with `saved_at`, `total_items`, `reviewed`, `verdicts`; each verdict carries `instance_id`, `chosen_sense_keys`, a typed `cannot_answer` list whose on-disk values are `__no_sense_applies__`, `__inventory_inadequate__`, `__input_defective__`, plus `cannot_answer_notes` and `comment`). 29 items carry a non-empty `cannot_answer` flag (11 `__no_sense_applies__`, 12 `__inventory_inadequate__`, 6 `__input_defective__`); 18 verdicts pick more than one sense. The annotation protocol is documented in the reviewer brief at https://marureview.com/brief, mirrored in `sources/reviews/protocols/marureview-brief-2026-05-26.md`.",
+  "files": [
+    {
+      "path": "maru2022-wsd-verdicts-2026-05-29.json",
+      "description": "Patrick White's 363 verdicts on suspicious Maru2022 ALL_NEW items, saved 2026-05-29 via the marureview.com tool",
+      "format": "json"
+    }
+  ],
+  "categories": [
+    "evaluation",
+    "wsd"
+  ]
+}

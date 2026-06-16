@@ -1,0 +1,36 @@
+{
+  "spec_version": "2",
+  "dataset_id": "lexicographer-review-ph-2026-06-13",
+  "name": "Lexicographer Review (Penny Hands, 2026-06-13)",
+  "version": "2026-06-13",
+  "short_description": "Independent lexicographer review by Penny Hands of 363 suspicious Maru2022 ALL_NEW items, saved on 2026-06-13 via the marureview.com tool under the shared 'one sense by default' brief with a typed cannot_answer taxonomy.",
+  "description_path": "description.md",
+  "source_paper_id": null,
+  "url": "https://marureview.com/brief",
+  "download_url": null,
+  "year": 2026,
+  "date_published": "2026-06-13",
+  "authors": [
+    {
+      "name": "Penny Hands",
+      "country": "GB",
+      "institution": null,
+      "orcid": null
+    }
+  ],
+  "institutions": [],
+  "license": "research-only",
+  "access_kind": "included-research-use",
+  "size_description": "363 verdicts on suspicious Maru2022 ALL_NEW items (one JSON file with `saved_at`, `total_items`, `reviewed`, `verdicts`; each verdict carries `instance_id`, `chosen_sense_keys`, a typed `cannot_answer` list whose on-disk values are `__no_sense_applies__`, `__inventory_inadequate__`, `__input_defective__`, plus `cannot_answer_notes` and `comment`). 31 items carry a non-empty `cannot_answer` flag (10 `__no_sense_applies__`, 20 `__inventory_inadequate__`, 2 `__input_defective__`); 20 verdicts pick more than one sense. The annotation protocol is documented in the reviewer brief at https://marureview.com/brief, mirrored in `sources/reviews/protocols/marureview-brief-2026-05-26.md`.",
+  "files": [
+    {
+      "path": "maru2022-wsd-verdicts-2026-06-13.json",
+      "description": "Penny Hands' 363 verdicts on suspicious Maru2022 ALL_NEW items, saved 2026-06-13 via the marureview.com tool",
+      "format": "json"
+    }
+  ],
+  "categories": [
+    "evaluation",
+    "wsd"
+  ]
+}

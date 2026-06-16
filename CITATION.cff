@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use lexEN, cite this dataset and the upstream Maru et al. 2022 benchmark."
+title: "lexEN: A Lexicographer-Reviewed English WSD Evaluation Dataset"
+authors:
+  - family-names: "Philippov"
+    given-names: "Vassili"
+version: "0.3.0"
+date-released: "2026-06-13"
+repository-code: "https://github.com/GliteTech/lexen"
+license: "CC-BY-NC-4.0"
+preferred-citation:
+  type: conference-paper
+  title: "Nibbling at the Hard Core of Word Sense Disambiguation"
+  authors:
+    - family-names: "Maru"
+      given-names: "Marco"
+    - family-names: "Conia"
+      given-names: "Simone"
+    - family-names: "Bevilacqua"
+      given-names: "Michele"
+    - family-names: "Navigli"
+      given-names: "Roberto"
+  conference:
+    name: "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics"
+  year: 2022

@@ -1,0 +1,70 @@
+{
+  "spec_version": "1",
+  "dataset_id": "maru2022-allamended",
+  "name": "Maru 2022 ALLamended (ALL_NEW)",
+  "version": null,
+  "short_description": "4,917 amended WSD instances from Senseval-2/3 and SemEval-2013/2015 with corrected annotations, excluding SemEval-2007 (Maru et al. 2022).",
+  "source_paper_id": "10.18653_v1_2022.acl-long.324",
+  "url": "https://github.com/SapienzaNLP/wsd-hard-benchmark",
+  "download_url": null,
+  "year": 2022,
+  "date_published": "2022-05",
+  "authors": [
+    {
+      "name": "Marco Maru",
+      "country": "IT",
+      "institution": "Sapienza University of Rome",
+      "orcid": null
+    },
+    {
+      "name": "Simone Conia",
+      "country": "IT",
+      "institution": "Sapienza University of Rome",
+      "orcid": null
+    },
+    {
+      "name": "Michele Bevilacqua",
+      "country": "IT",
+      "institution": "Sapienza University of Rome",
+      "orcid": null
+    },
+    {
+      "name": "Roberto Navigli",
+      "country": "IT",
+      "institution": "Sapienza University of Rome",
+      "orcid": "0000-0002-1855-8615"
+    }
+  ],
+  "institutions": [
+    {
+      "name": "Sapienza University of Rome",
+      "country": "IT"
+    }
+  ],
+  "license": "CC-BY-NC-4.0",
+  "access_kind": "public",
+  "size_description": "4,917 sense-annotated instances across 1,038 sentences from 4 Raganato datasets with corrected annotations",
+  "files": [
+    {
+      "path": "files/ALLamended.data.xml",
+      "description": "Corpus XML with sentence/instance/word-form markup for Maru 2022 ALLamended (ALL_NEW) in Raganato format",
+      "format": "xml"
+    },
+    {
+      "path": "files/ALLamended.gold.key.txt",
+      "description": "Gold sense key annotations for Maru 2022 ALLamended (ALL_NEW), one line per instance (instance_id sense_key)",
+      "format": "txt"
+    }
+  ],
+  "categories": [
+    "dataset",
+    "evaluation",
+    "wsd"
+  ],
+  "checksums": {
+    "ALLamended.data.xml": "sha256:167015565f6fc624e6c688d6def721c29d8c90eaf6c37d653a244b87965c3d87",
+    "ALLamended.gold.key.txt": "sha256:c33cbc824dad5b5d5f0e2666ed308fe1a2ea05f5de7199d2f3c13f62f4a698ee"
+  },
+  "source_package_added_at": "2026-03-31",
+  "date_added": "2026-03-31"
+}

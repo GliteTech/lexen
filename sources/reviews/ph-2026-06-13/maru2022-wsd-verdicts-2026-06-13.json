@@ -1,0 +1,3295 @@
+{
+  "saved_at": "2026-06-13T16:40:48.959Z",
+  "total_items": 363,
+  "reviewed": 363,
+  "verdicts": [
+    {
+      "instance_id": "semeval2013.d002.s012.t000",
+      "chosen_sense_keys": [
+        "treasury%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d004.s004.t002",
+      "chosen_sense_keys": [
+        "acceptance%1:04:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s010.t001",
+      "chosen_sense_keys": [
+        "issue%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t005",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Even though I have (reasonably confidently) made a selection, I believe that this text is unlikely to have been written by someone with proficiency in English."
+    },
+    {
+      "instance_id": "semeval2013.d007.s011.t007",
+      "chosen_sense_keys": [
+        "discovery%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s013.t001",
+      "chosen_sense_keys": [
+        "environment%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s008.t004",
+      "chosen_sense_keys": [
+        "institution%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "When selecting Sense 1, I'm thinking about formal organizations such as parliament, the judiciary, etc.)."
+    },
+    {
+      "instance_id": "semeval2013.d011.s020.t003",
+      "chosen_sense_keys": [
+        "creation%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s020.t006",
+      "chosen_sense_keys": [
+        "proportion%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d012.s002.t002",
+      "chosen_sense_keys": [
+        "industry%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s018.t002",
+      "chosen_sense_keys": [
+        "discontinue%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Senses 1 and 3 are close but I went for 1 because of the word 'prevent' in sense 3. There is no need to *prevent* something from being completed; doctors simply have to stop administering it."
+    },
+    {
+      "instance_id": "semeval2015.d000.s018.t007",
+      "chosen_sense_keys": [
+        "abnormal%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s026.t001",
+      "chosen_sense_keys": [
+        "useful%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s031.t000",
+      "chosen_sense_keys": [
+        "useful%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 seems to be more about functional style or design."
+    },
+    {
+      "instance_id": "semeval2015.d001.s047.t001",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s047.t008",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s002.t009",
+      "chosen_sense_keys": [
+        "involvement%1:04:00::",
+        "involvement%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 focuses on participating in activities.; sense 5 focuses on the state of being associated. I can't make the call here."
+    },
+    {
+      "instance_id": "senseval2.d000.s003.t009",
+      "chosen_sense_keys": [
+        "field%1:15:00::",
+        "field%1:17:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I originally selected sense 9 only because the author is thinking more generally about open land that could be planted or not, whereas sense 1 is more specifically agricultural. On reflection, I decided that this is specifically set in England, where fields are reasonably small and enclosed, and most commonly used as farmland; in addition, there are few vast plains, so I ended up selecting both."
+    },
+    {
+      "instance_id": "senseval2.d000.s029.t008",
+      "chosen_sense_keys": [
+        "bell%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The focus is the pattern of sounds."
+    },
+    {
+      "instance_id": "senseval2.d000.s030.t011",
+      "chosen_sense_keys": [
+        "mathematical%5:00:00:exact:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s031.t003",
+      "chosen_sense_keys": [
+        "solemn%5:00:00:serious:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t003",
+      "chosen_sense_keys": [
+        "draw%2:30:14::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s054.t007",
+      "chosen_sense_keys": [
+        "small%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s013.t004",
+      "chosen_sense_keys": [
+        "believe%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I chose sense 1 because researchers now accept this to be true, based on evidence. Sense 2 seems to be more about saying what you think someone is like. Sense 3 seems to be more about trusting in fate."
+    },
+    {
+      "instance_id": "senseval2.d001.s031.t006",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s041.t005",
+      "chosen_sense_keys": [
+        "specific%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s045.t003",
+      "chosen_sense_keys": [
+        "contain%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s057.t002",
+      "chosen_sense_keys": [
+        "attention%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s081.t002",
+      "chosen_sense_keys": [
+        "implicate%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "There is a hint of sense 1 in the author's use of 'implicate' because of the negative nature of lung cancer; we might see the p53 gene as the 'baddie' here."
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t007",
+      "chosen_sense_keys": [
+        "metaphysical%5:00:00:theoretical:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s043.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 1 omits to mention that a *person* may choose not to express themselves through speech. There are no examples with a human noun.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s050.t008",
+      "chosen_sense_keys": [
+        "involvement%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 is more about active participation."
+    },
+    {
+      "instance_id": "senseval2.d002.s055.t001",
+      "chosen_sense_keys": [
+        "involvement%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This one is more about the relationship between the school and the community, e.g. local politicians having an influence over policy decisions (sense 5). It is not about the community's active participation in the children's learning (which would be sense 1)."
+    },
+    {
+      "instance_id": "senseval2.d002.s059.t008",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s070.t001",
+      "chosen_sense_keys": [
+        "believe%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t006",
+      "chosen_sense_keys": [
+        "fire%1:12:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Even though sense 6 mentions warmth, the author uses the word modified by 'cold' in order to be deliberately contradictory."
+    },
+    {
+      "instance_id": "senseval3.d000.s031.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 1 definition should include the option ' ... /become'. It should read 'be/become fully aware or cognizant of'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s106.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 1 seems to be about the intransitive sense of 'smile'. Sense 2 is very close because it covers the transitive sense of 'smile'. However, you don't 'express *a smile* with a smile' so it doesn't quite fit. \n\nThis use should be defined as 'to give a smile of a particular type'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s010.t018",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s018.t002",
+      "chosen_sense_keys": [
+        "appear%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s026.t002",
+      "chosen_sense_keys": [
+        "discourage%2:37:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is more about an internal feeling, involving someone losing motivation for something. Sense 1 is more about someone else actively trying to prevent a person from doing something."
+    },
+    {
+      "instance_id": "senseval3.d001.s027.t011",
+      "chosen_sense_keys": [
+        "competitive%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t004",
+      "chosen_sense_keys": [
+        "proportion%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t028",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t034",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t008",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s029.t004",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I think this is still the 'vague concerns' usage, as in 'How are things?' 'Things are good/tough right now'. But it is in the context of an event (a gas tank exploding). The author is saying that there are no special events happening at the moment despite that, so there is an argument for selecting sense 5."
+    },
+    {
+      "instance_id": "senseval3.d002.s082.t005",
+      "chosen_sense_keys": [
+        "unpredictable%5:00:00:sporadic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The word 'intervals' in the text helps to narrow this down to sense 3, although sense 1 is not wrong."
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t000",
+      "chosen_sense_keys": [
+        "thing%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This one is more specific than the vague 'How are things?' or 'Things are a bit rough at the moment' usage because an event is now taking place."
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t016",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is the correct one, but it is worded as if it is defining an adjective ('rhythmic'). It should be defined as a noun: 'a regular recurring pattern'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s101.t000",
+      "chosen_sense_keys": [
+        "realize%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is the closest because it gives the idea of *becoming* aware, whereas sense 1 only talks about *being aware*. However, the sense 2 examples do seem to be more about suddenly understanding something after a period of being 'in the dark'. Ideally, there would be a definition that read 'be *or become* fully aware or cognizant of'."
+    },
+    {
+      "instance_id": "senseval3.d002.s106.t005",
+      "chosen_sense_keys": [
+        "drink%2:34:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Not sense 2 because that seems to be the intransitive sense: 'drinking' without a direct object means 'drinking alcohol', whereas in the text, the author is talking about taking in a liquid, in this case, beer."
+    },
+    {
+      "instance_id": "senseval3.d002.s137.t003",
+      "chosen_sense_keys": [
+        "symptom%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s138.t000",
+      "chosen_sense_keys": [
+        "quiet%3:00:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 seems to be more about the absence of noise and gives the example of a place being quiet (the text is also talking about a place). Sense 1 is more about a lack of unrest, and doesn't mention sound at all."
+    },
+    {
+      "instance_id": "senseval3.d002.s140.t003",
+      "chosen_sense_keys": [
+        "bundle%2:35:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 4 is an old-fashioned, culturally specific term relating to people who are engaged to be married sleeping together while fully clothed. I've chosen sense 1 because the couple seem as if they have been wrapped up together in a bundle and put in the sleeping bag. However, normally, 'to bundle someone *into* something' (i.e with 'into') means 'to push somebody somewhere quickly'. I'm pretty sure that's not what the author means, though."
+    },
+    {
+      "instance_id": "semeval2013.d000.s006.t003",
+      "chosen_sense_keys": [
+        "washington%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s011.t003",
+      "chosen_sense_keys": [
+        "week%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s017.t004",
+      "chosen_sense_keys": [
+        "united_states%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s024.t007",
+      "chosen_sense_keys": [
+        "week%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s025.t004",
+      "chosen_sense_keys": [
+        "show%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s027.t002",
+      "chosen_sense_keys": [
+        "policy%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 seems to be more about justification or reasoning behind decisions. I did hesitate about sense 1 because it only seems to define the countable sense, whereas the text demonstrates the uncountable use of 'policy'. Most dictionaries would give the same definition as here, but give the label (C, U) to cover both uses."
+    },
+    {
+      "instance_id": "semeval2013.d001.s001.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The sense demonstrated in the text is 'a failure to win a contest', which is not covered by the WordNet inventory.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s003.t002",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s006.t002",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s008.t004",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s011.t000",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s013.t000",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s015.t005",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s018.t008",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s005.t001",
+      "chosen_sense_keys": [
+        "court%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I chose sense 1 over sense 8 because a tribunal is specifically a type of court with the authority to deal with a particular problem or disagreement (military, war, etc.), and that isn't the case, looking at the wider context of the text. "
+    },
+    {
+      "instance_id": "semeval2013.d005.s011.t004",
+      "chosen_sense_keys": [
+        "question%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s027.t007",
+      "chosen_sense_keys": [
+        "policy%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s000.t002",
+      "chosen_sense_keys": [
+        "law%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s007.t001",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The adjective 'unwritten' makes me slightly less confident of this selection – because we don't expect the rules of any sport to be 'unwritten'. However, that seems to be the case here, and we are talking about the rules of a sport, so I think sense 8 is the most logical."
+    },
+    {
+      "instance_id": "semeval2013.d006.s009.t003",
+      "chosen_sense_keys": [
+        "principle%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s010.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 3 is close to the correct sense, but it only seems to refer to a person's character ('... determining one's character'). In the text, the author is referring to how we expect people to think and behave when playing sports. The definition should be something like 'the values and principles that determine how someone approaches something'.\n\nIn addition, this text seems to be machine-translated or written by someone who has low proficiency in English.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s011.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__",
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Sense 3 is close to the correct sense, but it only seems to refer to a person ('... determining one's character'). In the text, the author is referring to the fundamental emotional principles behind a sport. The definition should be something like 'the ideas, beliefs and aims of something', with examples like 'the spirit of the times', 'sporting spirit' and 'the spirit of democracy'.\n\nIn addition, this text seems to be machine-translated or written by someone who has low proficiency in English.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s013.t005",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s019.t017",
+      "chosen_sense_keys": [
+        "cycle%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Senses 1 and 5 are close, but I chose sense 1 based on the substitutable synonym 'round'."
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "This text seems to be machine-translated or written by someone who has low proficiency in English.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s003.t001",
+      "chosen_sense_keys": [
+        "capability%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s010.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The passage talks about the researchers' findings, a co-author and the report, so this is more about the paper itself and less about the process of investigating. "
+    },
+    {
+      "instance_id": "semeval2013.d008.s028.t006",
+      "chosen_sense_keys": [
+        "distinction%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s022.t000",
+      "chosen_sense_keys": [
+        "conservative%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Even though there is no 'Conservative Party' (see sense 2) per se in the US, I am taking this definition to refer to right-leaning political parties in general, and this text is clearly about politics."
+    },
+    {
+      "instance_id": "semeval2013.d009.s023.t001",
+      "chosen_sense_keys": [
+        "administration%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s015.t006",
+      "chosen_sense_keys": [
+        "shortage%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s018.t003",
+      "chosen_sense_keys": [
+        "shortage%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s022.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The correct sense would be '[plural] money that a business or person receives'.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s001.t006",
+      "chosen_sense_keys": [
+        "3d%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s007.t005",
+      "chosen_sense_keys": [
+        "3d%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s008.t002",
+      "chosen_sense_keys": [
+        "input%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 4 because that seems to be more about producing something physical, while sense 1 relates specifically to electronic systems."
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t007",
+      "chosen_sense_keys": [
+        "input%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 4 because that seems to be more about producing something physical, while sense 1 relates specifically to electronic systems."
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t011",
+      "chosen_sense_keys": [
+        "know%2:31:03::",
+        "know%2:31:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It's not possible to tell from the text whether the author means that it's not necessary to know how to code in MathML or just to be able to understand it."
+    },
+    {
+      "instance_id": "semeval2015.d001.s019.t005",
+      "chosen_sense_keys": [
+        "function%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s027.t000",
+      "chosen_sense_keys": [
+        "now%4:02:07::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s035.t000",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s048.t002",
+      "chosen_sense_keys": [
+        "input%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "As before, I think it's 1 because we're talking about an electronic system (a computer), but there could be an argument for 4 because one is inputting data that will be processed and become output."
+    },
+    {
+      "instance_id": "semeval2015.d002.s000.t005",
+      "chosen_sense_keys": [
+        "deal%2:32:08::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s001.t004",
+      "chosen_sense_keys": [
+        "debate%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I think sense 3 is referring to the intransitive sense of 'debate' (as in 'We debated long into the night'). The first example in sense 1 suggests that this is the transitive sense: 'debate an issue/question/topic/proposal'."
+    },
+    {
+      "instance_id": "semeval2015.d002.s004.t006",
+      "chosen_sense_keys": [
+        "affairs%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s006.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s007.t004",
+      "chosen_sense_keys": [
+        "industry%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t003",
+      "chosen_sense_keys": [
+        "basis%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t007",
+      "chosen_sense_keys": [
+        "overall%5:00:00:gross:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 because I think the author is saying that the national studies will take everything into account, rather than giving a broad outline of general patterns."
+    },
+    {
+      "instance_id": "semeval2015.d003.s001.t003",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s007.t002",
+      "chosen_sense_keys": [
+        "stop%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 seems to be more about telling someone to stop doing something, according to the example and the suggested synonyms. "
+    },
+    {
+      "instance_id": "semeval2015.d003.s009.t014",
+      "chosen_sense_keys": [
+        "follow%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "'... an injection followed by tablets' is a passive construction which can be rephrased as 'tablets follow an injection' (just as Wednesday follows Tuesday). There is no human agent involved. This means it can't be sense 10 because it would have to be 'She/he follows the injections with tablets.' It isn't sense 6 either because the tablets do not come as a result of the injection."
+    },
+    {
+      "instance_id": "semeval2015.d003.s010.t000",
+      "chosen_sense_keys": [
+        "purpose%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s012.t002",
+      "chosen_sense_keys": [
+        "act%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s016.t008",
+      "chosen_sense_keys": [
+        "see%2:39:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s003.t014",
+      "chosen_sense_keys": [
+        "call%2:32:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I selected sense 5 because it takes a human object, whereas in sense 7, it's the meeting or conference that is called. Sense 24 (summon or request) feels too formal and civic-duty-related."
+    },
+    {
+      "instance_id": "senseval2.d000.s008.t004",
+      "chosen_sense_keys": [
+        "remain%2:42:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The examples don't help much to distinguish between sense 2 and 3 because they show 'remain' followed by a complement. I chose sense 3 because the definition 'be left' is substitutable for 'remain' in the text."
+    },
+    {
+      "instance_id": "senseval2.d000.s017.t007",
+      "chosen_sense_keys": [
+        "continental%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I selected sense 4 assuming that 'the continents' refers to the main geographical part of those places."
+    },
+    {
+      "instance_id": "senseval2.d000.s025.t001",
+      "chosen_sense_keys": [
+        "stand%2:35:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s026.t006",
+      "chosen_sense_keys": [
+        "sound%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s028.t009",
+      "chosen_sense_keys": [
+        "madly%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s029.t006",
+      "chosen_sense_keys": [
+        "swing%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I've chosen sense 4, but the grammar is odd. It seems to be defining the noun 'swing' as if it were an adjective (e.g. 'swinging bells'). It should be worded as something like 'a back-and-forth movement'. I suppose it's seen as a gerund, but still, it seems a bit misleading and it's not usual to do this."
+    },
+    {
+      "instance_id": "senseval2.d000.s035.t009",
+      "chosen_sense_keys": [
+        "leave%2:31:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Not sense 9 because they are not leaving worship *in the care of* the others below."
+    },
+    {
+      "instance_id": "senseval2.d000.s035.t011",
+      "chosen_sense_keys": [
+        "below%4:02:06::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s038.t004",
+      "chosen_sense_keys": [
+        "so%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t005",
+      "chosen_sense_keys": [
+        "life%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s050.t001",
+      "chosen_sense_keys": [
+        "speak%2:32:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Based on the context, I think it's very likely to be sense 4 and not 2, although I'm sure they would also be happy to exchange thoughts and talk with the students. Another thing that put me off sense 2 were the examples, none of which illustrate the most common use: 'speak to someone about something'."
+    },
+    {
+      "instance_id": "senseval2.d001.s008.t001",
+      "chosen_sense_keys": [
+        "call%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t004",
+      "chosen_sense_keys": [
+        "hold%2:41:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s015.t006",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 1 because I think that's more to do with natural developments, e.g. of a foetus, or of a child growing into an adult."
+    },
+    {
+      "instance_id": "senseval2.d001.s019.t015",
+      "chosen_sense_keys": [
+        "birth%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s026.t007",
+      "chosen_sense_keys": [
+        "fundamental%5:00:00:basic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It is tempting to also select sense 3, but I think I would be inferring too much from the text. Yes, basic/core/underlying insights often have far-reaching effects, but the text is not explicitly talking about fundamental changes or shifts."
+    },
+    {
+      "instance_id": "senseval2.d001.s033.t005",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s041.t009",
+      "chosen_sense_keys": [
+        "pair%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s052.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s057.t009",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s062.t002",
+      "chosen_sense_keys": [
+        "picture%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 3 seems to refer more to a subjective image in someone's mind."
+    },
+    {
+      "instance_id": "senseval2.d001.s062.t004",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 works better for talking about the progression of the disease. Sense 3 is more about natural development, e.g. of a foetus, or from a child to an adult."
+    },
+    {
+      "instance_id": "senseval2.d001.s074.t002",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The use of the word 'exactly the same' initially suggests sense 1, but the author is talking about the *equivalent* spot in a different organism, so I've opted for sense 2. Dr Vogelstein's finding was in a spot that was *comparable in kind* to the spot where Arnold Levine found it. It wasn't the very same one because they were working with different materials."
+    },
+    {
+      "instance_id": "senseval2.d001.s075.t005",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s082.t011",
+      "chosen_sense_keys": [
+        "test%2:32:08::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Not sense 2 because they weren't testing the tissue for disease; they were trying to determine the presence of a particular gene."
+    },
+    {
+      "instance_id": "senseval2.d001.s083.t003",
+      "chosen_sense_keys": [
+        "yet%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I hesitated over sense 2, which specifies 'used in a negative statement'. But the exact text is 'as yet unpublished', not 'which hasn't been published yet'. It's a close call, though."
+    },
+    {
+      "instance_id": "senseval2.d002.s000.t001",
+      "chosen_sense_keys": [
+        "child%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I'm presuming the text is talking about parents teaching their own children because as a society, we can and do teach our children to read, write, and reckon."
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t004",
+      "chosen_sense_keys": [
+        "require%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t005",
+      "chosen_sense_keys": [
+        "relinquish%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 3 is more about deliberate rejection. Sense 2 (my choice) suggests letting go. Not sense 1 because a belief is not a possession or right."
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t009",
+      "chosen_sense_keys": [
+        "authoritarian%5:00:00:domineering:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t016",
+      "chosen_sense_keys": [
+        "yet%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "As before, not sense 2 because the text does not technically constitute a negative statement."
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t021",
+      "chosen_sense_keys": [
+        "child%1:18:00::",
+        "child%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It's not clear this time whether the author is talking about our offspring or all the young people in a society."
+    },
+    {
+      "instance_id": "senseval2.d002.s013.t007",
+      "chosen_sense_keys": [
+        "education%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 (not chosen) focuses on the end product, whereas sense 1 (chosen) is more about the process of schooling."
+    },
+    {
+      "instance_id": "senseval2.d002.s034.t005",
+      "chosen_sense_keys": [
+        "child%1:18:00::",
+        "child%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Again, it is not clear from the text whether the author is referring to the offspring of the parents who are reading the article or young people considered as part of our society."
+    },
+    {
+      "instance_id": "senseval2.d002.s040.t006",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 because each successful school is sending a message that is comparable in kind to those of other schools."
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t002",
+      "chosen_sense_keys": [
+        "system%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "School governance is specifically about rules and hierarchies. Sense 2 seems to be more general (e.g. how an economy works, or an ecosystem, for example)."
+    },
+    {
+      "instance_id": "senseval2.d002.s077.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The text is talking about the findings, not the process."
+    },
+    {
+      "instance_id": "senseval2.d002.s077.t001",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The text is talking about the findings, not the process."
+    },
+    {
+      "instance_id": "senseval2.d002.s080.t000",
+      "chosen_sense_keys": [
+        "fact%1:10:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t002",
+      "chosen_sense_keys": [
+        "bright%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t005",
+      "chosen_sense_keys": [
+        "cold%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s029.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The correct sense does not appear in the inventory: 'to be with someone', e.g. 'She had a few friends with her' 'I had a screwball (with me) for company.' The man doesn't possess the screwball (sense 1), neither is 'screwball' a type of relationship (sense 7), neither is he confronted by a screwball; he just has a screwball with him.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s042.t000",
+      "chosen_sense_keys": [
+        "cost%2:42:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Even though the character mentions money ('a cent'), he is not talking about a price of a commodity; he's using the grammatical structure '(not) cost sb sth' to say that Phil wouldn't have to sacrifice anything (in this case, money) for this favour."
+    },
+    {
+      "instance_id": "senseval3.d000.s055.t001",
+      "chosen_sense_keys": [
+        "address%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 6 seems to be specifically about what is written on envelopes and packages. In the text, the man wants to know the details of where the other man lives. That's why I opted for sense 2 – he simply wants to know where he can find him. But it's a close thing, because he will probably write his address down on a piece of paper."
+    },
+    {
+      "instance_id": "senseval3.d000.s064.t001",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This time, it's clear that he said those words out loud because the wider context shows that this is a conversation."
+    },
+    {
+      "instance_id": "senseval3.d000.s084.t003",
+      "chosen_sense_keys": [
+        "deliberate%5:00:00:unhurried:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s092.t000",
+      "chosen_sense_keys": [
+        "say%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This time, it's clear that he didn't say the words out loud. In fact, he said these words 'to himself', which means that he just thought them. I've opted for sense 1, because even though he didn't say or write the words, he did express them in his mind."
+    },
+    {
+      "instance_id": "senseval3.d000.s135.t002",
+      "chosen_sense_keys": [
+        "job%1:04:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s004.t011",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The popular vote is the vote of all a country's voters."
+    },
+    {
+      "instance_id": "senseval3.d001.s004.t016",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The popular vote is the vote of all a country's voters."
+    },
+    {
+      "instance_id": "senseval3.d001.s009.t015",
+      "chosen_sense_keys": [
+        "public%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "These two sense are close, but I rejected sense 2 because in the text, we're talking about action rather than who is affected. The sense 1 example 'public funds' suggests government intervention, which is what the text is talking about."
+    },
+    {
+      "instance_id": "senseval3.d001.s009.t022",
+      "chosen_sense_keys": [
+        "public%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "As above, I rejected sense 2 because in the text, we're talking about action rather than who is affected. The sense 1 example 'public funds' suggests government intervention, which is what the text is talking about."
+    },
+    {
+      "instance_id": "senseval3.d001.s010.t016",
+      "chosen_sense_keys": [
+        "cost%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s013.t004",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It may well involve money (sense 1), but it could be other things, such as better working conditions."
+    },
+    {
+      "instance_id": "senseval3.d001.s016.t003",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s016.t017",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s018.t005",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "They are issues, not events."
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t013",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s025.t010",
+      "chosen_sense_keys": [
+        "office%1:04:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 7 because the text refers to a candidate applying for a post, not running to be in power."
+    },
+    {
+      "instance_id": "senseval3.d001.s029.t011",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t006",
+      "chosen_sense_keys": [
+        "attendance%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t007",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 1 because the attendance rate is not measured by time unit; it's measured as a proportion of votes attended (sense 4)."
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t023",
+      "chosen_sense_keys": [
+        "devote%2:40:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 feels more moral or spiritual, involving giving oneself up entirely to something. Sense 2 is close, but seems to be more about paying attention to things rather than actually doing anything. Sense 3 is best because it suggests setting aside resources: time (mentioned in the text) is a resource."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t001",
+      "chosen_sense_keys": [
+        "attendance%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t002",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "See reasoning at previous instance."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t005",
+      "chosen_sense_keys": [
+        "attendance%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t006",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "See reasoning at previous instance."
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t008",
+      "chosen_sense_keys": [
+        "office%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t019",
+      "chosen_sense_keys": [
+        "office%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t011",
+      "chosen_sense_keys": [
+        "difference%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t022",
+      "chosen_sense_keys": [
+        "positive%3:00:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "'Positive' here means that as one thing increases, the other thing also increases."
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t023",
+      "chosen_sense_keys": [
+        "function%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 1, even though it is closely related, because the text is not about mathematical calculations; sense 4 covers a similar idea but in more general terms."
+    },
+    {
+      "instance_id": "senseval3.d001.s042.t009",
+      "chosen_sense_keys": [
+        "severe%5:00:02:nonindulgent:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t007",
+      "chosen_sense_keys": [
+        "difference%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Even though sense 5 is written in mathematical terms, this is the best definition of what is described in the text."
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t011",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The party vote refers to the total number of votes cast."
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t017",
+      "chosen_sense_keys": [
+        "share%1:21:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 3 because 'the allotment of' suggests an act rather than the resulting assets."
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t020",
+      "chosen_sense_keys": [
+        "positive%3:00:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "See reasoning at previous instance."
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t021",
+      "chosen_sense_keys": [
+        "function%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "See reasoning at previous instance."
+    },
+    {
+      "instance_id": "senseval3.d001.s046.t004",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The synonym 'tier' at sense 2 helps to distinguish it from sense 1 because we talk about 'tiers of hierarchy'. In addition, levels of government are not establish based on intensity, amount or quality (sense 1). Sense 7 seems to be more to do with abstract thought. "
+    },
+    {
+      "instance_id": "senseval3.d002.s029.t001",
+      "chosen_sense_keys": [
+        "explode%2:30:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "While sene 9 seems to fit as well, the examples suggest that it is referring to devices that are deliberately designed to explode."
+    },
+    {
+      "instance_id": "senseval3.d002.s091.t004",
+      "chosen_sense_keys": [
+        "do%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I chose sense 2 because it seems to be more specific, involving performing a particular task. However, I did wonder if sense 2 was meant to define 'do' in the sense of completing or accomplishing a specific task, since all the examples seem to suggest this. If the definition of sense 2 had mentioned the idea of completion, I would have gone for sense 1."
+    },
+    {
+      "instance_id": "senseval3.d002.s120.t007",
+      "chosen_sense_keys": [
+        "bounce%2:35:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is the only one that definitely describes the transitive use of the verb bounce. In the text, the tremor is the agent, throwing the author against the ground. Sense 3 is also possible, but I don't think the tremor is repeatedly moving the author up and down – I think what is being described is a single bounce (sense 2). Also, sense 3 could be only describing the intransitive use of 'bounce', as in 'We bounced along the rough road in the truck.' but I can't tell."
+    },
+    {
+      "instance_id": "semeval2013.d003.s010.t005",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 is close because the military belongs to the US government. But I think the text refers to the military as part of the country as a whole."
+    },
+    {
+      "instance_id": "semeval2013.d006.s019.t011",
+      "chosen_sense_keys": [
+        "cycle%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Senses 1 and 5 are close, but I chose sense 1 because of the substitutable synonym 'round'."
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 3 is close to the correct sense, but it only seems to refer to a person's character ('... determining one's character'). In the text, the author is referring to how we expect people to think and behave when playing sports. The definition should be something like 'the values and principles that determine how someone approaches something'.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s006.t000",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s003.t003",
+      "chosen_sense_keys": [
+        "state%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s023.t005",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s006.t009",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s020.t002",
+      "chosen_sense_keys": [
+        "consider%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s039.t006",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d000.s043.t003",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d000.s045.t017",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d000.s047.t005",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d000.s051.t000",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d000.s063.t005",
+      "chosen_sense_keys": [
+        "know%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s000.t008",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s005.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s023.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s026.t011",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s055.t003",
+      "chosen_sense_keys": [
+        "believe%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 1 because that seems to be more about being sure that someone is not lying (and the examples show a direct object: 'believe someone or something'. Sense 3 is tempting, but I think that is more about believing that things will work out, like trusting in fate. Sense 3 is substitutable: I believe he's right = I think he's right / I judge him to be right."
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t002",
+      "chosen_sense_keys": [
+        "need%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I was tempted to go for sense 3, but concluded that sense 3 refers to personal desires ('feel', 'friends', 'money'), whereas the scientific community needed this evidence from a more objective point of view."
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t004",
+      "chosen_sense_keys": [
+        "loss%1:21:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The plural form 'losses' suggests sense 1 – a thing that is lost rather than an act or process. It equates to the use demonstrated in the second example: 'loss of livestock', which could be rephrased as 'livestock losses'."
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t009",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s077.t008",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s087.t000",
+      "chosen_sense_keys": [
+        "believe%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "As mentioned before, I think sense 3 relates to believing in fate, or believing that things will somehow work out."
+    },
+    {
+      "instance_id": "senseval2.d001.s090.t010",
+      "chosen_sense_keys": [
+        "discovery%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I think the emphasis in the text is on *what* scientists will find rather than the act or process of finding. (In addition, pharmaceutical companies can't turn *the act of discovery* into predictive tests.) Sense 3 refers to 'insights', whereas here, scientists are referring to hunting for and finding specific genes."
+    },
+    {
+      "instance_id": "senseval2.d001.s094.t001",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t018",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The original meaning of 'vested interest' is what is described in sense 5: a financial or legal share of something, or a financial involvement in something. However, in the text it's being used to talk about a personal reason for wanting something to happen.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s006.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is roughly the right area, but the definition should say 'to want to do something or _to want something to happen_, with an example like 'Do you wish me to stay?' Sense 1 is about things you want, but that are unlikely to happen. Sense 4 is about wishing people well or wishing them a happy birthday/Christmas, etc.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s042.t000",
+      "chosen_sense_keys": [
+        "really%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 3 describes 'really' as an intensifier, insisting on a fact that is already understood or accepted. Sense 2 is more about disabusing people of a misunderstanding, and sense 1 is about emphasising that a description (American, open society) is accurate."
+    },
+    {
+      "instance_id": "senseval2.d002.s076.t004",
+      "chosen_sense_keys": [
+        "large%5:00:00:significant:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 mentions 'influential', which is what is described in the text."
+    },
+    {
+      "instance_id": "senseval2.d002.s080.t002",
+      "chosen_sense_keys": [
+        "fact%1:10:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 mentions a statement or assertion, which is what we have in the text."
+    },
+    {
+      "instance_id": "senseval3.d000.s002.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "While sense 5 was the most obvious choice, the definition describes someone's mind rather than something they might say. Sense 2 works better from the point of view of having something clever ready to say, and I would have opted for that if the definition were worded differently, perhaps as: 'available to be used easily and immediately', without the mention of 'especially money'. Examples might be 'a ready supply', 'a ready answer' and 'ready cash'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s011.t004",
+      "chosen_sense_keys": [
+        "occasion%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The example at sense 4 is distracting because it mentions a special occasion (60th birthday), which is sense 1. If you read sense 4 without its example, it works perfectly well for the use we have in the text – a particular time when something happens. (I was close to opting for 'Inventory is inadequate', but in the end, went with the sense 4 definition and tried to ignore the example.)"
+    },
+    {
+      "instance_id": "senseval3.d000.s030.t004",
+      "chosen_sense_keys": [
+        "uneasy%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s069.t004",
+      "chosen_sense_keys": [
+        "night%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s071.t002",
+      "chosen_sense_keys": [
+        "day%1:28:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Not sense 4 because it's not relevant whether it's light or not – it's the time when you are awake."
+    },
+    {
+      "instance_id": "senseval3.d000.s119.t004",
+      "chosen_sense_keys": [
+        "talk%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 1 because it suggests interaction. (There is none apparent in the text.) Sense 3 seems to refer to the ability or willingness to speak. Sense 2 (which I opted for) is about simply producing speech. One reservation I have about sense 2 is that the definition seems to suggest it only covers a transitive use – I would prefer 'express (oneself) in speech' – whereas in the text, 'talk' is intransitive. However, sense 2's second example is intransitive, so I went with it."
+    },
+    {
+      "instance_id": "senseval3.d000.s135.t000",
+      "chosen_sense_keys": [
+        "do%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s138.t000",
+      "chosen_sense_keys": [
+        "wild%5:00:00:unrealistic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Because it 'ran circles' around his brain, it could also be sense 1; however, sense 9 is specifically about fanciful thoughts, so I opted for that."
+    },
+    {
+      "instance_id": "senseval3.d002.s082.t011",
+      "chosen_sense_keys": [
+        "refuge%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s124.t000",
+      "chosen_sense_keys": [
+        "thing%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 4 because it refers to a specific object; sense 8 is non-specific and could refer to any item."
+    },
+    {
+      "instance_id": "semeval2013.d000.s007.t001",
+      "chosen_sense_keys": [
+        "negotiation%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "A 'negotiation text' is a document that is produced as part of the negotiation process, describing the state of the negotiations at any point during the process. Sense 2 is more about the activity or process of coming to an agreement. The 'negotiation text' is the product of this process. I rejected sense 1 because it describes a specific event or set of talks – not the process involved."
+    },
+    {
+      "instance_id": "semeval2013.d000.s019.t000",
+      "chosen_sense_keys": [
+        "game%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s009.t007",
+      "chosen_sense_keys": [
+        "evidence%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 would have worked too, but the context is a court ruling with a judge, so I've opted for the more specific sense (3)."
+    },
+    {
+      "instance_id": "semeval2013.d006.s006.t004",
+      "chosen_sense_keys": [
+        "world%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I opted for sense 2 because the world of football does refer to a group of people with a shared interest. However, the example at sense 2 ('the Western world') muddies the waters – it should be at sense 6, which refers to 'a part of the earth that can be considered separately'. The sense 6 example, 'the world of insects', mirrors 'the world of football', which caused me to hover over sense 6; however, the definition at sense 6 doesn't work at all for 'the world of football'. It would be better if the sense 2 definition were reworded as 'the people or things belonging to a particular group or connected with a particular interest'. Then 'the world of insects' and 'the world of football' would be examples for that sense."
+    },
+    {
+      "instance_id": "semeval2013.d007.s001.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Both senses are close but they only cover animals and plants, not bacteria. It would be better to replace them both with one definition that refers to any substance that is needed to keep 'a living thing' alive, help it grow, etc.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s002.t004",
+      "chosen_sense_keys": [
+        "possibility%1:09:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s004.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 3 is close, but it suggests an extended period, whereas the text refers to a point in time. A suitable definition would be 'a period of time or a point in time when something happens', with examples like 'By the time you arrive, we will have left' or 'I was still at school at the time' or 'It seemed like a good time to leave'. Sense 1 refers to the sense demonstrated by phrases like 'every time', 'this time', 'next time', etc.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d010.s008.t002",
+      "chosen_sense_keys": [
+        "area%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "CONCACAF is an organisation, not a geographical area in itself. The synonyms at sense 4 (domain, sphere, arena) help to pin things down."
+    },
+    {
+      "instance_id": "semeval2013.d010.s013.t000",
+      "chosen_sense_keys": [
+        "number%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The text is about a *quantity* of games. Sense 2 is close if you focus on the figures themselves (97 and 100), but the reality is that we're talking about a quantity or amount."
+    },
+    {
+      "instance_id": "semeval2013.d011.s001.t002",
+      "chosen_sense_keys": [
+        "aspect%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 is definitely the best fit; however, the use of 'from' in the text ('from various aspects') suggests that that author means 'from various perspectives' or 'from the point of view of various groups who were involved'. Maybe this is an 'Inventory inadequate' answer, but I don't think any dictionary would include that sense at the entry for 'aspect'."
+    },
+    {
+      "instance_id": "semeval2013.d011.s005.t001",
+      "chosen_sense_keys": [
+        "tone%1:07:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 4 is more about atmosphere; sense 10 is about revealing attitudes and opinions (as in the text)."
+    },
+    {
+      "instance_id": "semeval2013.d011.s022.t006",
+      "chosen_sense_keys": [
+        "age%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The mention of 'qualification or power' in the definition for sense 3 seems a bit over the top/superfluous, but I opted for sense 3 because of the wording: 'a time of life (usually defined in years)', which is what we have in the text."
+    },
+    {
+      "instance_id": "semeval2013.d012.s003.t001",
+      "chosen_sense_keys": [
+        "sale%1:04:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s011.t001",
+      "chosen_sense_keys": [
+        "only%4:02:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 suggests 'exclusively', as in 'there are no other options', or 'there are no other ways to get it'. Sense 6 would work if the sentence were rephrased as: 'You can get this medicine only if you have a prescription.' I think the grammar is important there, judging by the synonyms, so I've opted for sense 2. "
+    },
+    {
+      "instance_id": "semeval2015.d000.s020.t004",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The emphasis here seems to be more on a commodity offered for sale than just 'something produced'."
+    },
+    {
+      "instance_id": "semeval2015.d000.s036.t000",
+      "chosen_sense_keys": [
+        "however%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1's '(usually following a concession)', together with the examples that mostly show concession, led me to feel that sense 2 was more suited to the use demonstrated in the text."
+    },
+    {
+      "instance_id": "semeval2015.d001.s002.t003",
+      "chosen_sense_keys": [
+        "know%2:31:03::",
+        "know%2:31:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It's not possible to know from the text whether the author is talking about just being able to read MathML (i.e. having it in one's mind) (sense 7), or also knowing how to write/create' the code (sense 2)."
+    },
+    {
+      "instance_id": "semeval2015.d001.s032.t001",
+      "chosen_sense_keys": [
+        "have%2:42:12::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s049.t005",
+      "chosen_sense_keys": [
+        "specify%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 4 because it seems to be talking about giving more detail. In the text, the sentence is saying that\nyou don’t need to say exactly which function you are using (sense 2)."
+    },
+    {
+      "instance_id": "semeval2015.d002.s010.t000",
+      "chosen_sense_keys": [
+        "country%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is close, but I think the emphasis in the text is on these nations as organised political bodies (sense 1) rather than the land they cover."
+    },
+    {
+      "instance_id": "semeval2015.d002.s011.t008",
+      "chosen_sense_keys": [
+        "organisation%1:04:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The sentence is not very well written, but I think it's trying to say 'the way work is organised'."
+    },
+    {
+      "instance_id": "senseval2.d000.s006.t007",
+      "chosen_sense_keys": [
+        "bell%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t004",
+      "chosen_sense_keys": [
+        "straight%4:02:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t012",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is closest, but to cover the meaning exactly, it would have to say 'in the way indicated *or described*.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s045.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "There's a (sentence adverb) sense missing – 'used to introduce the next part of a story or description', e.g. 'So, the next thing I know, she's left the room in tears!' 'So, once they've finished, the bellringers come down the back stairs, chatting and laughing for all to hear.'",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The sense missing is 'fulfilling, involving lots of interesting things'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s051.t005",
+      "chosen_sense_keys": [
+        "high%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s054.t002",
+      "chosen_sense_keys": [
+        "always%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s007.t005",
+      "chosen_sense_keys": [
+        "initiate%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 5 because it seems to be more about setting an event in motion rather than causing something to exist (sense 1)."
+    },
+    {
+      "instance_id": "senseval2.d001.s008.t005",
+      "chosen_sense_keys": [
+        "simply%4:02:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Definitions 3 and 5 are reasonably close, but the examples are all abstract, not physical entities that are produced. Sense 6 would have worked if it hadn't specified 'as part of a man-made process'. The inventory is lacking the basic sense of 'make', which is 'create or produce something as a result of a process.' ",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t006",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "While sense 1 appears to be the correct one at first glance, I think it is more about natural development, e.g. from a child to and adult."
+    },
+    {
+      "instance_id": "senseval2.d001.s015.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Definitions 3 and 5 are reasonably close, but the examples are all abstract, not physical entities that are produced. Sense 6 would have worked if it hadn't specified 'as part of a man-made process'. The inventory is lacking the basic sense of 'make', which is 'create or produce something as a result of a process.' ",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s017.t001",
+      "chosen_sense_keys": [
+        "genetic%3:01:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s020.t001",
+      "chosen_sense_keys": [
+        "carry%2:42:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s035.t007",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 3 seems to be more about natural development, e.g. as a children becomes an adult."
+    },
+    {
+      "instance_id": "senseval2.d001.s049.t012",
+      "chosen_sense_keys": [
+        "first%5:00:00:ordinal:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s056.t005",
+      "chosen_sense_keys": [
+        "loss%1:21:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s060.t002",
+      "chosen_sense_keys": [
+        "begin%2:30:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 3 is also close, but sense 3's combination of definition and examples seem to be emphasising triggering something that then gets bigger and develops a life of its own."
+    },
+    {
+      "instance_id": "senseval2.d001.s060.t010",
+      "chosen_sense_keys": [
+        "sign%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I'm concerned that sense 6 is referring to the language used by doctors when diagnosing a patient, rather than researchers discussing findings. My question is, does gene damage constitute a disorder? Whether it is a disorder or not, I've gone for sense 6 because I think it's close enough to be acceptable. If not, I would opt for the more general, but accurate, sense 1."
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t006",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I think sense 3 is about a natural developmental process, e.g. a child into an adult."
+    },
+    {
+      "instance_id": "senseval2.d001.s072.t000",
+      "chosen_sense_keys": [
+        "find%2:39:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s073.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Neither of the senses seem to cover the countable sense of 'doubt' that is demonstrated in the text – a *feeling* of uncertainty about something.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s075.t010",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t016",
+      "chosen_sense_keys": [
+        "violate%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "To 'violate vested interests' means to disregard or undermine them. I think 'laws, contracts or promises' are similar to vested interests, so have opted for sense 2."
+    },
+    {
+      "instance_id": "senseval2.d002.s004.t001",
+      "chosen_sense_keys": [
+        "so%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s004.t002",
+      "chosen_sense_keys": [
+        "dominate%2:42:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I opted for sense 2 because according to the text, these beliefs strongly influence (i.e. dominate) the educational establishment, and 'control' and 'strongly influence' are similar in meaning,"
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t019",
+      "chosen_sense_keys": [
+        "inherent%5:00:00:intrinsic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "According to the author, these characteristics are essential constituents of what these children are – they are naturally present in them (Sense 1). However, they are also qualities that exist within children by their nature — and they are not immediately visible, or readily apparent (sense 2). So senses 1 and 2 both work for this one. I opted for sense 1 because the author's aim does not seem to be to emphasise the fact that these characteristics are invisible."
+    },
+    {
+      "instance_id": "senseval2.d002.s018.t003",
+      "chosen_sense_keys": [
+        "call%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s019.t002",
+      "chosen_sense_keys": [
+        "think%2:31:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Despite having the word 'believe' in its definition, which would appear to be substitutable in the text, sense 2 seems to be more about speculating or making a guess."
+    },
+    {
+      "instance_id": "senseval2.d002.s041.t007",
+      "chosen_sense_keys": [
+        "reform%1:04:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 focuses on the process, which is what the author seems to be talking about. Sense 1 is about changes that have already been made. However, there is an argument for selecting sense 1: the efforts are being made to attain *changes to the education system* (sense 1). The question is whether the efforts are directed at *the process* or at *obtaining changes*. The difference between the two is very subtle, but I'm opting for sense 2 because the efforts being made are ongoing, and changes have not yet come about."
+    },
+    {
+      "instance_id": "senseval2.d002.s050.t004",
+      "chosen_sense_keys": [
+        "reform%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "In this case, we are discussing reforms that have already been made, and whether they have had a positive effect on children's education or not."
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t005",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "'Even as' is a phrase which means 'just at the same time as something else happens', which is not covered in the inventory.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t007",
+      "chosen_sense_keys": [
+        "city%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2's example shows that this sense is about decision-making bodies within a city."
+    },
+    {
+      "instance_id": "senseval3.d000.s001.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "What Haney saw would, of course, have been indistinct or hazy in outline (sense 2), but his *eyes* were not indistinct or hazy in outline. Sense 1 is much closer, but it suggests that 'bleary' means 'tired'. A better definition for sense 1 would be 'not able to see clearly, especially due to exhaustion'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s027.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "In the text, 'good money' means 'great in number, amount or degree' and is used in an approving way, e.g. a good size, a good number of people, a good amount of money. That sense isn't covered in the inventory.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s076.t000",
+      "chosen_sense_keys": [
+        "come%2:38:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s101.t001",
+      "chosen_sense_keys": [
+        "grievance%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s114.t005",
+      "chosen_sense_keys": [
+        "realize%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is the closest because it gives the idea of *becoming* aware, whereas sense 1 only talks about *being aware*. However, the sense 2 examples do seem to be more about suddenly understanding something after a period of being 'in the dark'. Ideally, there would be a definition that read: 'be *or become* fully aware or cognizant of'."
+    },
+    {
+      "instance_id": "senseval3.d000.s116.t001",
+      "chosen_sense_keys": [
+        "encourage%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Senses 2 and 3 refer to situations where someone lacks something such as success or confidence, and needs someone or something to push them to do it. In the text, the author's companion isn't shy, and doesn't need to be coaxed or boosted with helpful encouragement. So I opted for sense 1, which seems to be talking about making something (in this case, Pete's company) more likely to develop."
+    },
+    {
+      "instance_id": "senseval3.d000.s120.t012",
+      "chosen_sense_keys": [
+        "bright%5:00:00:happy:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "'Renewed interest' suggests that the listener's 'bright eyes' related to a positive feeling (although we cannot be sure without more context)."
+    },
+    {
+      "instance_id": "senseval3.d001.s000.t010",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s019.t014",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The inventory is missing the sense '(of problems) appear, and need to be dealt with'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t021",
+      "chosen_sense_keys": [
+        "do%2:41:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "'Winning benefits' is something that a legislator 'gets done' (sense 3)."
+    },
+    {
+      "instance_id": "senseval3.d001.s026.t001",
+      "chosen_sense_keys": [
+        "candidate%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s029.t010",
+      "chosen_sense_keys": [
+        "local%3:01:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 relates to municipal administration, but the text is not talking about local government; it's talking about members of Congress bringing benefits back to their local communities (sense 2)."
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t005",
+      "chosen_sense_keys": [
+        "factor%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The context is generally 'statistical' enough to warrant a specifically statistical definition of 'function'."
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t008",
+      "chosen_sense_keys": [
+        "advantage%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 suggests a state, whereas in the text, 'advantages' are specific benefits (sense 3)."
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t010",
+      "chosen_sense_keys": [
+        "factor%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The context is sufficiently technical to warrant the more technical definition."
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t005",
+      "chosen_sense_keys": [
+        "factor%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The context is sufficiently technical to warrant the more technical definition."
+    },
+    {
+      "instance_id": "senseval3.d002.s000.t007",
+      "chosen_sense_keys": [
+        "comfort%1:12:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The residents wanted to have their worries taken away (sense 2). Sense 1 is more about general domestic comfort (having nice furniture or luxury household items) rather than finding something comforting because it stops you from being anxious, like a child's dummy, a teddy bear or a computer screen (sense 2). I rejected sense 3, even though it's in the right ballpark semantically, because it talks about an 'act' of consoling, whereas in the text, residents were seeking a 'feeling'."
+    },
+    {
+      "instance_id": "senseval3.d002.s016.t006",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The inventory is missing a sense: 'to give a particular type of smile', e.g. to smile a gentle/wry/beguiling smile.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s018.t008",
+      "chosen_sense_keys": [
+        "toss%2:35:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t002",
+      "chosen_sense_keys": [
+        "run%2:38:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The context suggests that they were indeed fleeing, but from a grammatical and semantic point of view, they were moving fast towards the door, which is sense 1."
+    },
+    {
+      "instance_id": "senseval3.d002.s093.t005",
+      "chosen_sense_keys": [
+        "slide%2:38:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 1 because it specifies 'obliquely or sideways', which suggests a person or vehicle that had been advancing forwards in a controlled way, and then lost control and went sideways off the path or road. In the text, on the other hand, the computer had been stationary, and then moved smoothly along the floor (sense 3). It didn't lose control, even if it seemed that way in the commotion."
+    },
+    {
+      "instance_id": "semeval2013.d004.s010.t003",
+      "chosen_sense_keys": [
+        "capital%1:21:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s004.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is the closest but it's too restrictive – the family in the text was not necessarily just parents and children – it might have included aunts, uncles, cousins or grandparents. The definition at sense 2 should read 'primary social group; parents,  children and close relations'.\n",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s005.t004",
+      "chosen_sense_keys": [
+        "argument%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The use of 'sketch out' in the text suggests that they explained their line of reasoning and didn't simply list assertions."
+    },
+    {
+      "instance_id": "semeval2013.d007.s005.t001",
+      "chosen_sense_keys": [
+        "life%1:19:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Davies explains that it has certain features that prove that it is an organic phenomenon – and this proves that it is a living organism (sense 11)."
+    },
+    {
+      "instance_id": "semeval2013.d008.s019.t001",
+      "chosen_sense_keys": [
+        "country%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is also possible, but I would be more inclined to select sense 2 if the context were something like 'in different parts of the country'."
+    },
+    {
+      "instance_id": "semeval2013.d008.s019.t002",
+      "chosen_sense_keys": [
+        "country%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 2 is also possible, but I would be more inclined to select sense 2 if the context were something like 'in different parts of the country'."
+    },
+    {
+      "instance_id": "semeval2013.d011.s023.t002",
+      "chosen_sense_keys": [
+        "point%1:10:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s000.t004",
+      "chosen_sense_keys": [
+        "assessment%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The difference between senses 1 and 4 is subtle. Sense 1 seems to refer to ranking people or things by worth, whereas sense 4 refers to the act or process of reasoning and forming an opinion (i.e. considering studies and making judgements about how the medicines should be used). Since the latter is what the EPAR report does, I selected sense 4."
+    },
+    {
+      "instance_id": "semeval2015.d000.s001.t003",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s002.t002",
+      "chosen_sense_keys": [
+        "information%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s020.t001",
+      "chosen_sense_keys": [
+        "information%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s026.t000",
+      "chosen_sense_keys": [
+        "effect%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t003",
+      "chosen_sense_keys": [
+        "best%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "While the sense 2 definition 'wiser or more advantageous and hence advisable' sounds like it would fit best, the examples suggest that this sense is restricted to such expressions as 'It would be better (not) to ...' or 'It would be best not to ...'. There are no examples of attributive position. The example of 'best solution' in sense 1 influenced me in deciding that the 'best thing' is simply the thing that has the most positive qualities."
+    },
+    {
+      "instance_id": "semeval2015.d001.s018.t002",
+      "chosen_sense_keys": [
+        "function%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s003.t006",
+      "chosen_sense_keys": [
+        "public%5:00:00:common:02"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s004.t015",
+      "chosen_sense_keys": [
+        "public%5:00:00:common:02"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t001",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "As I see it, sense 1 refers to the investigation itself and sense 3 is about the findings. It is the findings that will form the basis of a European report."
+    },
+    {
+      "instance_id": "semeval2015.d003.s000.t004",
+      "chosen_sense_keys": [
+        "assessment%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s019.t012",
+      "chosen_sense_keys": [
+        "underlying%5:00:00:implicit:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s021.t005",
+      "chosen_sense_keys": [
+        "dosage%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s008.t000",
+      "chosen_sense_keys": [
+        "now%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s011.t004",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "senseval2.d000.s014.t000",
+      "chosen_sense_keys": [
+        "history%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s021.t000",
+      "chosen_sense_keys": [
+        "variation%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t008",
+      "chosen_sense_keys": [
+        "call%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s031.t004",
+      "chosen_sense_keys": [
+        "come%2:30:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 13 because it's a kind of phrasal verb: 'to come of something' and sense 13 is the only sense that demonstrates that. However, it could be said the 'come of sth' (sense 13)and come from sth' (sense 5) are simply variants of the same phrasal verb, which means 'to be the result of something'."
+    },
+    {
+      "instance_id": "senseval2.d000.s044.t004",
+      "chosen_sense_keys": [
+        "fault%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The stairs are responsible. There are no defects in the stairs."
+    },
+    {
+      "instance_id": "senseval2.d000.s047.t001",
+      "chosen_sense_keys": [
+        "bell%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s055.t001",
+      "chosen_sense_keys": [
+        "program%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s063.t002",
+      "chosen_sense_keys": [
+        "say%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Not sense 8 this time because it is specified that his was in writing."
+    },
+    {
+      "instance_id": "senseval2.d001.s025.t008",
+      "chosen_sense_keys": [
+        "growth%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 refers to the natural biological process whereby, for example, a child becomes an adult. Retinal cell growth is abnormal, so I've opted for sense 3."
+    },
+    {
+      "instance_id": "senseval2.d001.s051.t003",
+      "chosen_sense_keys": [
+        "loss%1:21:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The second example in sense 1 mirrors the example in the text. I rejected sense 3 because it's not the act of losing both copies of the gene that leads to the eruption of a cancer, and sense 4 because it's not the disadvantage that results in the eruption of the cancer."
+    },
+    {
+      "instance_id": "senseval2.d001.s086.t008",
+      "chosen_sense_keys": [
+        "think%2:31:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I rejected sense 2 because it seems to be more about speculating or guessing."
+    },
+    {
+      "instance_id": "senseval2.d002.s033.t000",
+      "chosen_sense_keys": [
+        "problem%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s037.t003",
+      "chosen_sense_keys": [
+        "thing%1:09:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s021.t003",
+      "chosen_sense_keys": [
+        "time%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Not sense 1, because that refers to the use of 'time' in every time, next time, this time, etc."
+    },
+    {
+      "instance_id": "senseval3.d000.s031.t010",
+      "chosen_sense_keys": [
+        "stare%2:29:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I picked sense 2 because I think that is referring to the use that is not followed by an object, which is the use demonstrated in the text."
+    },
+    {
+      "instance_id": "senseval3.d000.s086.t005",
+      "chosen_sense_keys": [
+        "question%1:10:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s105.t000",
+      "chosen_sense_keys": [
+        "end%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I opted for sense 2 because in the text, 'end' refers to the later part of the time period when he was drinking his fourth highball. Sense 3 seems to be more about events that are structured to have a beginning, middle and end, and sense 5 seems to be about specific texts, such as a chapter or section."
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t017",
+      "chosen_sense_keys": [
+        "cost%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s031.t000",
+      "chosen_sense_keys": [
+        "local%3:01:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t009",
+      "chosen_sense_keys": [
+        "regional%5:00:00:territorial:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s043.t007",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s043.t009",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is close but it is too restrictive. It would work better if it simply said 'make known to someone'",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t022",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s024.t002",
+      "chosen_sense_keys": [
+        "shop%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "An auto paint shop is a workshop where car bodywork is touched up or where they do re-sprays, for example (i.e. it's not where you buy paint for cars)."
+    },
+    {
+      "instance_id": "senseval3.d002.s093.t000",
+      "chosen_sense_keys": [
+        "say%2:32:00::",
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 8 seems to be about direct speech, i.e. a quote + a reporting verb (say). But there is no proof that he uttered this statement aloud; it could have been a written statement. That's why I also selected sense 1."
+    },
+    {
+      "instance_id": "semeval2013.d001.s008.t003",
+      "chosen_sense_keys": [
+        "night%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s076.t014",
+      "chosen_sense_keys": [
+        "observe%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I went by the examples as the definitions for senses 3 and 4 mean pretty much the same."
+    },
+    {
+      "instance_id": "senseval2.d002.s042.t002",
+      "chosen_sense_keys": [
+        "need%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s063.t002",
+      "chosen_sense_keys": [
+        "fact%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I've picked sense 1 because it's close enough; however, 'the fact that ...' is a phrase that is used to refer to a particular situation that exists, and ideally, the inventory would include that as a sense in its own right. It's not the same as when you say 'Collect all the facts' (i.e. things that are true and can be proved); rather it's a way of talking about a situation."
+    },
+    {
+      "instance_id": "senseval3.d000.s033.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Haney is thinking about all the people he knows and trying to select one who could fit the bill (sense 6). However, sense 6's example does seem to be more about choosing a random number/name.\n\nA more appropriate definition for this use of 'think of' might be 'find or produce an answer'.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s116.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Sense 2 is closest, but 'family' in the text could be referring to aunts, uncles, cousins, grandparents, etc. ",
+      "comment": null
+    }
+  ]
+}

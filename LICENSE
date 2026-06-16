@@ -1,0 +1,29 @@
+# lexEN License Notice
+
+This repository contains two classes of material with different licensing terms.
+
+## Software
+
+The build, verification, and test software in `src/`, `scripts/`, and `tests/` is licensed under the
+Apache License, Version 2.0. See `LICENSE-CODE`.
+
+## Dataset Artifacts
+
+The dataset artifacts are derived from:
+
+* Raganato et al. 2017 English WSD Evaluation Framework.
+* Maru et al. 2022 ALL_NEW / ALLamended English Word Sense Disambiguation benchmark.
+* Model-panel prediction artifacts used to select suspicious Maru2022 items.
+* Glite coarsening resources used for coarse-sense label layers.
+* Professional lexicographer review assets collected for the lexEN audit.
+
+The upstream Maru et al. 2022 benchmark is distributed under Creative Commons
+Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+
+The lexicographer review assets, model-panel prediction artifacts, and Glite coarsening resources
+used to build `lexen-v1` are research-only audit and construction evidence. The lexEN dataset
+artifacts are released for research use and non-commercial evaluation.
+
+The source manifest in `sources/manifest.json` records the source package, local files, license
+label, access status, and SHA-256 hashes for each input package. The release metadata in
+`data/lexen-v1/dataset.json` repeats the release-level policy under `license`.

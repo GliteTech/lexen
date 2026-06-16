@@ -1,0 +1,21 @@
+name: verify
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run mypy src scripts tests
+      - run: uv run pytest
+      - run: uv run python scripts/build_agreement_report.py
+      - run: uv run python scripts/build_release.py --release lexen-v1
+      - run: uv run python scripts/verify_release.py --release lexen-v1
+      - run: uv run flowmark --check README.md docs/

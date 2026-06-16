@@ -1,0 +1,3283 @@
+{
+  "saved_at": "2026-05-26T09:13:01.436Z",
+  "total_items": 363,
+  "reviewed": 363,
+  "verdicts": [
+    {
+      "instance_id": "semeval2013.d002.s012.t000",
+      "chosen_sense_keys": [
+        "treasury%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The sentence, seen in isolation, is ambiguous in that it may or may not refer specifically to the US Treasury (sense 5). The larger context confirms that this is the case."
+    },
+    {
+      "instance_id": "semeval2013.d004.s004.t002",
+      "chosen_sense_keys": [
+        "acceptance%1:04:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s010.t001",
+      "chosen_sense_keys": [
+        "issue%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Without the five sentences that precede it, this sentence's use of the word \"issue\" is so wide open that almost all the senses are at least possible. Seen in the light of the preceding context, it's immediately clear that what's meant is a matter under discussion. Sense 1 is probably the most accurate answer. But sense 3, which is more general, also seems to cover the sense intended in the text quite comfortably."
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t005",
+      "chosen_sense_keys": [
+        "rule%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s011.t007",
+      "chosen_sense_keys": [
+        "discovery%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s013.t001",
+      "chosen_sense_keys": [
+        "environment%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s008.t004",
+      "chosen_sense_keys": [
+        "institution%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s020.t003",
+      "chosen_sense_keys": [
+        "creation%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s020.t006",
+      "chosen_sense_keys": [
+        "proportion%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 1 is also a good fit, but this use of \"proportion\" is not really concerned with the exact number (quotient) of American Nobel prize winners who are immigrants. It's simply saying that they represent a significant subset of the whole. Sense 4 is more in line with this sense."
+    },
+    {
+      "instance_id": "semeval2013.d012.s002.t002",
+      "chosen_sense_keys": [
+        "industry%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s018.t002",
+      "chosen_sense_keys": [
+        "discontinue%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s018.t007",
+      "chosen_sense_keys": [
+        "abnormal%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s026.t001",
+      "chosen_sense_keys": [
+        "useful%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s031.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "Sense 2 is closer than sense 1, but the sentence is odd: it feels like \"useful\" is intended to mean \"can be used\". It's debatable whether this is a correct usage. Maybe the writer should have chosen \"usable\", or written \"...can be used as a calculator\"?",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s047.t001",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s047.t008",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s002.t009",
+      "chosen_sense_keys": [
+        "involvement%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s003.t009",
+      "chosen_sense_keys": [
+        "field%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s029.t008",
+      "chosen_sense_keys": [
+        "bell%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s030.t011",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "In my opinion this sense of \"mathematical\" is figurative, and is intended to evoke the full logical development and expression from start to finish of a pattern, which can then be repeated. It's not only about \"exactness or precision\" (sense 5), but completeness within a cycle, as if the modifier has been chosen only to give more force to the head noun \"completeness\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s031.t003",
+      "chosen_sense_keys": [
+        "solemn%5:00:00:serious:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t003",
+      "chosen_sense_keys": [
+        "draw%2:30:14::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s054.t007",
+      "chosen_sense_keys": [
+        "small%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s013.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"believe\", in a context involving researchers, can be described as \"consider to be true, on the balance of probabilities and based on evidence and reason, a hypothesis that is not yet proven to be true\". Obviously close to sense 1, but much more specific.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s031.t006",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s041.t005",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Constituting one individual member of a set, as distinct from any other member of that set.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s045.t003",
+      "chosen_sense_keys": [
+        "contain%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s057.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"attention\" can be described as \"focused, sustained inquiry\", rather than concentration. ",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s081.t002",
+      "chosen_sense_keys": [
+        "implicate%2:42:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"metaphysical\" is approximately opposite in meaning to \"empirical, concrete, observable, demonstrable\". It has connotations of not being rooted in observable everyday reality.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s043.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Figurative sense of \"mute\", meaning \"silent, not saying anything\", though out of choice rather than inability. Of a person rather than a communication or a feeling (or an animal).",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s050.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"involvement\" includes the idea of participating, not only in an activity, but also in control or decision-making. It's about sharing power, having a say in how things are done, as well as taking an active part in doing them. So it's close to sense 5 above, but more specific.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s055.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "This sense of \"involvement\" includes the idea of participating, not only in an activity, but also in control or decision-making. It's about sharing power, having a say in how things are done, as well as taking an active part in doing them. So it's close to sense 5 above, but more specific.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s059.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "\"Things\" in this context means \"the general situation\", at its broadest and vaguest. It's not a sense of the noun \"thing\" properly speaking, since it's always plural and uncountable.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s070.t001",
+      "chosen_sense_keys": [
+        "believe%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t006",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "\"Fire\" in this figurative sense is not a feeling but a manifestation of spirit, of intensity.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s031.t002",
+      "chosen_sense_keys": [
+        "realize%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s106.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The stative sense \"to be smiling, to have a smile on one's face\" is missing. Sense 1 specifies \"change one's facial expression...\" etc., so it's not stative. This usage in this particular sentence, \"smiling a smile\", obviously contains a redundancy, but it appears to underlyingly be about the stative sense that I've just described. Probably with an additional suggestion of intentionality.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s010.t018",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The intended meaning of \"benefits\" here appears to be \"advantages\" or \"improvements\" in the most general sense, not necessarily financial assistance. It could also be about the provision of public services.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s018.t002",
+      "chosen_sense_keys": [
+        "appear%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s026.t002",
+      "chosen_sense_keys": [
+        "discourage%2:37:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s027.t011",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The sense appears to be this (cited from the Concise Oxford English Dictionary, 12th edition): \"as good as or better than others of a comparable nature\". It's about quality rather than the will to compete.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t004",
+      "chosen_sense_keys": [
+        "proportion%1:24:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t028",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t034",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t008",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s029.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The sense is \"everything in general\", the status quo, the general situation. As noted elsewhere, this sense is always plural and uncountable.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s082.t005",
+      "chosen_sense_keys": [
+        "unpredictable%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Once again, this sense means \"everything in general\", the status quo, the general situation. This sense is always plural and uncountable.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t016",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This usage of \"rhythm\" suggests \"repeated, roughly cyclical movement of diverse items, not necessarily with regularity\". Thus it's probably a figurative or even incorrect usage of \"rhythm\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s101.t000",
+      "chosen_sense_keys": [
+        "realize%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s106.t005",
+      "chosen_sense_keys": [
+        "drink%2:34:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s137.t003",
+      "chosen_sense_keys": [
+        "symptom%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s138.t000",
+      "chosen_sense_keys": [
+        "quiet%3:00:02::",
+        "quiet%3:00:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Both senses are equally plausible, and the extra context provided by preceding and following sentences doesn't clarify which sense is meant."
+    },
+    {
+      "instance_id": "senseval3.d002.s140.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "The point of this imagistic and figurative sense of the verb \"bundle\" is to suggest that the couple resembles a \"bundle\" (noun). They \"look like a bundle\", huddling close together and well wrapped up in their sleeping bag. I've chosen \"Inventory inadequate\" because I think the issue here is the POS.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s006.t003",
+      "chosen_sense_keys": [
+        "washington%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s011.t003",
+      "chosen_sense_keys": [
+        "week%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s017.t004",
+      "chosen_sense_keys": [
+        "united_states%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s024.t007",
+      "chosen_sense_keys": [
+        "week%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s025.t004",
+      "chosen_sense_keys": [
+        "show%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s027.t002",
+      "chosen_sense_keys": [
+        "policy%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d001.s001.t003",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s003.t002",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s006.t002",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s008.t004",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s011.t000",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s013.t000",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s015.t005",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s018.t008",
+      "chosen_sense_keys": [
+        "field%1:15:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s005.t001",
+      "chosen_sense_keys": [
+        "court%1:06:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s011.t004",
+      "chosen_sense_keys": [
+        "question%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s027.t007",
+      "chosen_sense_keys": [
+        "policy%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s000.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"law\", modified by an adjective or a noun adjunct, normally means the ensemble of legislation relevant to a specific field. As in company law, planning law, family law, etc.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s007.t001",
+      "chosen_sense_keys": [
+        "rule%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I've chosen a single sense (sense 1), but really the intended meaning is not just the meaning of \"rules\", but that of the collocation \"unwritten rules\". If I considered \"rules\" strictly in isolation, totally ignoring the collocation and therefore the word's meaning in the sentence, then sense 8 would have been the best match."
+    },
+    {
+      "instance_id": "semeval2013.d006.s009.t003",
+      "chosen_sense_keys": [
+        "principle%1:09:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s010.t003",
+      "chosen_sense_keys": [
+        "spirit%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s011.t002",
+      "chosen_sense_keys": [
+        "spirit%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s013.t005",
+      "chosen_sense_keys": [
+        "rule%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Even though the \"rules\" in question concern how players behave during a game, sense 3 is still more apt than the explicitly game-related sense 8, because this isn't about the central definitions that determine how a game functions, but about player conduct."
+    },
+    {
+      "instance_id": "semeval2013.d006.s019.t017",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense 1 is close, except that this sense is not about \"an interval\" during which events occur, but about the specific, pre-arranged series of events itself. It corresponds exactly to this definition (from collinsdictionary.com): \"a completed series of events that follows or is followed by another series of similar events occurring in the same sequence\".",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t003",
+      "chosen_sense_keys": [
+        "decision%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s003.t001",
+      "chosen_sense_keys": [
+        "capability%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s010.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s028.t006",
+      "chosen_sense_keys": [
+        "distinction%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s022.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Although this very American sense of \"conservatives\" is political, it does not imply membership of a political party, but rather, \"ideological allegiance to right-wing values\" generally (and moreover these right-wing values are not necessarily very conservative or Conservative).",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s023.t001",
+      "chosen_sense_keys": [
+        "administration%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s015.t006",
+      "chosen_sense_keys": [
+        "shortage%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s018.t003",
+      "chosen_sense_keys": [
+        "shortage%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s022.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense is usually or always plural, and means \"the amount of money received\", in this case by the public exchequer. ",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s001.t006",
+      "chosen_sense_keys": [
+        "3d%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s007.t005",
+      "chosen_sense_keys": [
+        "3d%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s008.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of the noun \"input\" seems derived from a sense of the verb \"input\", \"to enter, to write in\". It means \"a writing in, an entry, an entering\"., the act of writing in. An \"input field\" is a place where something can be entered in written form. It doesn't fundamentally have to be electronic.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t007",
+      "chosen_sense_keys": [
+        "input%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t011",
+      "chosen_sense_keys": [
+        "know%2:31:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s019.t005",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s027.t000",
+      "chosen_sense_keys": [
+        "now%4:02:07::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s035.t000",
+      "chosen_sense_keys": [
+        "new%5:00:00:other:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s048.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of the noun \"input\" seems derived from a sense of the verb \"input\", \"to enter, to write in\". It means \"a writing in, an entry, an entering\"., the act of writing in. An \"input field\" is a place where something can be entered in written form. It doesn't fundamentally have to be electronic.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s000.t005",
+      "chosen_sense_keys": [
+        "deal%2:32:08::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s001.t004",
+      "chosen_sense_keys": [
+        "debate%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s004.t006",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__",
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "This sense of \"affairs\", which is always a plural, falls somewhere between sense 1 and sense 2 above. The problem is that sense 2 is too specific, or indeed is poorly formulated. The sense here is \"matters of public or state interest\".",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s006.t000",
+      "chosen_sense_keys": [
+        "study%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s007.t004",
+      "chosen_sense_keys": [
+        "industry%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t003",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense 3 is close, but \"most important or necessary part\" is too specific. This sense of \"basis\" is more like the material the study builds on, or takes as a starting point. So: \"starting point\", with synonyms like \"foundation, support, base, ground\" (from collinsdictionary.com).",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t007",
+      "chosen_sense_keys": [
+        "overall%5:00:00:general:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "It's debatable which sense is intended here, but on the balance of probability sense 1 is the better choice."
+    },
+    {
+      "instance_id": "semeval2015.d003.s001.t003",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s007.t002",
+      "chosen_sense_keys": [
+        "stop%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s009.t014",
+      "chosen_sense_keys": [
+        "follow%2:42:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s010.t000",
+      "chosen_sense_keys": [
+        "purpose%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s012.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"act\" can't be defined in isolation, it's really \"act in the central nervous system\": the location of the act is what matters, more than what the event is or what exactly the receptor does. It \"has its role, its function, its purpose\" in the central nervous system. Something \"happens\" in the central nervous system.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s016.t008",
+      "chosen_sense_keys": [
+        "see%2:39:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s003.t014",
+      "chosen_sense_keys": [
+        "call%2:32:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s008.t004",
+      "chosen_sense_keys": [
+        "remain%2:42:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s017.t007",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This common sense of \"continental\", which can only modify \"Europe\" or European ways, customs, values or ideas, means \"excluding Britain\" or \"outside of Britain\". Europe as a foreign place, seen from the British perspective.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s025.t001",
+      "chosen_sense_keys": [
+        "stand%2:35:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s026.t006",
+      "chosen_sense_keys": [
+        "sound%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s028.t009",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The desired effect of \"madly\" in this sentence seems to be to give an impression of great kinetic force. The author is seeking effect by using a term that would usually be applied to an animate referent. The sense is figurative and means \"powerfully, forcefully\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s029.t006",
+      "chosen_sense_keys": [
+        "swing%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s035.t009",
+      "chosen_sense_keys": [
+        "leave%2:40:06::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s035.t011",
+      "chosen_sense_keys": [
+        "below%4:02:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s038.t004",
+      "chosen_sense_keys": [
+        "so%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t005",
+      "chosen_sense_keys": [
+        "life%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s050.t001",
+      "chosen_sense_keys": [
+        "speak%2:32:01::",
+        "speak%2:32:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Both of the sense I've chosen seem equally plausible, and the context doesn't give any indication which one is meant. In practice, probably both."
+    },
+    {
+      "instance_id": "senseval2.d001.s008.t001",
+      "chosen_sense_keys": [
+        "call%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t004",
+      "chosen_sense_keys": [
+        "hold%2:41:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I chose a sense which is very close to the intended meaning. However, the verb in this sentence is actually the phrasal verb \"hold in check\", rather than just \"hold\"."
+    },
+    {
+      "instance_id": "senseval2.d001.s015.t006",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s019.t015",
+      "chosen_sense_keys": [
+        "birth%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s026.t007",
+      "chosen_sense_keys": [
+        "fundamental%5:00:00:basic:00",
+        "fundamental%5:00:00:significant:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Both senses fit perfectly, and the context doesn't clarify which one is the intended meaning."
+    },
+    {
+      "instance_id": "senseval2.d001.s033.t005",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s041.t009",
+      "chosen_sense_keys": [
+        "pair%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s052.t002",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s057.t009",
+      "chosen_sense_keys": [
+        "u.s.%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s062.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This is a figurative sense of \"picture\" which implies no visual or pictorial element whatsoever. It suggests \"a comprehensive overview, description, explanation or understanding\" of some event or situation or process.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s062.t004",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s074.t002",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s075.t005",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s082.t011",
+      "chosen_sense_keys": [
+        "test%2:32:08::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s083.t003",
+      "chosen_sense_keys": [
+        "yet%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The choice of sense is clear. However, the lexeme is really \"as yet\", rather than \"yet\"."
+    },
+    {
+      "instance_id": "senseval2.d002.s000.t001",
+      "chosen_sense_keys": [
+        "child%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t004",
+      "chosen_sense_keys": [
+        "require%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I've decided to choose sense 1, though with reservations, because the example sentences fit but the definition doesn't. This is a particular sense of \"require\" that is always impersonal: there's no sentient being that \"would require us to relinquish\", etc, in the above sentence. The sense is close to \"necessitate\"."
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t005",
+      "chosen_sense_keys": [
+        "relinquish%2:41:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t009",
+      "chosen_sense_keys": [
+        "authoritarian%5:00:00:domineering:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t016",
+      "chosen_sense_keys": [
+        "yet%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "As stated elsewhere, the sense is clear enough, but the lexeme that has that sense is \"as yet\", rather than just \"yet\"."
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t021",
+      "chosen_sense_keys": [
+        "child%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s013.t007",
+      "chosen_sense_keys": [
+        "education%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s034.t005",
+      "chosen_sense_keys": [
+        "child%1:18:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s040.t006",
+      "chosen_sense_keys": [
+        "same%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t002",
+      "chosen_sense_keys": [
+        "system%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s077.t000",
+      "chosen_sense_keys": [
+        "study%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s077.t001",
+      "chosen_sense_keys": [
+        "study%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s080.t000",
+      "chosen_sense_keys": [
+        "fact%1:10:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Arguably, sense 4 is even more apt, since in using the word \"fact\" the writer is trying to invest his narrative as objectively, inherently true; presenting a statement of opinion (which may well be demonstrable with data) as a \"fact\"."
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This is another sense of \"bright\", wholly figurative. Although the analogy is with light, it's not saying that the person's eyes are emitting or reflecting light, but that they convey something - emotion, or intelligence, or attention - with a certain degree of intensity.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s006.t005",
+      "chosen_sense_keys": [
+        "cold%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s029.t001",
+      "chosen_sense_keys": [
+        "have%2:42:12::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I chose sense 10 after much hesitation, but it's not perfect because it's over-specific. I would say this sense is more \"be\" than \"have\": \"be with\", \"be in the proximity of\", be in some relation to some particular situation."
+    },
+    {
+      "instance_id": "senseval3.d000.s042.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"cost nothing\" (or \"cost something\" etc), means \"to have a monetary cost, to have a price\". This is not exactly the same sense as \"to cost $x, to be priced at $x\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s055.t001",
+      "chosen_sense_keys": [
+        "address%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s064.t001",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s084.t003",
+      "chosen_sense_keys": [
+        "deliberate%5:00:00:intended:00",
+        "deliberate%5:00:00:unhurried:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Given the context, I believe the intended meaning knowingly evokes both of these senses. An unhurried and dignified walk that's done consciously and for a tactical purpose."
+    },
+    {
+      "instance_id": "senseval3.d000.s092.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "The sense is specific to the reflexive form \"say to oneself\". Here it means \"to muse, to reflect\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s135.t002",
+      "chosen_sense_keys": [
+        "job%1:04:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The text really does evoke both sense 2 and sense 13. But there's a sort of comic irony in the casual way that the assassin uses this term as sense 2 only, as if he was a plumber offering to fix someone's tap for free."
+    },
+    {
+      "instance_id": "senseval3.d001.s004.t011",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s004.t016",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s009.t015",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This is a distinct sense of \"public\", defined by the Concise Oxford English Dictionary as \"of or provided by the state\". Although superficially close to sense 1, it's virtually interchangeable with \"government\" or \"state\", used as modifiers.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s009.t022",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This is a distinct sense of \"public\", defined by the Concise Oxford English Dictionary as \"of or provided by the state\". Although superficially close to sense 1, it's virtually interchangeable with \"government\" or \"state\", used as modifiers.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s010.t016",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This is the plural noun \"costs\", meaning \"the total amount of money that you must spend on running your home or business\" (www.collinsdictionary.com) -  roughly synonymous with \"expenses\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s013.t004",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s016.t003",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s016.t017",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s018.t005",
+      "chosen_sense_keys": [
+        "thing%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t013",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s025.t010",
+      "chosen_sense_keys": [
+        "office%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s029.t011",
+      "chosen_sense_keys": [
+        "benefit%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t006",
+      "chosen_sense_keys": [
+        "attendance%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The full phrase used in the text is \"attendance rates\", which corresponds to the meaning of \"attendance\" in sense 2. But the lexeme \"attendance\" alone, as used in the text, corresponds to sense 1."
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t007",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s036.t023",
+      "chosen_sense_keys": [
+        "devote%2:40:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Pretty strange definitions. The Concise Oxford defines this sense as \"give time or resources to (a person or activity)\", which seems much clearer."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t001",
+      "chosen_sense_keys": [
+        "attendance%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The full phrase used in the text is \"attendance rate\", which corresponds to the meaning of \"attendance\" in sense 2. But the lexeme \"attendance\" alone, as used in the text, corresponds to sense 1."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t002",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t005",
+      "chosen_sense_keys": [
+        "attendance%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The full phrase used in the text is \"attendance rate\", which corresponds to the meaning of \"attendance\" in sense 2. But the lexeme \"attendance\" alone, as used in the text, corresponds to sense 1."
+    },
+    {
+      "instance_id": "senseval3.d001.s038.t006",
+      "chosen_sense_keys": [
+        "rate%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t008",
+      "chosen_sense_keys": [
+        "office%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s039.t019",
+      "chosen_sense_keys": [
+        "office%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t011",
+      "chosen_sense_keys": [
+        "difference%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t022",
+      "chosen_sense_keys": [
+        "positive%5:00:00:plus:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t023",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s042.t009",
+      "chosen_sense_keys": [
+        "severe%5:00:02:nonindulgent:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t007",
+      "chosen_sense_keys": [
+        "difference%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t011",
+      "chosen_sense_keys": [
+        "vote%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t017",
+      "chosen_sense_keys": [
+        "share%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t020",
+      "chosen_sense_keys": [
+        "positive%5:00:00:plus:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t021",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s046.t004",
+      "chosen_sense_keys": [
+        "level%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s029.t001",
+      "chosen_sense_keys": [
+        "explode%2:30:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s091.t004",
+      "chosen_sense_keys": [
+        "do%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s120.t007",
+      "chosen_sense_keys": [
+        "bounce%2:35:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d003.s010.t005",
+      "chosen_sense_keys": [
+        "u.s.%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I feel that sense 1 is closer. The \"US military\" doesn't mean the \"military from the United States\". The adjunct has the same role in \"US military\" as in \"US president\", \"US Senate\", \"US Supreme Court\", etc."
+    },
+    {
+      "instance_id": "semeval2013.d006.s019.t011",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Sense 1 is close, except that this sense is not about \"an interval\" during which events occur, but about the specific, pre-arranged series of events itself. It corresponds exactly to this definition (from collinsdictionary.com): \"a completed series of events that follows or is followed by another series of similar events occurring in the same sequence\".",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d006.s021.t001",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "From the Concise Oxford: \"the prevailing or typical quality or mood\". None of the senses listed above really works for the sentence, though sense 2 is the closest.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s006.t000",
+      "chosen_sense_keys": [
+        "thing%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s003.t003",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s023.t005",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s006.t009",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s020.t002",
+      "chosen_sense_keys": [
+        "consider%2:31:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "\"Consider\" is being used as a synonym of other verbs in the text (examine, assess). Sense 3 is closest to the intended meaning."
+    },
+    {
+      "instance_id": "senseval2.d000.s039.t006",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I can see good reasons to include both sense 8 and sense 9. But since we're opting for one meaning where possible, sense 9 is the better choice."
+    },
+    {
+      "instance_id": "senseval2.d000.s043.t003",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The fact that part of this complement clause is a direct quotation does not justify choosing sense 8 over sense 9."
+    },
+    {
+      "instance_id": "senseval2.d000.s045.t017",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s047.t005",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s051.t000",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "I can see good reasons to include both sense 8 and sense 9. But since we're opting for one meaning where possible, sense 9 is the better choice."
+    },
+    {
+      "instance_id": "senseval2.d000.s063.t005",
+      "chosen_sense_keys": [
+        "know%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s000.t008",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s005.t002",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s023.t002",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s026.t011",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s055.t003",
+      "chosen_sense_keys": [
+        "believe%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t002",
+      "chosen_sense_keys": [
+        "need%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t004",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t009",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s077.t008",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s087.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"believe\", in a context involving researchers, can be described as \"consider that a hypothesis not yet proven to be true, is probably true\". This is distinct from sense 1 because it's specific to scientific hypotheses.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s090.t010",
+      "chosen_sense_keys": [
+        "discovery%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s094.t001",
+      "chosen_sense_keys": [
+        "say%2:32:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t018",
+      "chosen_sense_keys": [
+        "interest%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s006.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__",
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "Wish (x to do y) in this sense simply means \"want or prefer\" x to do y. None of the senses given seem to reflect the direct object + infinitive complement structure found in this example. Sense 2 might be the closest, but the definition doesn't seem to extend to this sense (which is why I've also ticked \"Inventory inadequate\").",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s042.t000",
+      "chosen_sense_keys": [
+        "really%4:02:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s076.t004",
+      "chosen_sense_keys": [
+        "large%5:00:00:comprehensive:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s080.t002",
+      "chosen_sense_keys": [
+        "fact%1:10:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s002.t001",
+      "chosen_sense_keys": [
+        "ready%5:00:01:available:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This attributive sense of \"ready\" seems quite distinct from the more common predicative senses (like sense 1 above). It corresponds colosely to this, form the Concise Oxford: \"immediate, quick, or prompt\". Sense 2 is close."
+    },
+    {
+      "instance_id": "senseval3.d000.s011.t004",
+      "chosen_sense_keys": [
+        "occasion%1:16:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s030.t004",
+      "chosen_sense_keys": [
+        "uneasy%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s069.t004",
+      "chosen_sense_keys": [
+        "night%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s071.t002",
+      "chosen_sense_keys": [
+        "day%1:28:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s119.t004",
+      "chosen_sense_keys": [
+        "talk%2:32:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Sense 3 is the nearest fit, but it's not great. In this sentence \"talk\" seems to mean something like \"talk to fill the silence, make small-talk\"."
+    },
+    {
+      "instance_id": "senseval3.d000.s135.t000",
+      "chosen_sense_keys": [
+        "do%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s138.t000",
+      "chosen_sense_keys": [
+        "wild%5:00:00:unrealistic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s082.t011",
+      "chosen_sense_keys": [
+        "refuge%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s124.t000",
+      "chosen_sense_keys": [
+        "thing%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The word \"thing\" is really part of the phrase \"not one thing\", a more emphatic variant of the pronoun \"nothing\". As such none of the senses given here is entirely right, though sense 4 is the closest."
+    },
+    {
+      "instance_id": "semeval2013.d000.s007.t001",
+      "chosen_sense_keys": [
+        "negotiation%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d000.s019.t000",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "In this sentence \"game\" is figurative, and means something like \"tactical or diplomatic manoeuvring\". This sense is quite common, so it's surprising that none of the definitions given above seem to cover it. From www.collinsdictionary.com: \"a way of behaving in which a person uses a particular plan, usually in order to gain an advantage\". From the Concise Oxford: \"a type of activity or business regarded as a game\".",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s009.t007",
+      "chosen_sense_keys": [
+        "evidence%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "Despite the fact that this use of the word \"evidence\" is used by a judge in a ruling, the intended sense is not the legal one (sense 3). What's under discussion is not evidence presented as part of a trial with a view to securing a verdict."
+    },
+    {
+      "instance_id": "semeval2013.d006.s006.t004",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "\"The world of football\" is a particular milieu, like the \"world of finance\", etc. The term doesn't refer only to people, but to organizations, clubs that are run like businesses, a system, a complex body of rules and conventions. There's no sense given here that comes close to this.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s001.t003",
+      "chosen_sense_keys": [
+        "nutrient%1:03:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s002.t004",
+      "chosen_sense_keys": [
+        "possibility%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d009.s004.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__",
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "\"By the time\" is an adverbial that is equivalent in meaning to \"when\". None of the senses above cover it.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d010.s008.t002",
+      "chosen_sense_keys": [
+        "area%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "This is a case where the input is arguably defective. Seen in context, the sentence seems to be referring to the geographical area for which CONCACAF, one of FIFA's continental governing bodies, is responsible. If so, then sense 1 is the best choice. If not, then this sense of \"area\" is like \"field of activity\", which is a figurative sense not represented here."
+    },
+    {
+      "instance_id": "semeval2013.d010.s013.t000",
+      "chosen_sense_keys": [
+        "number%1:23:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s001.t002",
+      "chosen_sense_keys": [
+        "aspect%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s005.t001",
+      "chosen_sense_keys": [
+        "tone%1:07:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s022.t006",
+      "chosen_sense_keys": [
+        "age%1:28:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d012.s003.t001",
+      "chosen_sense_keys": [
+        "sale%1:04:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s011.t001",
+      "chosen_sense_keys": [
+        "only%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s020.t004",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s036.t000",
+      "chosen_sense_keys": [
+        "however%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s002.t003",
+      "chosen_sense_keys": [
+        "know%2:31:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s032.t001",
+      "chosen_sense_keys": [
+        "have%2:42:12::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s049.t005",
+      "chosen_sense_keys": [
+        "specify%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s010.t000",
+      "chosen_sense_keys": [
+        "country%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s011.t008",
+      "chosen_sense_keys": [
+        "organisation%1:14:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s006.t007",
+      "chosen_sense_keys": [
+        "bell%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t004",
+      "chosen_sense_keys": [
+        "straight%4:02:05::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The word \"straight\" in the phrase \"straight ahead\" serves as an intensifier and is essentially redundant. \"Straight ahead\" simply means \"ahead\", neither to left or right. Sense 1 is probably close enough, but it's not entirely accurate. "
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t012",
+      "chosen_sense_keys": [
+        "thus%4:02:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s045.t000",
+      "chosen_sense_keys": [
+        "so%4:02:10::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s048.t004",
+      "chosen_sense_keys": [
+        "full%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s051.t005",
+      "chosen_sense_keys": [
+        "high%3:00:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s054.t002",
+      "chosen_sense_keys": [
+        "always%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s007.t005",
+      "chosen_sense_keys": [
+        "initiate%2:36:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s008.t005",
+      "chosen_sense_keys": [
+        "simply%4:02:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t002",
+      "chosen_sense_keys": [
+        "make%2:36:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s009.t006",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s015.t001",
+      "chosen_sense_keys": [
+        "make%2:36:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s017.t001",
+      "chosen_sense_keys": [
+        "genetic%3:01:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s020.t001",
+      "chosen_sense_keys": [
+        "carry%2:42:13::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s035.t007",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s049.t012",
+      "chosen_sense_keys": [
+        "first%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s056.t005",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s060.t002",
+      "chosen_sense_keys": [
+        "begin%2:30:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s060.t010",
+      "chosen_sense_keys": [
+        "sign%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s067.t006",
+      "chosen_sense_keys": [
+        "development%1:22:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s072.t000",
+      "chosen_sense_keys": [
+        "find%2:39:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s073.t000",
+      "chosen_sense_keys": [
+        "doubt%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s075.t010",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s003.t016",
+      "chosen_sense_keys": [
+        "violate%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s004.t001",
+      "chosen_sense_keys": [
+        "so%4:02:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s004.t002",
+      "chosen_sense_keys": [
+        "dominate%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s011.t019",
+      "chosen_sense_keys": [
+        "inherent%5:00:00:intrinsic:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s018.t003",
+      "chosen_sense_keys": [
+        "call%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s019.t002",
+      "chosen_sense_keys": [
+        "think%2:31:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s041.t007",
+      "chosen_sense_keys": [
+        "reform%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "These senses are not very well formulated. Sense 1 is the most relevant in this case, though it's not perfect."
+    },
+    {
+      "instance_id": "senseval2.d002.s050.t004",
+      "chosen_sense_keys": [
+        "reform%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t005",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "In this sentence, \"even\" is part of the phrase \"even as\", meaning \"at the very same time as\" (Concise Oxford). None of the senses listed come close to this.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s058.t007",
+      "chosen_sense_keys": [
+        "city%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s001.t002",
+      "chosen_sense_keys": [
+        "bleary%5:00:00:tired:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s027.t007",
+      "chosen_sense_keys": [
+        "good%5:00:00:ample:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s076.t000",
+      "chosen_sense_keys": [
+        "come%2:38:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s101.t001",
+      "chosen_sense_keys": [
+        "grievance%1:12:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s114.t005",
+      "chosen_sense_keys": [
+        "realize%2:31:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s116.t001",
+      "chosen_sense_keys": [
+        "encourage%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s120.t012",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This is another sense of \"bright\", wholly figurative. Although the analogy is with light, it's not saying that the person's eyes are emitting or reflecting light, but that they convey something - emotion, or intelligence, or attention - with a certain degree of intensity.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s000.t010",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s019.t014",
+      "chosen_sense_keys": [
+        "confront%2:32:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t021",
+      "chosen_sense_keys": [
+        "do%2:29:09::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s026.t001",
+      "chosen_sense_keys": [
+        "candidate%1:18:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s029.t010",
+      "chosen_sense_keys": [
+        "local%3:00:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t005",
+      "chosen_sense_keys": [
+        "factor%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t008",
+      "chosen_sense_keys": [
+        "advantage%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t010",
+      "chosen_sense_keys": [
+        "factor%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t005",
+      "chosen_sense_keys": [
+        "factor%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s000.t007",
+      "chosen_sense_keys": [
+        "comfort%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s016.t006",
+      "chosen_sense_keys": [
+        "smile%2:29:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s018.t008",
+      "chosen_sense_keys": [
+        "toss%2:38:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s086.t002",
+      "chosen_sense_keys": [
+        "run%2:38:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s093.t005",
+      "chosen_sense_keys": [
+        "slide%2:38:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d004.s010.t003",
+      "chosen_sense_keys": [
+        "capital%1:21:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d005.s004.t003",
+      "chosen_sense_keys": [
+        "family%1:14:02::",
+        "family%1:14:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The text doesn't give enough information to disambiguate between the two senses chosen (further research shows that both senses are in fact equally applicable)."
+    },
+    {
+      "instance_id": "semeval2013.d005.s005.t004",
+      "chosen_sense_keys": [
+        "argument%1:10:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d007.s005.t001",
+      "chosen_sense_keys": [
+        "life%1:03:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s019.t001",
+      "chosen_sense_keys": [
+        "country%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d008.s019.t002",
+      "chosen_sense_keys": [
+        "country%1:15:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d011.s023.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__input_defective__"
+      ],
+      "cannot_answer_notes": "This phrase is a very non-literal translation of an utterance by Nicolas Sarkozy. The word \"points\" was added in translation and doesn't correspond to anything in the original French. It's not entirely clear what it refers to, though the phrase \"points de croissance\" (\"growth areas\") translates literally as \"growth points\", so that's a candidate. However, \"percentage points\", and \"areas\" in the sense of \"localities\" are also fairly plausible.",
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s000.t004",
+      "chosen_sense_keys": [
+        "assessment%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s001.t003",
+      "chosen_sense_keys": [
+        "product%1:06:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s002.t002",
+      "chosen_sense_keys": [
+        "information%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s020.t001",
+      "chosen_sense_keys": [
+        "information%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d000.s026.t000",
+      "chosen_sense_keys": [
+        "effect%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s009.t003",
+      "chosen_sense_keys": [
+        "best%5:00:00:advisable:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d001.s018.t002",
+      "chosen_sense_keys": [
+        "function%1:24:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s003.t006",
+      "chosen_sense_keys": [
+        "public%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The meaning of \"roles played by public welfare\" in this particular sentence is very unclear, and it's worth noting that the sentence is unfinished. However, the next paragraph refers to \"public welfare services\", and on the balance of probabilities this is what the term refers to in both cases."
+    },
+    {
+      "instance_id": "semeval2015.d002.s004.t015",
+      "chosen_sense_keys": [
+        "public%3:00:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d002.s013.t001",
+      "chosen_sense_keys": [
+        "study%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s000.t004",
+      "chosen_sense_keys": [
+        "assessment%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s019.t012",
+      "chosen_sense_keys": [
+        "underlying%5:00:00:implicit:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2015.d003.s021.t005",
+      "chosen_sense_keys": [
+        "dosage%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s008.t000",
+      "chosen_sense_keys": [
+        "now%4:02:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s011.t004",
+      "chosen_sense_keys": [
+        "say%2:32:15::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s014.t000",
+      "chosen_sense_keys": [
+        "history%1:28:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s021.t000",
+      "chosen_sense_keys": [
+        "variation%1:10:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s027.t008",
+      "chosen_sense_keys": [
+        "call%2:32:02::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s031.t004",
+      "chosen_sense_keys": [
+        "come%2:42:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s044.t004",
+      "chosen_sense_keys": [
+        "fault%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s047.t001",
+      "chosen_sense_keys": [
+        "bell%1:06:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s055.t001",
+      "chosen_sense_keys": [
+        "program%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d000.s063.t002",
+      "chosen_sense_keys": [
+        "say%2:32:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s025.t008",
+      "chosen_sense_keys": [
+        "growth%1:22:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s051.t003",
+      "chosen_sense_keys": [
+        "loss%1:04:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s086.t008",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "This sense of \"thought\", in a research context, can be described as \"believed, based on evidence and reason, but not yet proven\".",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s033.t000",
+      "chosen_sense_keys": [
+        "problem%1:26:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s037.t003",
+      "chosen_sense_keys": [
+        "thing%1:07:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": "The meaning of \"things\" in the phrase \"other things being equal\" is close to \"factors\" or \"considerations\".  None of the senses given above is a good match, but sense 9 seems less wrong than the others."
+    },
+    {
+      "instance_id": "senseval3.d000.s021.t003",
+      "chosen_sense_keys": [
+        "time%1:11:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s031.t010",
+      "chosen_sense_keys": [
+        "stare%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s086.t005",
+      "chosen_sense_keys": [
+        "question%1:10:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s105.t000",
+      "chosen_sense_keys": [
+        "end%1:09:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s020.t017",
+      "chosen_sense_keys": [
+        "cost%1:07:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s031.t000",
+      "chosen_sense_keys": [
+        "local%3:00:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s041.t009",
+      "chosen_sense_keys": [
+        "regional%5:00:00:territorial:00"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s043.t007",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s043.t009",
+      "chosen_sense_keys": [
+        "level%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t002",
+      "chosen_sense_keys": [
+        "reveal%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d001.s045.t022",
+      "chosen_sense_keys": [
+        "state%1:15:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s024.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__"
+      ],
+      "cannot_answer_notes": "Because it's preceded by \"auto\", this sense of \"shop\"probably means a place where cars are serviced, in this case (auto paint shop), where they are repainted. This is a US term that is equivalent to \"garage\" in British English.",
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s093.t000",
+      "chosen_sense_keys": [
+        "say%2:32:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "semeval2013.d001.s008.t003",
+      "chosen_sense_keys": [
+        "night%1:28:03::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d001.s076.t014",
+      "chosen_sense_keys": [
+        "observe%2:39:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s042.t002",
+      "chosen_sense_keys": [
+        "need%2:42:00::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval2.d002.s063.t002",
+      "chosen_sense_keys": [
+        "fact%1:26:01::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d000.s033.t000",
+      "chosen_sense_keys": [
+        "think_of%2:31:04::"
+      ],
+      "cannot_answer": [],
+      "cannot_answer_notes": null,
+      "comment": null
+    },
+    {
+      "instance_id": "senseval3.d002.s116.t002",
+      "chosen_sense_keys": [],
+      "cannot_answer": [
+        "__no_sense_applies__",
+        "__inventory_inadequate__"
+      ],
+      "cannot_answer_notes": "This uncountable US English sense of \"family\" is equivalent to \"family members\" collectively. In sense 4, the description is heading in the right direction but the example makes it clear that this is a countable sense. Sense 5 includes \"he's family\" as an example, but the definition doesn't work because \"a person having kinship\" is not a description of an uncountable noun. So it seems that this exact sense of \"family\" is not listed.",
+      "comment": null
+    }
+  ]
+}

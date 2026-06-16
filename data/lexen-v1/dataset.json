@@ -1,0 +1,468 @@
+{
+  "annotators_for_gold": [
+    "RF",
+    "PW",
+    "PH"
+  ],
+  "contamination_canary": {
+    "purpose": "Trace accidental benchmark ingestion and support training-data decontamination checks.",
+    "term": "canary string",
+    "value": "lexen-canary-v1-U4f9Yzq6Rk2nQ8wL7cP3tB5aHxM1sD0e"
+  },
+  "counts": {
+    "decision.three_way_exact_agreement": 124,
+    "decision.three_way_no_consensus_removed": 29,
+    "decision.two_of_three_cannot_answer_removed": 27,
+    "decision.two_of_three_sense_agreement": 183,
+    "decision.unreviewed_kept_maru": 4554,
+    "lexen_gold_changed_from_maru": 211,
+    "removed_items": 56,
+    "reviewed_audit_items": 363,
+    "reviewed_items": 307,
+    "total_items": 4861,
+    "total_source_items": 4917,
+    "unreviewed_items": 4554
+  },
+  "created_at": "2026-06-13",
+  "dataset_id": "lexen",
+  "description": "lexEN v1 is derived from Maru 2022 ALL_NEW / ALLamended and applies same-protocol three-annotator consensus corrections and removals on the 363 suspicious reviewed items.",
+  "label_layers": {
+    "lexen_gold": "The scoring label used by lexEN exports.",
+    "maru2022": "The Maru2022 ALLamended source label.",
+    "raganato_original": "The original Raganato ALL label for the same instance id."
+  },
+  "label_policy": {
+    "lexen_gold": "For reviewed items, use any non-empty sense-key set selected by at least two of RF, PW, and PH. Remove reviewed items when at least two reviewers mark cannot-answer, or when no fine-grained sense receives two-reviewer support. Unreviewed items keep Maru2022 labels.",
+    "removed_items": "Removed reviewed items are excluded from canonical items, Raganato XML instances, Raganato gold keys, and SenseBench exports. They remain in reviews.jsonl and in the removed-items sidecar for auditability."
+  },
+  "license": {
+    "data": "research-only non-commercial release; source packages retain their own terms",
+    "lexicographer_reviews": "research-only audit evidence",
+    "maru2022": "CC-BY-NC-4.0",
+    "release_policy": "research-only non-commercial release",
+    "software": "Apache-2.0"
+  },
+  "output_artifacts": [
+    {
+      "bytes": 21077084,
+      "path": "data/lexen-v1/items.jsonl",
+      "sha256": "sha256:2b0db0220b94588b9ddd070fe882c6df4f69915078d06c4f74a3bcf2241eb627"
+    },
+    {
+      "bytes": 307178,
+      "path": "data/lexen-v1/reviews.jsonl",
+      "sha256": "sha256:099e31de6f77c9edb7cfe9ea0ee6577300a25e58c54d832fa6b9d246e64542e9"
+    },
+    {
+      "bytes": 1246725,
+      "path": "exports/raganato/lexen-v1/lexen-v1.data.xml",
+      "sha256": "sha256:a4ac671f62b9637e9d7e2e03c9c7f65a82c00d859ef6039738d04760f0c9fac4"
+    },
+    {
+      "bytes": 223934,
+      "path": "exports/raganato/lexen-v1/lexen-v1.gold.key.txt",
+      "sha256": "sha256:6f7ed4ba21a06bd62ffd4e579dba1521d1f9c0686131476eb9200e66ed427801"
+    },
+    {
+      "bytes": 633541,
+      "path": "exports/raganato/lexen-v1/lexen-v1.removed.json",
+      "sha256": "sha256:e18de71884917bbc0bb78fcdd12c115d83183ea797c13f3aa0bbf84df8b38de5"
+    },
+    {
+      "bytes": 11176749,
+      "path": "exports/sensebench/lexen-v1/items.jsonl",
+      "sha256": "sha256:5fd4382b93f19087a1e31f6dd7d1db17c1eb17ff80fcbe1d3fdd55c0c3ecefe8"
+    }
+  ],
+  "release_id": "lexen-v1",
+  "release_status": "benchmark_release",
+  "report_artifacts": [
+    {
+      "bytes": 30380,
+      "path": "reports/rf-pw-ph-2026-06-13/images/agreement_levels.png",
+      "sha256": "sha256:3e7adc38dde6c6ad78dca5ee7b05e5a0e73939e4fa114f5c33a72e878902c830"
+    },
+    {
+      "bytes": 19136,
+      "path": "reports/rf-pw-ph-2026-06-13/images/cannot_answer_reasons.png",
+      "sha256": "sha256:1e32df86044cf8c5d786549dffd6e2f2acc8027e9a7634fbca54da439b452c47"
+    },
+    {
+      "bytes": 30423,
+      "path": "reports/rf-pw-ph-2026-06-13/images/gold_support.png",
+      "sha256": "sha256:6793f66a45f38edbbd8c746c529c72af0ff03c2b1de84707dc488f2bba92b728"
+    },
+    {
+      "bytes": 38257,
+      "path": "reports/rf-pw-ph-2026-06-13/images/pairwise_coefficients.png",
+      "sha256": "sha256:1906d85774449235b2382b17d3cd11568dd4a91fc0e95e232eb4af7386e09927"
+    },
+    {
+      "bytes": 75193,
+      "path": "reports/rf-pw-ph-2026-06-13/images/pos_source_agreement.png",
+      "sha256": "sha256:f167ad0a8efaeb8635c192b7670f13e32a22840aca13c40fb3fc1a68b5e50513"
+    },
+    {
+      "bytes": 17797,
+      "path": "reports/rf-pw-ph-2026-06-13/images/verdict_shape.png",
+      "sha256": "sha256:5dcab015d103ca7bc9609156066dc8a9d1f02619be6f55f8cc29a47af4c58303"
+    },
+    {
+      "bytes": 999773,
+      "path": "reports/rf-pw-ph-2026-06-13/lexicographer_agreement_2026_06_13.html",
+      "sha256": "sha256:ee0daf242db57856636c859f86d80eddf01080bd5662005c9f09f0b8dc847ba5"
+    },
+    {
+      "bytes": 514426,
+      "path": "reports/rf-pw-ph-2026-06-13/lexicographer_agreement_2026_06_13.md",
+      "sha256": "sha256:d19ba238c8590b070fbf9881737e92e81104bd180443e2b9a96e89b9418cdcee"
+    },
+    {
+      "bytes": 705418,
+      "path": "reports/rf-pw-ph-2026-06-13/lexicographer_agreement_2026_06_13.pdf",
+      "sha256": "sha256:7c3a951a528c47a8854a64025a974441f8e93c62f6b5175074fb05b4f9d790b3"
+    },
+    {
+      "bytes": 52606,
+      "path": "reports/rf-pw-ph-2026-06-13/metrics.json",
+      "sha256": "sha256:2478aa1488bf58cca9519d22172b90c25101001cec63c16feb63305d9b615fc6"
+    },
+    {
+      "bytes": 466419,
+      "path": "reports/rf-pw-ph-2026-06-13/per_item_agreement.jsonl",
+      "sha256": "sha256:d32aac841dac47a52b37bc54b92644da600f7e240bfb4bd92ec65284abe23a8c"
+    },
+    {
+      "bytes": 170,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/build_report.py",
+      "sha256": "sha256:4a756fb7758e1d1211c76a01ad54ff85b3e55e86296f92f19d619b97d11a3f5b"
+    },
+    {
+      "bytes": 577,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/chart_agreement_levels.py",
+      "sha256": "sha256:6d3ca6e6e65e5c4ab0a2a0db583eac416e9f5b1354adbd5bf785f032aa79b4cf"
+    },
+    {
+      "bytes": 587,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/chart_cannot_answer.py",
+      "sha256": "sha256:fd497b08cb6f8ef63d72802a17d6a9921ce8c08e10ec3fd09eb9a698980a475e"
+    },
+    {
+      "bytes": 580,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/chart_gold_support.py",
+      "sha256": "sha256:1f346307bd85aeb02805fd4dddae70ae2f5530443b530c8b51b714232bdc6760"
+    },
+    {
+      "bytes": 597,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/chart_pairwise_coefficients.py",
+      "sha256": "sha256:172e54d72743b6ec577651a8e3945916d59a11a100522b996e1070199a4c77e2"
+    },
+    {
+      "bytes": 586,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/chart_pos_source.py",
+      "sha256": "sha256:b5b5a979a03f6896b04e2b8f41835d3df5d0299620d9809588314485118c4d44"
+    },
+    {
+      "bytes": 581,
+      "path": "reports/rf-pw-ph-2026-06-13/scripts/chart_verdict_shape.py",
+      "sha256": "sha256:a62f1e4e38c4d9d9d92ff77d0db6c7c72c109b9873b887293b9ec90ed3a6ac7a"
+    }
+  ],
+  "schema_version": "lexen.dataset.v2",
+  "selection_policy": {
+    "generated_by": "scripts/build_selection_source.py",
+    "model_panel_size": 10,
+    "reviewed_items": 363,
+    "source": "sources/selection/lexicographer_review.jsonl.gz",
+    "summary": {
+      "model_coverage": {
+        "catboost": 4917,
+        "gpt55_t0152_p01": 4917,
+        "gpt55_t0152_p02": 4917,
+        "gpt55_t0152_p03": 4917,
+        "gpt55_t0156_e69": 4917,
+        "gpt55_t0158_headerfooter": 4917,
+        "gpt55_t0173_v01": 4917,
+        "gpt55_t0173_v03": 4916,
+        "gpt55_t0173_v06": 4917,
+        "sandwich": 4910
+      },
+      "model_labels": [
+        "gpt55_t0152_p01",
+        "gpt55_t0152_p02",
+        "gpt55_t0152_p03",
+        "gpt55_t0156_e69",
+        "gpt55_t0158_headerfooter",
+        "gpt55_t0173_v01",
+        "gpt55_t0173_v03",
+        "gpt55_t0173_v06",
+        "sandwich",
+        "catboost"
+      ],
+      "n_models_total": 10,
+      "not_suspicious": 4554,
+      "source_hashes": {
+        "sources/maru2022/original/files/ALLamended.data.xml": "sha256:167015565f6fc624e6c688d6def721c29d8c90eaf6c37d653a244b87965c3d87",
+        "sources/maru2022/original/files/ALLamended.gold.key.txt": "sha256:c33cbc824dad5b5d5f0e2666ed308fe1a2ea05f5de7199d2f3c13f62f4a698ee",
+        "sources/model-panel/predictions/catboost/predictions-raganato-all.jsonl": "sha256:6c401bc0ba297999fcfbfe634df081971f2cfcf14d918616966007e421efcb2c",
+        "sources/model-panel/predictions/gpt55_t0152_p01/predictions.jsonl.gz": "sha256:bfaed4423eaef2bf68c89c9d8dd6a0172dd13896aade7abbc3e4915003c83e8d",
+        "sources/model-panel/predictions/gpt55_t0152_p02/predictions.jsonl.gz": "sha256:0506c70b1d5a7ec4c16bc06ddb28159bc6e5f2efcfc00d83141e9e2e9770f071",
+        "sources/model-panel/predictions/gpt55_t0152_p03/predictions.jsonl.gz": "sha256:85b8c5a543c473759cac8b310188ca14c6230bc8295af8cd32e49216b6494061",
+        "sources/model-panel/predictions/gpt55_t0156_e69/predictions.jsonl.gz": "sha256:5163fd7c4459c77eea52214c9f908877e837032c54918782a15a3a23079aa3c6",
+        "sources/model-panel/predictions/gpt55_t0158_headerfooter/predictions.jsonl.gz": "sha256:b285deacb58da482091889e6f5328d898d36295d1ce3f11d54fe8aa821181a8b",
+        "sources/model-panel/predictions/gpt55_t0173_v01/predictions.jsonl.gz": "sha256:382897c3e5dae618c6601956219db5b3fb3d0830ab8571397845280954bb0962",
+        "sources/model-panel/predictions/gpt55_t0173_v03/predictions.jsonl.gz": "sha256:d0d42d0baf1f03b55f7c51e15920b00414d4e6f99403323198ee3d7e6f111d89",
+        "sources/model-panel/predictions/gpt55_t0173_v06/predictions.jsonl.gz": "sha256:2e82fc251aebf32d84798aeb3905a130e49f9b6bbd532661af803377451fd9a8",
+        "sources/model-panel/predictions/sandwich/ALL.key.txt": "sha256:52ebf93cd871a44ce3da31f00d17aa0f4d2bb03cc16064509bacc4baf09193ff"
+      },
+      "suspicion_counts": {
+        "S1": 55,
+        "S2": 138,
+        "S3": 41,
+        "S4": 75,
+        "S5": 48,
+        "S6": 6
+      },
+      "suspicious_total": 363,
+      "total_records": 4917
+    }
+  },
+  "source_artifacts": [
+    {
+      "bytes": 2585,
+      "path": "sources/glite-coarsening/description.md",
+      "sha256": "sha256:84447c2e7e8aebb5c331ad7d8fb3d4756b8edff7f94f67013e4df23974fa7201"
+    },
+    {
+      "bytes": 2026,
+      "path": "sources/glite-coarsening/details.json",
+      "sha256": "sha256:cbaf4b2471f39cd754852a13787ea5146aa2ac919f4c5e3f67dc47c9ac6f708b"
+    },
+    {
+      "bytes": 1610,
+      "path": "sources/glite-coarsening/files/lexen_report_aliases.json",
+      "sha256": "sha256:5ce96f30a772cb4753607e81700f45474ed3e3a1f9b24e363083b68c9c259428"
+    },
+    {
+      "bytes": 13237,
+      "path": "sources/glite-coarsening/files/mapping_coverage.json",
+      "sha256": "sha256:ce588bd842de7952e13242b575fb8789dc43294325efaa66fb0cfd3540790c03"
+    },
+    {
+      "bytes": 1269552,
+      "path": "sources/glite-coarsening/files/wordnet_sense_key_to_glite_concept.jsonl",
+      "sha256": "sha256:4fd14626838520eaa1a3168ab30166a708ab181b073a92df8d8bcb4cda2e4ba6"
+    },
+    {
+      "bytes": 13009,
+      "path": "sources/manifest.json",
+      "sha256": "sha256:962b1f911cc50e014bf7f3d3c8830f46871c629fbba758108e259967f6aac775"
+    },
+    {
+      "bytes": 4362,
+      "path": "sources/maru2022/original/description.md",
+      "sha256": "sha256:3433484186f7e05dea07b0fcc01fadac22f3157e24c71f33282d2fdf04625a79"
+    },
+    {
+      "bytes": 2174,
+      "path": "sources/maru2022/original/details.json",
+      "sha256": "sha256:a1c5f7eecd372db8c4ccca55630436cbcb599f28d0210e821736634eb3de0472"
+    },
+    {
+      "bytes": 1273454,
+      "path": "sources/maru2022/original/files/ALLamended.data.xml",
+      "sha256": "sha256:167015565f6fc624e6c688d6def721c29d8c90eaf6c37d653a244b87965c3d87"
+    },
+    {
+      "bytes": 231738,
+      "path": "sources/maru2022/original/files/ALLamended.gold.key.txt",
+      "sha256": "sha256:c33cbc824dad5b5d5f0e2666ed308fe1a2ea05f5de7199d2f3c13f62f4a698ee"
+    },
+    {
+      "bytes": 1093,
+      "path": "sources/maru2022/papers/description.md",
+      "sha256": "sha256:fdd126b25a6b26ee05facdb992739ccc20af005e4ddcfbf99464dcf5a05aad16"
+    },
+    {
+      "bytes": 1457,
+      "path": "sources/maru2022/papers/details.json",
+      "sha256": "sha256:14e253cd4a8b70104569210740cb655eaa2a827f2aff935d243bb168d4c9757c"
+    },
+    {
+      "bytes": 711,
+      "path": "sources/maru2022/papers/maru-etal-2022-nibbling-hard-core-wsd.bib",
+      "sha256": "sha256:f42faf77d8d0328ed13e752114fb0bacd5046c995e69c72fc14fc4e3ed4cd0ef"
+    },
+    {
+      "bytes": 367061,
+      "path": "sources/maru2022/papers/maru-etal-2022-nibbling-hard-core-wsd.pdf",
+      "sha256": "sha256:bd4275d1ed84294ea15398f25a16174cd6a5869e9409dfb80fa475c0151a5d76"
+    },
+    {
+      "bytes": 2557,
+      "path": "sources/model-panel/description.md",
+      "sha256": "sha256:74c6e0f752c7a465bb2d4cc3e5a6bba03881fccb9ce82e69bbcdb7853c90c41d"
+    },
+    {
+      "bytes": 3899,
+      "path": "sources/model-panel/details.json",
+      "sha256": "sha256:3b1ab9e9952a41a1c46133795bc69f0c5428689e71a234ce8cb1f6ff41baecc6"
+    },
+    {
+      "bytes": 3436873,
+      "path": "sources/model-panel/predictions/catboost/predictions-raganato-all.jsonl",
+      "sha256": "sha256:6c401bc0ba297999fcfbfe634df081971f2cfcf14d918616966007e421efcb2c"
+    },
+    {
+      "bytes": 3026249,
+      "path": "sources/model-panel/predictions/gpt55_t0152_p01/predictions.jsonl.gz",
+      "sha256": "sha256:bfaed4423eaef2bf68c89c9d8dd6a0172dd13896aade7abbc3e4915003c83e8d"
+    },
+    {
+      "bytes": 2022727,
+      "path": "sources/model-panel/predictions/gpt55_t0152_p02/predictions.jsonl.gz",
+      "sha256": "sha256:0506c70b1d5a7ec4c16bc06ddb28159bc6e5f2efcfc00d83141e9e2e9770f071"
+    },
+    {
+      "bytes": 1991773,
+      "path": "sources/model-panel/predictions/gpt55_t0152_p03/predictions.jsonl.gz",
+      "sha256": "sha256:85b8c5a543c473759cac8b310188ca14c6230bc8295af8cd32e49216b6494061"
+    },
+    {
+      "bytes": 3300155,
+      "path": "sources/model-panel/predictions/gpt55_t0156_e69/predictions.jsonl.gz",
+      "sha256": "sha256:5163fd7c4459c77eea52214c9f908877e837032c54918782a15a3a23079aa3c6"
+    },
+    {
+      "bytes": 4600535,
+      "path": "sources/model-panel/predictions/gpt55_t0158_headerfooter/predictions.jsonl.gz",
+      "sha256": "sha256:b285deacb58da482091889e6f5328d898d36295d1ce3f11d54fe8aa821181a8b"
+    },
+    {
+      "bytes": 2022908,
+      "path": "sources/model-panel/predictions/gpt55_t0173_v01/predictions.jsonl.gz",
+      "sha256": "sha256:382897c3e5dae618c6601956219db5b3fb3d0830ab8571397845280954bb0962"
+    },
+    {
+      "bytes": 2475304,
+      "path": "sources/model-panel/predictions/gpt55_t0173_v03/predictions.jsonl.gz",
+      "sha256": "sha256:d0d42d0baf1f03b55f7c51e15920b00414d4e6f99403323198ee3d7e6f111d89"
+    },
+    {
+      "bytes": 6797525,
+      "path": "sources/model-panel/predictions/gpt55_t0173_v06/predictions.jsonl.gz",
+      "sha256": "sha256:2e82fc251aebf32d84798aeb3905a130e49f9b6bbd532661af803377451fd9a8"
+    },
+    {
+      "bytes": 311644,
+      "path": "sources/model-panel/predictions/sandwich/ALL.key.txt",
+      "sha256": "sha256:52ebf93cd871a44ce3da31f00d17aa0f4d2bb03cc16064509bacc4baf09193ff"
+    },
+    {
+      "bytes": 1505,
+      "path": "sources/raganato/original/description.md",
+      "sha256": "sha256:02a24d6cb7cb8bb0779879b88d661fac8e76a92ebb9c5e18dabca8043163ab33"
+    },
+    {
+      "bytes": 1814,
+      "path": "sources/raganato/original/details.json",
+      "sha256": "sha256:64aca9c9f3b65d2ce619ccd62f3b0707988531d8ff5073e12677069f93961567"
+    },
+    {
+      "bytes": 1340442,
+      "path": "sources/raganato/original/files/ALL.data.xml",
+      "sha256": "sha256:27a9da01b6d4a1e4dc7c76d15148a38eaa56cc0df371cae4416d04e541b6fe36"
+    },
+    {
+      "bytes": 324159,
+      "path": "sources/raganato/original/files/ALL.gold.key.txt",
+      "sha256": "sha256:0bf2ffc38f572587c72b59ea928da676423b99b5a54bd1a83eb4848b517d3170"
+    },
+    {
+      "bytes": 3481,
+      "path": "sources/reviews/ph-2026-06-13/description.md",
+      "sha256": "sha256:157208cbc2942b6ba7960be8b4357d80fb1644c05f4959834e3b1de5a6075d77"
+    },
+    {
+      "bytes": 1824,
+      "path": "sources/reviews/ph-2026-06-13/details.json",
+      "sha256": "sha256:623068433fadbb427e6a4b43bc3a89692e692115002313b992f679f46c7c5369"
+    },
+    {
+      "bytes": 117481,
+      "path": "sources/reviews/ph-2026-06-13/maru2022-wsd-verdicts-2026-06-13.json",
+      "sha256": "sha256:d8324c08d203233678ca8f918c3d4927b28461c9154cd5637233dc15954ecc71"
+    },
+    {
+      "bytes": 8142,
+      "path": "sources/reviews/protocols/marureview-brief-2026-05-26.md",
+      "sha256": "sha256:fb115149a3518b017f83ee04c3a72710b668fd69c215b1bc021598f6d8d82d80"
+    },
+    {
+      "bytes": 3485,
+      "path": "sources/reviews/pw-2026-05-29/description.md",
+      "sha256": "sha256:f8e474492decc1f108af319f63a8613ba0d83dad7be64d7929a6ad06cb3fe04c"
+    },
+    {
+      "bytes": 2021,
+      "path": "sources/reviews/pw-2026-05-29/details.json",
+      "sha256": "sha256:64770eaabf04108c67050909882082a1cd0c509e397a489126b3affc381df7b6"
+    },
+    {
+      "bytes": 82459,
+      "path": "sources/reviews/pw-2026-05-29/maru2022-wsd-verdicts-2026-05-29.json",
+      "sha256": "sha256:215041993e9567c77b6d56eb7f740d0a52948604c2d5b296ce9d1034f16fb0ab"
+    },
+    {
+      "bytes": 8142,
+      "path": "sources/reviews/pw-2026-05-29/reviewer_brief.md",
+      "sha256": "sha256:fb115149a3518b017f83ee04c3a72710b668fd69c215b1bc021598f6d8d82d80"
+    },
+    {
+      "bytes": 3741,
+      "path": "sources/reviews/rf-2026-05-26/description.md",
+      "sha256": "sha256:d0eadffc36481e27942d55ae907e8e517575055ad6d6406a564beb4aef0902f5"
+    },
+    {
+      "bytes": 1928,
+      "path": "sources/reviews/rf-2026-05-26/details.json",
+      "sha256": "sha256:0da0e9b3fd75b677041a2900841227e079477436dfdd838b96085481d2439bd8"
+    },
+    {
+      "bytes": 96662,
+      "path": "sources/reviews/rf-2026-05-26/maru2022-wsd-verdicts-2026-05-26.json",
+      "sha256": "sha256:1ef0252465cdca8b9c2a953eca43edbfeaedb253624b087290e8c171598503f6"
+    },
+    {
+      "bytes": 8142,
+      "path": "sources/reviews/rf-2026-05-26/reviewer_brief.md",
+      "sha256": "sha256:fb115149a3518b017f83ee04c3a72710b668fd69c215b1bc021598f6d8d82d80"
+    },
+    {
+      "bytes": 9023,
+      "path": "sources/selection/description.md",
+      "sha256": "sha256:94f6b696c949b556eac433c31058b5eef0f106801edfbecfd645cf20faba1746"
+    },
+    {
+      "bytes": 1632,
+      "path": "sources/selection/details.json",
+      "sha256": "sha256:cd7343ddbbae65b85c797c4aae410ffe0216b94ab646c87def32ec4e2ff34f79"
+    },
+    {
+      "bytes": 6402695,
+      "path": "sources/selection/lexicographer_review.jsonl.gz",
+      "sha256": "sha256:15d58ab9addf0214485f390fa91dd92327ef94ccdd1ac61c7ff94f345494f0a6"
+    },
+    {
+      "bytes": 2867,
+      "path": "sources/selection/schema.json",
+      "sha256": "sha256:1ad7b975141a8a0b155ad25116bf3b92d0ae4b2a148ac08b70b2d380983e9967"
+    },
+    {
+      "bytes": 2580,
+      "path": "sources/selection/waterfall_summary.json",
+      "sha256": "sha256:66746cda1c48ad3fcc5ddd385f09a2ae96c160960f06b483cacf8915bae1cdcd"
+    }
+  ],
+  "source_manifest": "sources/manifest.json"
+}

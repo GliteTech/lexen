@@ -1,0 +1,52 @@
+{
+  "model_coverage": {
+    "catboost": 4917,
+    "gpt55_t0152_p01": 4917,
+    "gpt55_t0152_p02": 4917,
+    "gpt55_t0152_p03": 4917,
+    "gpt55_t0156_e69": 4917,
+    "gpt55_t0158_headerfooter": 4917,
+    "gpt55_t0173_v01": 4917,
+    "gpt55_t0173_v03": 4916,
+    "gpt55_t0173_v06": 4917,
+    "sandwich": 4910
+  },
+  "model_labels": [
+    "gpt55_t0152_p01",
+    "gpt55_t0152_p02",
+    "gpt55_t0152_p03",
+    "gpt55_t0156_e69",
+    "gpt55_t0158_headerfooter",
+    "gpt55_t0173_v01",
+    "gpt55_t0173_v03",
+    "gpt55_t0173_v06",
+    "sandwich",
+    "catboost"
+  ],
+  "n_models_total": 10,
+  "not_suspicious": 4554,
+  "source_hashes": {
+    "sources/maru2022/original/files/ALLamended.data.xml": "sha256:167015565f6fc624e6c688d6def721c29d8c90eaf6c37d653a244b87965c3d87",
+    "sources/maru2022/original/files/ALLamended.gold.key.txt": "sha256:c33cbc824dad5b5d5f0e2666ed308fe1a2ea05f5de7199d2f3c13f62f4a698ee",
+    "sources/model-panel/predictions/catboost/predictions-raganato-all.jsonl": "sha256:6c401bc0ba297999fcfbfe634df081971f2cfcf14d918616966007e421efcb2c",
+    "sources/model-panel/predictions/gpt55_t0152_p01/predictions.jsonl.gz": "sha256:bfaed4423eaef2bf68c89c9d8dd6a0172dd13896aade7abbc3e4915003c83e8d",
+    "sources/model-panel/predictions/gpt55_t0152_p02/predictions.jsonl.gz": "sha256:0506c70b1d5a7ec4c16bc06ddb28159bc6e5f2efcfc00d83141e9e2e9770f071",
+    "sources/model-panel/predictions/gpt55_t0152_p03/predictions.jsonl.gz": "sha256:85b8c5a543c473759cac8b310188ca14c6230bc8295af8cd32e49216b6494061",
+    "sources/model-panel/predictions/gpt55_t0156_e69/predictions.jsonl.gz": "sha256:5163fd7c4459c77eea52214c9f908877e837032c54918782a15a3a23079aa3c6",
+    "sources/model-panel/predictions/gpt55_t0158_headerfooter/predictions.jsonl.gz": "sha256:b285deacb58da482091889e6f5328d898d36295d1ce3f11d54fe8aa821181a8b",
+    "sources/model-panel/predictions/gpt55_t0173_v01/predictions.jsonl.gz": "sha256:382897c3e5dae618c6601956219db5b3fb3d0830ab8571397845280954bb0962",
+    "sources/model-panel/predictions/gpt55_t0173_v03/predictions.jsonl.gz": "sha256:d0d42d0baf1f03b55f7c51e15920b00414d4e6f99403323198ee3d7e6f111d89",
+    "sources/model-panel/predictions/gpt55_t0173_v06/predictions.jsonl.gz": "sha256:2e82fc251aebf32d84798aeb3905a130e49f9b6bbd532661af803377451fd9a8",
+    "sources/model-panel/predictions/sandwich/ALL.key.txt": "sha256:52ebf93cd871a44ce3da31f00d17aa0f4d2bb03cc16064509bacc4baf09193ff"
+  },
+  "suspicion_counts": {
+    "S1": 55,
+    "S2": 138,
+    "S3": 41,
+    "S4": 75,
+    "S5": 48,
+    "S6": 6
+  },
+  "suspicious_total": 363,
+  "total_records": 4917
+}
