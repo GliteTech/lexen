@@ -27,10 +27,9 @@ predictions.
 
 ## Selection Summary
 
-Selection: a model panel of three families - SANDWiCH; GPT-5.5; and a CatBoost
-ensemble of WSD models (ConSeC, ESCHER, BEM, MFS, gpt-5-mini) - flagged 363
-items for review via an S1-S6 waterfall (S1 55, S2 138, S3 41, S4 75, S5 48,
-S6 6; not flagged 4,554).
+Selection: a model panel of three families - SANDWiCH; GPT-5.5; and a CatBoost ensemble of WSD
+models (ConSeC, ESCHER, BEM, MFS, gpt-5-mini) - flagged 363 items for review via an S1-S6 waterfall
+(S1 55, S2 138, S3 41, S4 75, S5 48, S6 6; not flagged 4,554).
 
 `sources/selection/waterfall_summary.json` records the lexEN v1 selection summary and source hashes:
 
