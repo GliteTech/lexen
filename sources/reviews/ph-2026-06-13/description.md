@@ -9,7 +9,7 @@ source_package_described_at: "2026-06-13"
 
 * **Name**: Lexicographer Review (Penny Hands, 2026-06-13)
 * **Year**: 2026
-* **Author**: Penny Hands (https://pennyhands.com/)
+* **Author**: Penny Hands: MSc Applied Linguistics (University of Edinburgh), Penny Hands Editorial Services (https://www.linkedin.com/in/pennyhands)
 * **License**: research-only
 * **Access**: included in this repository under the research-use terms for this source
 * **Size**: 363 verdicts on suspicious ALL_NEW items in a single JSON file

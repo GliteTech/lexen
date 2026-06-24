@@ -14,11 +14,16 @@
     {
       "name": "Penny Hands",
       "country": "GB",
-      "institution": null,
+      "institution": "Penny Hands Editorial Services",
       "orcid": null
     }
   ],
-  "institutions": [],
+  "institutions": [
+    {
+      "name": "Penny Hands Editorial Services",
+      "country": "GB"
+    }
+  ],
   "license": "research-only",
   "access_kind": "included-research-use",
   "size_description": "363 verdicts on suspicious Maru2022 ALL_NEW items (one JSON file with `saved_at`, `total_items`, `reviewed`, `verdicts`; each verdict carries `instance_id`, `chosen_sense_keys`, a typed `cannot_answer` list whose on-disk values are `__no_sense_applies__`, `__inventory_inadequate__`, `__input_defective__`, plus `cannot_answer_notes` and `comment`). 31 items carry a non-empty `cannot_answer` flag (10 `__no_sense_applies__`, 20 `__inventory_inadequate__`, 2 `__input_defective__`); 20 verdicts pick more than one sense. The annotation protocol is documented in the reviewer brief at https://marureview.com/brief, mirrored in `sources/reviews/protocols/marureview-brief-2026-05-26.md`.",
