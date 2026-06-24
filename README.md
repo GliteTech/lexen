@@ -61,8 +61,8 @@ The construction process is:
 
 1. Take Maru2022 ALLamended as the base benchmark.
 2. Run a [WSD prediction panel](sources/model-panel/) over all 4,917 Maru2022 items.
-3. Flag 363 suspicious items where the model panel strongly disagrees with the Maru2022 label
-   using the [selection procedure](docs/selection.md).
+3. Flag 363 suspicious items where the model panel strongly disagrees with the Maru2022 label using
+   the [selection procedure](docs/selection.md).
 4. Review those 363 items at [marureview.com](https://marureview.com/).
 5. Give the same [reviewer brief](https://marureview.com/brief)
    ([repository copy](sources/reviews/protocols/marureview-brief-2026-05-26.md)) to three
@@ -81,10 +81,9 @@ The construction process is:
 
 ## Suspicious-Item Selection
 
-Selection: a model panel of three families - SANDWiCH; GPT-5.5; and a CatBoost
-ensemble of WSD models (ConSeC, ESCHER, BEM, MFS, gpt-5-mini) - flagged 363
-items for review via an S1-S6 waterfall (S1 55, S2 138, S3 41, S4 75, S5 48,
-S6 6; not flagged 4,554).
+Selection: a model panel of three families - SANDWiCH; GPT-5.5; and a CatBoost ensemble of WSD
+models (ConSeC, ESCHER, BEM, MFS, gpt-5-mini) - flagged 363 items for review via an S1-S6 waterfall
+(S1 55, S2 138, S3 41, S4 75, S5 48, S6 6; not flagged 4,554).
 
 The S1-S6 waterfall classes are recomputed from committed source predictions in
 [`sources/model-panel/`](sources/model-panel/). The GPT prediction files keep prompts and normalized
