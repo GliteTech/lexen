@@ -1,5 +1,8 @@
 # lexEN
 
+[![Data license: CC BY-NC 4.0](https://img.shields.io/badge/data-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Code license: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE-CODE)
+
 lexEN is a lexicographer-reviewed English Word Sense Disambiguation (WSD) benchmark derived from
 [Maru et al. 2022 ALL_NEW / ALLamended](sources/maru2022/original/). It is designed for evaluating
 systems that assign WordNet 3.0 sense keys to ambiguous English words in context.
@@ -384,6 +387,10 @@ If you use lexEN, cite this repository and the upstream Maru et al. 2022 benchma
 Repository citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
+
+Code Apache-2.0; lexEN data CC BY-NC 4.0 (inherited from Maru et al. 2022), research and
+non-commercial evaluation only. Where a form accepts a single licence identifier for the dataset,
+the answer is `cc-by-nc-4.0`.
 
 lexEN separates software licensing from dataset-artifact licensing.
 
