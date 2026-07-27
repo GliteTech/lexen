@@ -38,6 +38,12 @@ dependencies = [
     "reportlab>=4.2",
 ]
 
+[project.optional-dependencies]
+# Only the publish step needs the Hub client; building and verifying the release does not.
+huggingface = [
+    "huggingface-hub>=0.28",
+]
+
 [project.urls]
 Homepage = "https://github.com/GliteTech/lexen"
 Repository = "https://github.com/GliteTech/lexen"
@@ -49,6 +55,7 @@ lexen-build-agreement-report = "lexen.agreement_report.build:main"
 lexen-build-release = "lexen.release:main"
 lexen-build-selection-source = "lexen.selection:main"
 lexen-build-source-manifest = "lexen.source_manifest:main"
+lexen-publish-huggingface = "lexen.huggingface:main"
 lexen-verify-release = "lexen.verify:main"
 
 [build-system]
@@ -87,6 +94,7 @@ warn_unused_ignores = true
 
 [[tool.mypy.overrides]]
 module = [
+    "huggingface_hub.*",
     "matplotlib.*",
     "reportlab.*",
 ]
