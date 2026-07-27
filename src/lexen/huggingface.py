@@ -17,6 +17,7 @@ from argparse import ArgumentParser
 from dataclasses import dataclass
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from typing import Any
 
 from lexen.io import read_json_object, sha256_file
 from lexen.models import JsonObject
@@ -53,6 +54,10 @@ PINNED_EXPORT_SHA256: str = (
 
 COMMIT_MESSAGE: str = f"Publish {ACTIVE_RELEASE_ID}"
 TAG_MESSAGE: str = f"lexEN {ACTIVE_RELEASE_ID} release as pinned by SenseBench"
+
+TAG_CREATED: str = "created"
+TAG_MOVED: str = "moved"
+TAG_UNCHANGED: str = "unchanged"
 
 HUB_CLIENT_MISSING_MESSAGE: str = (
     "the Hugging Face client is not installed. It is an optional extra because building and "
@@ -153,6 +158,36 @@ def _agreement_percent(*, granularity: JsonObject) -> float:
         relationships["all_three_agree_but_different"]["count"]
     )
     return 100.0 * unanimous / int(granularity["total_items"])
+
+
+def tag_release(*, api: Any, repo_id: str, commit_oid: str) -> str:
+    """Point the release tag at the commit just published.
+
+    Tagging with `exist_ok=True` and no revision would be a silent no-op whenever the tag
+    already exists, leaving it on an older commit while the card claims that revision is the
+    release. Bind the tag to the upload commit, and move it deliberately when it has drifted.
+    """
+    existing = next(
+        (
+            tag
+            for tag in api.list_repo_refs(repo_id=repo_id, repo_type=HF_REPO_TYPE).tags
+            if tag.name == ACTIVE_RELEASE_ID
+        ),
+        None,
+    )
+    if existing is not None:
+        if existing.target_commit == commit_oid:
+            return TAG_UNCHANGED
+        api.delete_tag(repo_id=repo_id, repo_type=HF_REPO_TYPE, tag=ACTIVE_RELEASE_ID)
+
+    api.create_tag(
+        repo_id=repo_id,
+        repo_type=HF_REPO_TYPE,
+        tag=ACTIVE_RELEASE_ID,
+        tag_message=TAG_MESSAGE,
+        revision=commit_oid,
+    )
+    return TAG_CREATED if existing is None else TAG_MOVED
 
 
 def verify_pinned_export(*, facts: CardFacts) -> None:
@@ -257,21 +292,13 @@ def main() -> int:
 
         api = HfApi()
         api.create_repo(repo_id=args.repo_id, repo_type=HF_REPO_TYPE, exist_ok=True)
-        api.upload_folder(
+        commit = api.upload_folder(
             folder_path=str(staging_dir),
             repo_id=args.repo_id,
             repo_type=HF_REPO_TYPE,
             commit_message=COMMIT_MESSAGE,
         )
-        # The card tells readers to pin revision=<release id>, so the tag has to exist or that
-        # instruction 404s. `main` moves; the tag is what makes the pinned hash meaningful.
-        api.create_tag(
-            repo_id=args.repo_id,
-            repo_type=HF_REPO_TYPE,
-            tag=ACTIVE_RELEASE_ID,
-            tag_message=TAG_MESSAGE,
-            exist_ok=True,
-        )
+        outcome = tag_release(api=api, repo_id=args.repo_id, commit_oid=commit.oid)
     print(f"published https://huggingface.co/datasets/{args.repo_id}")
-    print(f"tagged {ACTIVE_RELEASE_ID}")
+    print(f"tag {ACTIVE_RELEASE_ID} {outcome} at {commit.oid[:8]}")
     return 0
