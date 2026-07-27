@@ -1,0 +1,42 @@
+{
+  "access_kind": "public",
+  "authors": [
+    {"country": "Italy", "institution": "Sapienza University of Rome", "name": "Caterina Lacerra", "orcid": null},
+    {"country": "Italy", "institution": "Sapienza University of Rome", "name": "Michele Bevilacqua", "orcid": null},
+    {"country": "Italy", "institution": "Sapienza University of Rome", "name": "Tommaso Pasini", "orcid": null},
+    {"country": "Italy", "institution": "Sapienza University of Rome", "name": "Roberto Navigli", "orcid": null}
+  ],
+  "categories": [
+    "sense-mapping",
+    "knowledge-base",
+    "wsd"
+  ],
+  "checksums": {
+    "csi_report_aliases.json": "sha256:fb4996937b97e866a6741f71a1814874f79838819f961ae70e2667ccce02fd3a",
+    "mapping_coverage.json": "sha256:35318031756ad4151a53eb8716cc5d7065bb8417616430659f89244caca85848",
+    "wordnet_sense_key_to_csi_concept.jsonl": "sha256:b84ee722e7cb6df6ad86e2fe55985e736b7d28e5871d6baef23e9f754f2b5e2a"
+  },
+  "dataset_id": "csi-coarsening-maru2022-subset",
+  "date_added": "2026-06-16",
+  "date_added_to_lexen": "2026-06-16",
+  "date_published": "2020-02-07",
+  "download_url": "https://raw.githubusercontent.com/SapienzaNLP/csi/master/docs/_download/csi_data.zip",
+  "files": [
+    {"description": "Forward map from Maru2022/lexEN WordNet sense keys to CSI composite concept ids (sorted+joined domain labels).", "format": "jsonl", "path": "files/wordnet_sense_key_to_csi_concept.jsonl"},
+    {"description": "Machine-readable coverage summary for the CSI coarsening subset.", "format": "json", "path": "files/mapping_coverage.json"},
+    {"description": "Report-local alias table for legacy/British WordNet sense keys, remapped to their CSI concept.", "format": "json", "path": "files/csi_report_aliases.json"}
+  ],
+  "institutions": ["Sapienza NLP Group, Sapienza University of Rome"],
+  "license": "CC-BY-NC-SA-4.0",
+  "modifications": "Derived from the released CSI WordNet-3.0 synset->domain mapping (wn_synset2csi.txt). We (1) joined each synset's CSI sense keys to the WordNet sense keys lexEN references, and (2) reduced each synset's multi-domain label set to a single composite class (sorted+joined), a conservative partition for single-concept coarse scoring. Distributed under the same CC-BY-NC-SA 4.0 license as the original.",
+  "name": "CSI Coarse Sense Inventory subset for Maru2022/lexEN",
+  "short_description": "Public WordNet sense-key to CSI composite-concept subset, a third-party coarse inventory used as an independent coarse-sense label layer alongside Glite.",
+  "size_description": "3 files; the forward map contains 7,783 WordNet sense-key mappings to 413 composite CSI concepts over the lexEN candidate/gold/review inventory (79.2% of 9,833 referenced keys; uncovered keys carry an explicit unmapped: marker).",
+  "source_dataset_id": "csi",
+  "source_package_generated_at": "2026-06-16",
+  "source_paper_id": "lacerra2020",
+  "spec_version": "1",
+  "url": "https://sapienzanlp.github.io/csi/",
+  "version": null,
+  "year": 2020
+}

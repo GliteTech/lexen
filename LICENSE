@@ -27,3 +27,15 @@ artifacts are released for research use and non-commercial evaluation.
 The source manifest in `sources/manifest.json` records the source package, local files, license
 label, access status, and SHA-256 hashes for each input package. The release metadata in
 `data/lexen-v1/dataset.json` repeats the release-level policy under `license`.
+
+## Add-on coarsening layers (`coarsenings/`)
+
+`coarsenings/` holds optional coarse-sense layers that map onto the frozen `lexen-v1` release
+without modifying it (the verified release surface — `data/lexen-v1/` and `sources/manifest.json` —
+is unchanged). The **CSI** layer (`coarsenings/csi/`) is derived from the Coarse Sense Inventory of
+Lacerra, Bevilacqua, Pasini & Navigli (AAAI 2020), <https://sapienzanlp.github.io/csi/>, which is
+licensed **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+This derived subset is distributed under the same CC BY-NC-SA 4.0 terms, with attribution to Lacerra
+et al. (2020); the only modification is the join to lexEN's referenced sense keys and the reduction
+of each synset's multi-domain CSI label set to a single composite class (declared as a change per the
+ShareAlike terms). See `coarsenings/csi/details.json`.

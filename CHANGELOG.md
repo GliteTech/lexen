@@ -2,6 +2,19 @@
 
 All notable dataset and tooling changes are recorded here.
 
+## Unreleased - CSI coarse-sense add-on - 2026-06-16
+
+* Added a second, public coarse-sense layer (**CSI**, Coarse Sense Inventory; Lacerra et al., AAAI
+  2020, CC BY-NC-SA 4.0) as an **add-on resource** under `coarsenings/csi/`, alongside the native
+  in-record Glite layer, so coarse-sense results are reproducible under a third-party inventory.
+* Shipped the per-item CSI block as the sidecar `coarsenings/csi/csi_layer.jsonl` (keyed by
+  `item_id`, same shape as `item["glite"]`), plus the forward map, aliases, and coverage summary.
+* **Additive only:** the frozen `lexen-v1` artifacts (`data/lexen-v1/items.jsonl`,
+  `dataset.json`) and `sources/manifest.json` are unchanged; the release content hash is unchanged
+  and `lexen-verify-release --release lexen-v1` still passes. No new dataset version.
+* Added `scripts/apply_csi.py` to (re)build the sidecar; it asserts byte-for-value reproduction of
+  the existing Glite block before emitting CSI, guaranteeing structural parity.
+
 ## lexen-v1 - 2026-06-13
 
 Initial lexEN release.
