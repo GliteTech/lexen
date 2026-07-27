@@ -166,15 +166,21 @@ Additional release files:
 ## Loading The Dataset
 
 The release is mirrored on the Hugging Face Hub at
-[`GliteTech/lexen`](https://huggingface.co/datasets/GliteTech/lexen), where the `items` config is
-the same `items.jsonl` this repository ships:
+[`GliteTech/lexen`](https://huggingface.co/datasets/GliteTech/lexen). Its default config is the
+[SenseBench export](exports/sensebench/lexen-v1/items.jsonl): the same 4,861 items carrying the same
+`lexen_gold` labels as the canonical artifact, reshaped for scoring, with source labels and review
+flags flattened into a `metadata` struct and the candidate sense inventory left out. Pin a release
+tag, because `main` moves:
 
 ```python
 from datasets import load_dataset
 
-items = load_dataset("GliteTech/lexen", "items", split="test")
-reviews = load_dataset("GliteTech/lexen", "reviews", split="test")
+items = load_dataset("GliteTech/lexen", split="test", revision="lexen-v1")
+reviews = load_dataset("GliteTech/lexen", "reviews", split="test", revision="lexen-v1")
 ```
+
+Read the [canonical JSONL artifact](data/lexen-v1/items.jsonl) below instead when you need the
+candidate senses, the per-reviewer evidence or the Glite coarse mappings.
 
 Read the canonical JSONL artifact:
 

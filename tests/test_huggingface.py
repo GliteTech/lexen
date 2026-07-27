@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from dataclasses import replace
 from pathlib import Path
 
@@ -14,7 +15,7 @@ from lexen.huggingface import (
     stage_release,
     verify_pinned_export,
 )
-from lexen.paths import DATASET_CANARY, DEFAULT_REPO_ROOT
+from lexen.paths import ACTIVE_RELEASE_ID, DATASET_CANARY, DEFAULT_REPO_ROOT
 
 CARD_TEMPLATE_PATH = DEFAULT_REPO_ROOT / "templates" / "huggingface_card.md"
 
@@ -99,3 +100,53 @@ def test_staged_payload_is_the_curated_subset(tmp_path: Path) -> None:
         str(path.relative_to(tmp_path)) for path in tmp_path.rglob("*") if path.is_file()
     )
     assert published == staged
+
+
+def _declared_configs() -> set[str]:
+    """Config names the card's front matter actually declares to the Hub."""
+    card = CARD_TEMPLATE_PATH.read_text(encoding="utf-8")
+    return set(re.findall(r"^- config_name: (\S+)$", card, flags=re.MULTILINE))
+
+
+# A load_dataset call naming a config that the card does not declare raises
+# `ValueError: BuilderConfig ... not found` for every reader who copies it. This shipped
+# once: the README said `load_dataset("GliteTech/lexen", "items", ...)` while the config
+# is named `default`, because the underlying file is data/items.jsonl.
+LOAD_DATASET_WITH_CONFIG = re.compile(
+    r"""load_dataset\(\s*["']GliteTech/lexen["']\s*,\s*["'](?P<config>[^"']+)["']"""
+)
+
+
+def _documented_snippets() -> dict[str, str]:
+    """Every text a reader copies a load_dataset call out of.
+
+    The card is checked AFTER rendering, because the template carries {{RELEASE_ID}} rather
+    than the literal tag.
+    """
+    return {
+        "rendered card": render_card(facts=_facts(), template_path=CARD_TEMPLATE_PATH),
+        "README.md": (DEFAULT_REPO_ROOT / "README.md").read_text(encoding="utf-8"),
+    }
+
+
+def test_every_documented_load_dataset_config_exists() -> None:
+    declared = _declared_configs()
+    assert declared == {"default", "reviews"}
+
+    for name, text in _documented_snippets().items():
+        used = {m.group("config") for m in LOAD_DATASET_WITH_CONFIG.finditer(text)}
+        assert used <= declared, (
+            f"{name} documents load_dataset config(s) {sorted(used - declared)} that the card "
+            f"does not declare. Declared: {sorted(declared)}. Readers copying this get "
+            f"ValueError: BuilderConfig not found."
+        )
+
+
+def test_pinned_revisions_name_the_tag_publication_creates() -> None:
+    """`revision=` must name the tag publication creates, or the snippet 404s."""
+    for name, text in _documented_snippets().items():
+        revisions = set(re.findall(r"""revision=["']([^"']+)["']""", text))
+        assert revisions <= {ACTIVE_RELEASE_ID}, (
+            f"{name} pins revision(s) {sorted(revisions - {ACTIVE_RELEASE_ID})}, but publication "
+            f"only creates the tag {ACTIVE_RELEASE_ID!r}."
+        )

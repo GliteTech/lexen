@@ -52,6 +52,7 @@ PINNED_EXPORT_SHA256: str = (
 )
 
 COMMIT_MESSAGE: str = f"Publish {ACTIVE_RELEASE_ID}"
+TAG_MESSAGE: str = f"lexEN {ACTIVE_RELEASE_ID} release as pinned by SenseBench"
 
 HUB_CLIENT_MISSING_MESSAGE: str = (
     "the Hugging Face client is not installed. It is an optional extra because building and "
@@ -262,5 +263,15 @@ def main() -> int:
             repo_type=HF_REPO_TYPE,
             commit_message=COMMIT_MESSAGE,
         )
+        # The card tells readers to pin revision=<release id>, so the tag has to exist or that
+        # instruction 404s. `main` moves; the tag is what makes the pinned hash meaningful.
+        api.create_tag(
+            repo_id=args.repo_id,
+            repo_type=HF_REPO_TYPE,
+            tag=ACTIVE_RELEASE_ID,
+            tag_message=TAG_MESSAGE,
+            exist_ok=True,
+        )
     print(f"published https://huggingface.co/datasets/{args.repo_id}")
+    print(f"tagged {ACTIVE_RELEASE_ID}")
     return 0
