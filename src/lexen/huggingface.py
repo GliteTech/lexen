@@ -12,6 +12,7 @@ datasheet and the citation file.
 from __future__ import annotations
 
 import shutil
+import sys
 from argparse import ArgumentParser
 from dataclasses import dataclass
 from pathlib import Path
@@ -51,6 +52,12 @@ PINNED_EXPORT_SHA256: str = (
 )
 
 COMMIT_MESSAGE: str = f"Publish {ACTIVE_RELEASE_ID}"
+
+HUB_CLIENT_MISSING_MESSAGE: str = (
+    "the Hugging Face client is not installed. It is an optional extra because building and "
+    "verifying the release does not need it:\n\n    uv sync --extra huggingface\n\n"
+    "Re-run with --dry-run to render the card and inspect the payload without it."
+)
 
 
 @dataclass(frozen=True, slots=True)
@@ -240,7 +247,12 @@ def main() -> int:
             print(f"\nwould publish to https://huggingface.co/datasets/{args.repo_id}")
             return 0
 
-        from huggingface_hub import HfApi
+        # Deferred so that --dry-run works without the optional extra installed.
+        try:
+            from huggingface_hub import HfApi
+        except ModuleNotFoundError:
+            print(HUB_CLIENT_MISSING_MESSAGE, file=sys.stderr)
+            return 1
 
         api = HfApi()
         api.create_repo(repo_id=args.repo_id, repo_type=HF_REPO_TYPE, exist_ok=True)
