@@ -165,6 +165,17 @@ Additional release files:
 
 ## Loading The Dataset
 
+The release is mirrored on the Hugging Face Hub at
+[`GliteTech/lexen`](https://huggingface.co/datasets/GliteTech/lexen), where the `items` config is
+the same `items.jsonl` this repository ships:
+
+```python
+from datasets import load_dataset
+
+items = load_dataset("GliteTech/lexen", "items", split="test")
+reviews = load_dataset("GliteTech/lexen", "reviews", split="test")
+```
+
 Read the canonical JSONL artifact:
 
 ```python
@@ -301,6 +312,21 @@ uv run python scripts/build_release.py --release lexen-v1
 uv run python scripts/verify_release.py --release lexen-v1
 uv run pytest
 ```
+
+Publish the release to the Hugging Face Hub with
+[`scripts/publish_to_huggingface.py`](scripts/publish_to_huggingface.py). The dataset card is
+generated from the release artifacts, so its counts, agreement figures and hashes cannot drift from
+the data:
+
+```bash
+uv sync --extra huggingface
+uv run python scripts/publish_to_huggingface.py --dry-run
+uv run python scripts/publish_to_huggingface.py
+```
+
+Publication aborts unless `items.jsonl` still hashes to the value SenseBench pins, because changing
+that file in place would silently detach the Hub copy from every result already on the
+[leaderboard](https://sense-bench.com/). Ship a new release id instead.
 
 The [release verifier](scripts/verify_release.py) checks:
 
